@@ -1,0 +1,56 @@
+﻿<controls:MetroWindow x:Class="frontend.cc.gtscloud.oilpainter.views.TechnologyTypeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:frontend.cc.gtscloud.oilpainter.views"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="工艺类型" Height="200" Width="400" WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="56" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Margin="16,16,16,8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Text="油漆类型：" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,8,0" />
+            <ComboBox x:Name="cmbOilTypes" Grid.Column="1" MaxWidth="240" Margin="4,0,16,0" IsEditable="False" ItemsSource="{Binding}" SelectedIndex="0" DisplayMemberPath="OilPaintType" />
+        </Grid>
+        <Grid Grid.Row="1" Margin="0,8,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" VerticalAlignment="Center" Margin="12,8,12,0" HorizontalAlignment="Right" MinWidth="100" MaxWidth="180">
+                <StackPanel Orientation="Horizontal">
+                    <Label FontFamily="{DynamicResource IonIcons}" Content="&#xf489;" FontSize="16" VerticalContentAlignment="Center" Foreground="#fff" />
+                    <Label Content="增加" VerticalContentAlignment="Center" Foreground="#fff" />
+                </StackPanel>
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="BorderBrush" Value="Transparent" />
+                        <Setter Property="BorderThickness" Value="0" />
+                        <Setter Property="Background" Value="#2196F3" />
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button Grid.Column="1" VerticalAlignment="Center" Margin="12,8,0,0" HorizontalAlignment="Left" MinWidth="100" MaxWidth="180">
+                <StackPanel Orientation="Horizontal">
+                    <Label FontFamily="{DynamicResource IonIcons}" Content="&#xf404;" FontSize="16" VerticalContentAlignment="Center" Foreground="#fff" />
+                    <Label Content="删除" VerticalContentAlignment="Center" Foreground="#fff" />
+                </StackPanel>
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="BorderBrush" Value="Transparent" />
+                        <Setter Property="BorderThickness" Value="0" />
+                        <Setter Property="Background" Value="#F44336" />
+                    </Style>
+                </Button.Style>
+            </Button>
+        </Grid>
+    </Grid>
+</controls:MetroWindow>

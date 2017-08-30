@@ -1,0 +1,9 @@
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\MyControls\bin\Debug\MyControls.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\MyControls\bin\Debug\MyControls.pdb
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\MyControls\bin\Debug\log4net.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\MyControls\bin\Debug\log4net.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\MyControls\obj\Debug\MyControls.csprojResolveAssemblyReference.cache
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\MyControls\obj\Debug\MyControls.UserControl1.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\MyControls\obj\Debug\MyControls.csproj.GenerateResource.Cache
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\MyControls\obj\Debug\MyControls.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\MyControls\obj\Debug\MyControls.pdb

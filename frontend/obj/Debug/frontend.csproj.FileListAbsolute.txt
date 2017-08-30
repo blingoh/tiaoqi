@@ -1,0 +1,222 @@
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend.csprojResolveAssemblyReference.cache
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\Interop.BarTender.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend.csproj.ResolveComReference.cache
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\AboutWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\BomModifyWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\BomUploadWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\ChangePasswordWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\ColumnPage.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\CustomerAdd.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\CustomerMaintainWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\DataAnalyzeWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\DataQueryWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\LoginWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\MaterialAddWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\MaterialMaintainWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\ParameterConfigWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\PrintDebugWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\ProductLineMaintainWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\RegisterProductWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\SerialPortDebugWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\SpeedInputWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\TechnologyTypeWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\UserMaintainWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\MainWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\App.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend_Content.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend_MarkupCompile.cache
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend_MarkupCompile.lref
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\cc\gtscloud\oilpainter\dll\Interop.BarTender.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\Interop.BarTender.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\providers.config
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\SqlMap.config
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\config\mapper\ProductLineMapper.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\config\mapper\UserMapper.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\config\mapper\BomMapper.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\config\mapper\CustomerMapper.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\config\mapper\OilTypeMapper.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\config\dbconfig.config
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\log4Net.config
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\frontend.exe.config
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\frontend.exe
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\frontend.pdb
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\Common.Logging.Core.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\Common.Logging.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\IBatisNet.Common.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\IBatisNet.DataMapper.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\LabelPrintCSharp.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\log4net.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\MahApps.Metro.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\MyBatis.Common.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\NPOI.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\NPOI.OOXML.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\ProgBar.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\WpfAnimatedGif.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\Common.Logging.pdb
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\Common.Logging.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\Common.Logging.Core.pdb
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\Common.Logging.Core.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\IBatisNet.Common.pdb
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\IBatisNet.Common.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\IBatisNet.DataMapper.pdb
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\IBatisNet.DataMapper.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\log4net.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\MahApps.Metro.pdb
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\MahApps.Metro.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\NPOI.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\NPOI.OOXML.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\NPOI.OpenXml4Net.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\WpfAnimatedGif.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\App.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\resources\Fonts.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\AboutWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\BomModifyWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\BomUploadWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\ChangePasswordWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\ColumnPage.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\CustomerAdd.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\CustomerMaintainWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\DataAnalyzeWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\DataQueryWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\LoginWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\MaterialAddWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\MaterialMaintainWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\ParameterConfigWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\PrintDebugWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\ProductLineMaintainWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\RegisterProductWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\SerialPortDebugWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\SpeedInputWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\TechnologyTypeWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\UserMaintainWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\MainWindow.baml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend.g.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend.Properties.Resources.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend.csproj.GenerateResource.Cache
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend.exe
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend.pdb
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\config\mapper\TaskMapper.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\cc.gtscloud.oilpainter.serialport.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\cc.gtscloud.oilpainter.serialport.pdb
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\MaterialInputWindow.g.cs
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\BarCodeParser.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\BarCodeParser.pdb
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\MaterialInputWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\frontend.exe.config
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\Interop.BarTender.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend.csproj.ResolveComReference.cache
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend.exe
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend.pdb
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\cc\gtscloud\oilpainter\dll\Interop.BarTender.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\Interop.BarTender.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\providers.config
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\SqlMap.config
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\config\mapper\ProductLineMapper.xml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\config\mapper\UserMapper.xml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\config\mapper\BomMapper.xml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\config\mapper\CustomerMapper.xml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\config\mapper\OilTypeMapper.xml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\config\mapper\TaskMapper.xml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\config\dbconfig.config
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\log4Net.config
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\frontend.exe
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\frontend.pdb
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\BarCodeParser.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\cc.gtscloud.oilpainter.serialport.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\Common.Logging.Core.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\Common.Logging.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\IBatisNet.Common.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\IBatisNet.DataMapper.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\LabelPrintCSharp.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\log4net.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\MahApps.Metro.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\MyBatis.Common.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\NPOI.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\NPOI.OOXML.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\ProgBar.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\WpfAnimatedGif.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\BarCodeParser.pdb
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\cc.gtscloud.oilpainter.serialport.pdb
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\Common.Logging.pdb
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\Common.Logging.xml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\Common.Logging.Core.pdb
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\Common.Logging.Core.xml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\IBatisNet.Common.pdb
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\IBatisNet.Common.xml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\IBatisNet.DataMapper.pdb
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\IBatisNet.DataMapper.xml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\log4net.xml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\MahApps.Metro.pdb
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\MahApps.Metro.xml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\NPOI.xml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\NPOI.OOXML.xml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\NPOI.OpenXml4Net.xml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\bin\Debug\WpfAnimatedGif.xml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend.csprojResolveAssemblyReference.cache
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\AboutWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\BomModifyWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\BomUploadWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\ChangePasswordWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\ColumnPage.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\CustomerAdd.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\CustomerMaintainWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\DataAnalyzeWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\DataQueryWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\LoginWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\MaterialAddWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\MaterialInputWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\MaterialMaintainWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\ParameterConfigWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\PrintDebugWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\ProductLineMaintainWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\RegisterProductWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\SerialPortDebugWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\SpeedInputWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\TechnologyTypeWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\UserMaintainWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\MainWindow.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\App.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend_Content.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend_MarkupCompile.cache
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend_MarkupCompile.lref
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\App.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\resources\Fonts.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\AboutWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\BomModifyWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\BomUploadWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\ChangePasswordWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\ColumnPage.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\CustomerAdd.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\CustomerMaintainWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\DataAnalyzeWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\DataQueryWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\LoginWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\MaterialAddWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\MaterialInputWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\MaterialMaintainWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\ParameterConfigWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\PrintDebugWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\ProductLineMaintainWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\RegisterProductWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\SerialPortDebugWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\SpeedInputWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\TechnologyTypeWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\cc\gtscloud\oilpainter\views\UserMaintainWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\MainWindow.baml
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend.g.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend.Properties.Resources.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend.csproj.GenerateResource.Cache

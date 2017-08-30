@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A7BCCC8F-565D-4294-AE42-302CF7932B40}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>frontend</RootNamespace>
+    <AssemblyName>frontend</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.3.3.1\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.3.1\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="IBatisNet.Common, Version=1.6.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MyBatis.NET.1.6.4\lib\IBatisNet.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="IBatisNet.DataMapper, Version=1.6.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MyBatis.NET.1.6.4\lib\IBatisNet.DataMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>cc\gtscloud\oilpainter\util\npoi\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.BarTender, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>cc\gtscloud\oilpainter\dll\Interop.BarTender.dll</HintPath>
+    </Reference>
+    <Reference Include="LabelPrintCSharp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>cc\gtscloud\oilpainter\dll\LabelPrintCSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro, Version=1.5.0.23, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.5.0\lib\net45\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="MyBatis.Common, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MyBatis.Common.3.0.0\lib\MyBatis.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>cc\gtscloud\oilpainter\util\npoi\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>cc\gtscloud\oilpainter\util\npoi\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>cc\gtscloud\oilpainter\util\npoi\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>cc\gtscloud\oilpainter\util\npoi\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="ProgBar, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>cc\gtscloud\oilpainter\dll\ProgBar.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.5.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WpfAnimatedGif, Version=1.4.14.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WpfAnimatedGif.1.4.14\lib\net\WpfAnimatedGif.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="cc\gtscloud\oilpainter\resources\Fonts.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\AboutWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\BomModifyWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\BomUploadWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\ChangePasswordWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\ColumnPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\CustomerAdd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\CustomerMaintainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\DataAnalyzeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\DataQueryWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\LoginWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\MaterialAddWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\MaterialInputWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\MaterialMaintainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\ParameterConfigWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\PrintDebugWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\ProductLineMaintainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\RegisterProductWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\SerialPortDebugWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\SpeedInputWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\TechnologyTypeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="cc\gtscloud\oilpainter\views\UserMaintainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\dao\IBomDao.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\ICustomerDao.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\impl\BomInfoDaoImpl.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\impl\CustomerDaoImpl.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\impl\OilTypeDaoImpl.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\impl\ProductLineDaoImpl.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\impl\TaskDaoImpl.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\impl\UserDaoImpl.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\IOilTypeDao.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\IProductLineDao.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\ITaskDao.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\IUserDao.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\model\BomInfoModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\model\BomPartInformationModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\model\CustomerModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\model\OilPaintTypeModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\model\ProductLineModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\model\RegisterModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\model\SecurityUserModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\model\TaskModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\dao\SingletonSqlMapper.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\models\BomInfoCompleteModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\models\BomQueryModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\models\BomUploadItemModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\models\BomUploadViewModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\models\ColumnHeaderItemModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\models\ColumnHeaderModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\models\MaterialModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\models\ObservablePropertyChangedModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\models\PartTypeEnum.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\models\PrinterDebugModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\models\TaskViewModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\models\UserModel.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\BackgroundWorkThreadTemplate.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\GuhuaMaterialState.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\IBomInfoService.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\ICustomerService.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\impl\BomInfoServiceImpl.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\impl\CustomerServiceImpl.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\impl\OilTypeServiceImpl.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\impl\ProductLineServiceImpl.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\impl\TaskServiceImpl.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\impl\UserServiceImpl.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\IOilTypeService.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\IProductLineService.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\ITaskState.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\IUserService.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\MainMaterialState.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\ITaskService.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\MixState.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\PrinterService.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\services\XishiMaterialState.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\util\AbstractSectionHandler.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\util\BoolVisiablityConvert.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\util\ExcelHelper.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\util\RegReaderWriter.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\util\SectionFileReader.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\util\SectionFileWriter.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\util\StateBooleanConvert.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\util\TextNumberConverter.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\views\AboutWindow.xaml.cs">
+      <DependentUpon>AboutWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\BomModifyWindow.xaml.cs">
+      <DependentUpon>BomModifyWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\BomUploadWindow.xaml.cs">
+      <DependentUpon>BomUploadWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\ChangePasswordWindow.xaml.cs">
+      <DependentUpon>ChangePasswordWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\ColumnPage.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\views\ColumnPage.xaml.cs">
+      <DependentUpon>ColumnPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\context\UserMaintainWinContext.cs" />
+    <Compile Include="cc\gtscloud\oilpainter\views\CustomerAdd.xaml.cs">
+      <DependentUpon>CustomerAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\CustomerMaintainWindow.xaml.cs">
+      <DependentUpon>CustomerMaintainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\DataAnalyzeWindow.xaml.cs">
+      <DependentUpon>DataAnalyzeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\DataQueryWindow.xaml.cs">
+      <DependentUpon>DataQueryWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\LoginWindow.xaml.cs">
+      <DependentUpon>LoginWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\MaterialAddWindow.xaml.cs">
+      <DependentUpon>MaterialAddWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\MaterialInputWindow.xaml.cs">
+      <DependentUpon>MaterialInputWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\MaterialMaintainWindow.xaml.cs">
+      <DependentUpon>MaterialMaintainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\ParameterConfigWindow.xaml.cs">
+      <DependentUpon>ParameterConfigWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\PrintDebugWindow.xaml.cs">
+      <DependentUpon>PrintDebugWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\ProductLineMaintainWindow.xaml.cs">
+      <DependentUpon>ProductLineMaintainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\RegisterProductWindow.xaml.cs">
+      <DependentUpon>RegisterProductWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\SerialPortDebugWindow.xaml.cs">
+      <DependentUpon>SerialPortDebugWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\SpeedInputWindow.xaml.cs">
+      <DependentUpon>SpeedInputWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\TechnologyTypeWindow.xaml.cs">
+      <DependentUpon>TechnologyTypeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="cc\gtscloud\oilpainter\views\UserMaintainWindow.xaml.cs">
+      <DependentUpon>UserMaintainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="config\DatabaseConfigModel.cs" />
+    <Compile Include="config\OilSpinConfigModel.cs" />
+    <Compile Include="config\PrinterConfigModel.cs" />
+    <Compile Include="config\BalanceSerialConfigModel.cs" />
+    <Compile Include="config\PrinterRecordModel.cs" />
+    <Compile Include="config\SingtonConfigContent.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="config\dbconfig.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="providers.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SqlMap.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Resource Include="cc\gtscloud\oilpainter\fonts\ionicons.ttf" />
+    <None Include="dbconfig.ini" />
+    <None Include="log4Net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="IMG_1712.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="accountModelMapper.xml" />
+    <Resource Include="sqlFile.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cc\gtscloud\oilpainter\resources\Images\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="config\mapper\ProductLineMapper.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="config\mapper\UserMapper.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="config\mapper\BomMapper.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="config\mapper\CustomerMapper.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="config\mapper\OilTypeMapper.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="BarTender">
+      <Guid>{D58562C1-E51B-11CF-8941-00A024A9083F}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BarCodeParser\BarCodeParser.csproj">
+      <Project>{5460bfb4-d1f8-404b-9f11-ee12bdd0822e}</Project>
+      <Name>BarCodeParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\cc.gtscloud.oilpainter.serialport\cc.gtscloud.oilpainter.serialport.csproj">
+      <Project>{0d455ea2-826d-4c0e-b935-5d693b95b956}</Project>
+      <Name>cc.gtscloud.oilpainter.serialport</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cc\gtscloud\oilpainter\dll\Interop.BarTender.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="cc\gtscloud\oilpainter\dll\LabelPrintCSharp.dll" />
+    <Content Include="cc\gtscloud\oilpainter\dll\MyControls.dll" />
+    <Content Include="cc\gtscloud\oilpainter\dll\ProgBar.dll" />
+    <Content Include="cc\gtscloud\oilpainter\util\npoi\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="cc\gtscloud\oilpainter\util\npoi\NPOI.dll" />
+    <Content Include="cc\gtscloud\oilpainter\util\npoi\NPOI.OOXML.dll" />
+    <Content Include="cc\gtscloud\oilpainter\util\npoi\NPOI.OpenXml4Net.dll" />
+    <Content Include="cc\gtscloud\oilpainter\util\npoi\NPOI.OpenXmlFormats.dll" />
+    <EmbeddedResource Include="config\mapper\TaskMapper.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="Interop.BarTender.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

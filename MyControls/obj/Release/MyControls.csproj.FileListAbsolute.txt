@@ -1,0 +1,7 @@
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\MyControls\bin\Release\MyControls.dll
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\MyControls\bin\Release\MyControls.pdb
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\MyControls\obj\Release\MyControls.UserControl1.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\MyControls\obj\Release\MyControls.csproj.GenerateResource.Cache
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\MyControls\obj\Release\MyControls.dll
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\MyControls\obj\Release\MyControls.pdb
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\MyControls\obj\Release\MyControls.csprojResolveAssemblyReference.cache

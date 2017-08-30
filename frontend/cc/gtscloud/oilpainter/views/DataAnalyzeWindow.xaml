@@ -1,0 +1,148 @@
+﻿<controls:MetroWindow x:Class="frontend.cc.gtscloud.oilpainter.views.DataAnalyzeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:frontend.cc.gtscloud.oilpainter.views"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:util="clr-namespace:frontend.cc.gtscloud.oilpainter.util"
+        mc:Ignorable="d"
+        Title="数据分析" Height="600" Width="900" WindowStartupLocation="CenterOwner">
+    <Window.Resources>
+        <util:BoolVisiablityConvert x:Key="bool2Visiability" />
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="2.2*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <controls:MetroAnimatedTabControl>
+            <controls:MetroTabItem Header="数据查询">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="84" />
+                            <ColumnDefinition  />
+                            <ColumnDefinition Width="84" />
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="84" />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Column="0" Grid.Row="0" Text="班次：" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="17" />
+                        <TextBlock Grid.Column="0" Grid.Row="1" Text="产线：" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="17" />
+                        <TextBlock Grid.Column="0" Grid.Row="2" Text="机种：" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="17" />
+                        <TextBlock Grid.Column="2" Grid.Row="0" Text="主剂料号：" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="17" />
+                        <TextBlock Grid.Column="2" Grid.Row="1" Text="作业员：" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="17" />
+                        <TextBlock Grid.Column="2" Grid.Row="2" Text="厂商：" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="17" />
+                        <TextBlock Grid.Column="4" Grid.Row="0" Text="状态：" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="17" />
+                        <TextBlock Grid.Column="4" Grid.Row="1" Text="开始时间：" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="17" />
+                        <TextBlock Grid.Column="4" Grid.Row="2" Text="结束时间：" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="17" />
+                        <ComboBox Grid.Row="0" Grid.Column="1" ItemsSource="{Binding WorkTimes}" VerticalAlignment="Center" MinHeight="36" Margin="8,0,8,0" FontSize="17" Text="{Binding QueryParam.ShiftName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalContentAlignment="Center" />
+                        <ComboBox Grid.Row="1" Grid.Column="1" ItemsSource="{Binding ProductLines}" DisplayMemberPath="LineName" VerticalAlignment="Center" MinHeight="36" Margin="8,0,8,0" FontSize="17" Text="{Binding QueryParam.LineName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalContentAlignment="Center" />
+                        <TextBox Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" MinHeight="36" Margin="8,0" VerticalContentAlignment="Center" Text="{Binding QueryParam.ProductName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBox Grid.Row="0" Grid.Column="3" VerticalAlignment="Center" MinHeight="36" Margin="8,0" VerticalContentAlignment="Center" Text="{Binding QueryParam.PartNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <ComboBox Grid.Row="1" Grid.Column="3" VerticalAlignment="Center" MinHeight="36" Margin="8,0,8,0" FontSize="17" ItemsSource="{Binding Users}" Text="{Binding QueryParam.Operator, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" DisplayMemberPath="UserName" VerticalContentAlignment="Center" />
+                        <TextBox Grid.Row="2" Grid.Column="3" VerticalAlignment="Center" MinHeight="36" Margin="8,0" VerticalContentAlignment="Center" Text="{Binding QueryParam.Supplier, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <ComboBox Grid.Row="0" Grid.Column="5" VerticalAlignment="Center" MinHeight="36" Margin="8,0,8,0" FontSize="17" ItemsSource="{Binding StateList}" SelectedIndex="{Binding QueryParam.Status, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalContentAlignment="Center" />
+                        <DatePicker Grid.Row="1" Grid.Column="5" VerticalAlignment="Center" MinHeight="36" Margin="8,0,8,0" FontSize="17" VerticalContentAlignment="Center" Text="{Binding QueryParam.StartDate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <DatePicker Grid.Row="2" Grid.Column="5" VerticalAlignment="Center" MinHeight="36" Margin="8,0,8,0" FontSize="17" VerticalContentAlignment="Center" Text="{Binding QueryParam.DeadDate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <Grid Grid.Row="0" Grid.Column="6" Grid.RowSpan="3">
+                            <StackPanel>
+                                <Button Content="查询" FontSize="16" Margin="8" MaxWidth="96" Click="OnQueryButtonClicked" />
+                                <Button Content="导出明细" FontSize="16" Margin="8,4" MaxWidth="96" Click="OnExportDetailButtonClicked" />
+                                <Button Content="导出汇总" FontSize="16" Margin="8,4" MaxWidth="96" />
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+            </controls:MetroTabItem>
+            <controls:MetroTabItem Header="表头设定">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="64" />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <CheckBox x:Name="chkProductLine" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" Content="产线" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedProductLine, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox x:Name="chkWorkTime" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" Content="班次" VerticalAlignment="Center" FontSize="14" IsChecked="{Binding ShowColumns.IsNeedWorkTime, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox x:Name="chkProductName" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" Content="机种" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedProductName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox x:Name="chkManufacturer" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left" Content="厂商" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedManufacturer, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox x:Name="chkCustomer" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Content="客户" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedCustomer, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox x:Name="chkMainMaterialManufacturer" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Content="主剂生产0000厂商" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedMainMaterialManufacturer, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox x:Name="chkMainMaterialNumber" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Content="主剂料号" VerticalAlignment="Center" FontSize="12"  IsChecked="{Binding ShowColumns.IsNeedMainMaterialNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkMainMaterialBatchNumber" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" Content="主剂批次号" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedMainBatchNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkPlanPrecent" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Left" Content="主剂重量" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedMainWeight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkMainMaterialBucketWeight" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Left" Content="主剂容器重量" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedMainBucketWeight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkGuhuaManufacturer" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left" Content="固化剂生产厂商" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedGuhuaManufacturer, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkGuhuaNumber" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Left" Content="固化剂料号" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedGuhuaNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkGuhuaBatchNumber" Grid.Row="0" Grid.Column="3" HorizontalAlignment="Left" Content="固化批次号" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedGuhuaBatchNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkGuhuaWeight" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Left" Content="固化剂重量(kg)" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedGuhuaWeight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkGuhuaBucketWeight" Grid.Row="2" Grid.Column="3" HorizontalAlignment="Left" Content="固化剂容器重量" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedGuhuaBucketWeight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkGuhuaPlanRate" Grid.Row="3" Grid.Column="3" HorizontalAlignment="Left" Content="固化剂设定添加比例" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedGuhuaPlanRate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkGuhuaActualRate" Grid.Row="0" Grid.Column="4" HorizontalAlignment="Left" Content="固化剂实际添加比例" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedGuhuaActualRate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkXishiManufacturer" Grid.Row="1" Grid.Column="4" HorizontalAlignment="Left" Content="稀释剂生产厂商" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedXishiManufacturer, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkXishiNumber" Grid.Row="2" Grid.Column="4" HorizontalAlignment="Left" Content="稀释剂料号" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedXishiNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkXishiBucketWeight" Grid.Row="3" Grid.Column="4" HorizontalAlignment="Left" Content="稀释剂容器重量" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedXishiBucketWeight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkXishiBatchNumber" Grid.Row="0" Grid.Column="5" HorizontalAlignment="Left" Content="稀释剂批次号" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedXishiBatchNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkXishiPlanRateUp" Grid.Row="1" Grid.Column="5" HorizontalAlignment="Left" Content="稀释剂设定比例上限" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedXishiPlanRateUp, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkXishiPlanRateLow" Grid.Row="2" Grid.Column="5" HorizontalAlignment="Left" Content="稀释剂设定比例下限" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedXishiPlanRateLow, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkXishiWeight" Grid.Row="3" Grid.Column="5" HorizontalAlignment="Left" Content="稀释剂重量" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedXishiWeight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkXishiActualRate" Grid.Row="0" Grid.Column="6" HorizontalAlignment="Left" Content="稀释剂实际添加比例" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedXishiActualRate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkBaudTime" Grid.Row="1" Grid.Column="6" HorizontalAlignment="Left" Content="搅拌时间" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedBaudTime, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox Name="chkOilSpeed" Grid.Row="2" Grid.Column="6" HorizontalAlignment="Left" Content="油漆黏度(流速)" VerticalAlignment="Center" FontSize="12" IsChecked="{Binding ShowColumns.IsNeedOilSpeed, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    </Grid>
+            </controls:MetroTabItem>
+        </controls:MetroAnimatedTabControl>
+        </Grid>
+        <Grid Grid.Row="1">
+            <DataGrid ColumnHeaderHeight="42" x:Name="dtTasks" ItemsSource="{Binding Tasks, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" CanUserAddRows="False" CanUserDeleteRows="False" AutoGenerateColumns="False" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="产线" FontSize="14" Visibility="{Binding Source={x:Reference chkProductLine}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding LineName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="班次" FontSize="14" Visibility="{Binding Source={x:Reference chkWorkTime}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding ShiftName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="机种/品名" FontSize="14" Visibility="{Binding Source={x:Reference chkProductName}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding ProductName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="厂商" FontSize="14" Visibility="{Binding Source={x:Reference chkManufacturer}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding Supplier, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="客户" FontSize="14" Visibility="{Binding Source={x:Reference chkCustomer}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding CustomerName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="主剂生产厂商" FontSize="14" Visibility="{Binding Source={x:Reference chkMainMaterialManufacturer}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding MainPartVendor, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="主剂料号" FontSize="14" Visibility="{Binding Source={x:Reference chkMainMaterialNumber}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding MainPartNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="主剂批次号" FontSize="14" Visibility="{Binding Source={x:Reference chkMainMaterialBatchNumber}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding MainLotNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <!--<DataGridTextColumn Header="实际比例(稀释剂/固化剂)" FontSize="14" Visibility="{Binding Source={x:Reference chkMainMaterialWeight}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding ActualMainPartWeight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />-->
+                    <DataGridTextColumn Header="标准比例(稀释剂/固化剂)" FontSize="14" Visibility="{Binding Source={x:Reference chkMainMaterialWeight}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding ActualMainPartWeight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="主剂重量" FontSize="14" Visibility="{Binding Source={x:Reference chkMainMaterialWeight}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding ActualMainPartWeight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="主剂料容器重量" FontSize="14" Visibility="{Binding Source={x:Reference chkMainMaterialBucketWeight}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding MainHolderWeight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="固化剂生产厂商" FontSize="14" Visibility="{Binding Source={x:Reference chkGuhuaManufacturer}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding GuHuaPartVendor, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="固化剂料号" FontSize="14" Visibility="{Binding Source={x:Reference chkGuhuaNumber}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding GuHuaPartNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="固化剂批号" FontSize="14" Visibility="{Binding Source={x:Reference chkGuhuaBatchNumber}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding GuHuaLotNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="固化剂重量(kg)" FontSize="14" Visibility="{Binding Source={x:Reference chkGuhuaWeight}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding GuHuaActualWeight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="固化剂容器重量" FontSize="14" Visibility="{Binding Source={x:Reference chkGuhuaBucketWeight}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding GuHuaHolderWeight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="固化剂设定比例" FontSize="14" Visibility="{Binding Source={x:Reference chkGuhuaPlanRate}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding GuHuaPercent, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="固化剂实际比例" FontSize="14" Visibility="{Binding Source={x:Reference chkGuhuaActualRate}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding GuHuaRate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="稀释剂生产厂商" FontSize="14" Visibility="{Binding Source={x:Reference chkXishiManufacturer}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding XiShiVendor, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="稀释剂料号" FontSize="14" Visibility="{Binding Source={x:Reference chkXishiNumber}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding XiShiPartNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="稀释剂容器重量" FontSize="14" Visibility="{Binding Source={x:Reference chkXishiBucketWeight}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding XiShiHolderWeight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="稀释剂批次号" FontSize="14" Visibility="{Binding Source={x:Reference chkXishiBatchNumber}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding XiShiLotNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="稀释剂设定比例上限" FontSize="14" Visibility="{Binding Source={x:Reference chkXishiPlanRateUp}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding XiShiWeightSPECU, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="稀释剂设定比例下限" FontSize="14" Visibility="{Binding Source={x:Reference chkXishiPlanRateLow}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding XiShiWeightSPECL, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="稀释剂重量" FontSize="14" Visibility="{Binding Source={x:Reference chkXishiWeight}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding XiShiActualWeight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="稀释剂实际比例" FontSize="14" Visibility="{Binding Source={x:Reference chkXishiActualRate}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding XiShiRate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="搅拌时间" FontSize="14" Visibility="{Binding Source={x:Reference chkBaudTime}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding ActualDelaySeconds, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <DataGridTextColumn Header="油漆黏度(流速)" FontSize="14" Visibility="{Binding Source={x:Reference chkOilSpeed}, Path=IsChecked, Converter={StaticResource bool2Visiability}}"  Binding="{Binding ActualSpeed, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</controls:MetroWindow>

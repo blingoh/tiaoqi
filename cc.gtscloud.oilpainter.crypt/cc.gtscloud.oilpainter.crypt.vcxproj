@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{8DF27CC2-C889-45DC-968D-C614B21BA300}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ccgtscloudoilpaintercrypt</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;CCGTSCLOUDOILPAINTERCRYPT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;CCGTSCLOUDOILPAINTERCRYPT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;CCGTSCLOUDOILPAINTERCRYPT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;CCGTSCLOUDOILPAINTERCRYPT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cc.gtscloud.oilpainter.crypt.h" />
+    <ClInclude Include="nettle-3.3\aes-internal.h" />
+    <ClInclude Include="nettle-3.3\aes.h" />
+    <ClInclude Include="nettle-3.3\arcfour.h" />
+    <ClInclude Include="nettle-3.3\arctwo.h" />
+    <ClInclude Include="nettle-3.3\asn1.h" />
+    <ClInclude Include="nettle-3.3\base16.h" />
+    <ClInclude Include="nettle-3.3\base64.h" />
+    <ClInclude Include="nettle-3.3\bignum.h" />
+    <ClInclude Include="nettle-3.3\blowfish.h" />
+    <ClInclude Include="nettle-3.3\buffer.h" />
+    <ClInclude Include="nettle-3.3\camellia-internal.h" />
+    <ClInclude Include="nettle-3.3\camellia.h" />
+    <ClInclude Include="nettle-3.3\cast128.h" />
+    <ClInclude Include="nettle-3.3\cast128_sboxes.h" />
+    <ClInclude Include="nettle-3.3\cbc.h" />
+    <ClInclude Include="nettle-3.3\ccm.h" />
+    <ClInclude Include="nettle-3.3\chacha-poly1305.h" />
+    <ClInclude Include="nettle-3.3\chacha.h" />
+    <ClInclude Include="nettle-3.3\ctr.h" />
+    <ClInclude Include="nettle-3.3\curve25519.h" />
+    <ClInclude Include="nettle-3.3\des-compat.h" />
+    <ClInclude Include="nettle-3.3\des.h" />
+    <ClInclude Include="nettle-3.3\desCode.h" />
+    <ClInclude Include="nettle-3.3\desinfo.h" />
+    <ClInclude Include="nettle-3.3\dsa-compat.h" />
+    <ClInclude Include="nettle-3.3\dsa.h" />
+    <ClInclude Include="nettle-3.3\eax.h" />
+    <ClInclude Include="nettle-3.3\ecc-curve.h" />
+    <ClInclude Include="nettle-3.3\ecc-internal.h" />
+    <ClInclude Include="nettle-3.3\ecc.h" />
+    <ClInclude Include="nettle-3.3\ecdsa.h" />
+    <ClInclude Include="nettle-3.3\eddsa.h" />
+    <ClInclude Include="nettle-3.3\fat-setup.h" />
+    <ClInclude Include="nettle-3.3\gcm.h" />
+    <ClInclude Include="nettle-3.3\getopt.h" />
+    <ClInclude Include="nettle-3.3\getopt_int.h" />
+    <ClInclude Include="nettle-3.3\gmp-glue.h" />
+    <ClInclude Include="nettle-3.3\gosthash94.h" />
+    <ClInclude Include="nettle-3.3\hmac.h" />
+    <ClInclude Include="nettle-3.3\keymap.h" />
+    <ClInclude Include="nettle-3.3\knuth-lfib.h" />
+    <ClInclude Include="nettle-3.3\macros.h" />
+    <ClInclude Include="nettle-3.3\md2.h" />
+    <ClInclude Include="nettle-3.3\md4.h" />
+    <ClInclude Include="nettle-3.3\md5-compat.h" />
+    <ClInclude Include="nettle-3.3\md5.h" />
+    <ClInclude Include="nettle-3.3\memops.h" />
+    <ClInclude Include="nettle-3.3\memxor-internal.h" />
+    <ClInclude Include="nettle-3.3\memxor.h" />
+    <ClInclude Include="nettle-3.3\mini-gmp.h" />
+    <ClInclude Include="nettle-3.3\nettle-internal.h" />
+    <ClInclude Include="nettle-3.3\nettle-meta.h" />
+    <ClInclude Include="nettle-3.3\nettle-types.h" />
+    <ClInclude Include="nettle-3.3\nettle-write.h" />
+    <ClInclude Include="nettle-3.3\pbkdf2.h" />
+    <ClInclude Include="nettle-3.3\pgp.h" />
+    <ClInclude Include="nettle-3.3\pkcs1.h" />
+    <ClInclude Include="nettle-3.3\poly1305.h" />
+    <ClInclude Include="nettle-3.3\realloc.h" />
+    <ClInclude Include="nettle-3.3\ripemd160.h" />
+    <ClInclude Include="nettle-3.3\rotors.h" />
+    <ClInclude Include="nettle-3.3\rsa.h" />
+    <ClInclude Include="nettle-3.3\salsa20.h" />
+    <ClInclude Include="nettle-3.3\serpent-internal.h" />
+    <ClInclude Include="nettle-3.3\serpent.h" />
+    <ClInclude Include="nettle-3.3\sexp.h" />
+    <ClInclude Include="nettle-3.3\sha.h" />
+    <ClInclude Include="nettle-3.3\sha1.h" />
+    <ClInclude Include="nettle-3.3\sha2.h" />
+    <ClInclude Include="nettle-3.3\sha3.h" />
+    <ClInclude Include="nettle-3.3\twofish.h" />
+    <ClInclude Include="nettle-3.3\umac.h" />
+    <ClInclude Include="nettle-3.3\yarrow.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cc.gtscloud.oilpainter.crypt.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes-decrypt-internal.c" />
+    <ClCompile Include="nettle-3.3\aes-decrypt.c" />
+    <ClCompile Include="nettle-3.3\aes-encrypt-internal.c" />
+    <ClCompile Include="nettle-3.3\aes-encrypt-table.c" />
+    <ClCompile Include="nettle-3.3\aes-encrypt.c" />
+    <ClCompile Include="nettle-3.3\aes-invert-internal.c" />
+    <ClCompile Include="nettle-3.3\aes-set-decrypt-key.c" />
+    <ClCompile Include="nettle-3.3\aes-set-encrypt-key.c" />
+    <ClCompile Include="nettle-3.3\aes-set-key-internal.c" />
+    <ClCompile Include="nettle-3.3\aes128-meta.c" />
+    <ClCompile Include="nettle-3.3\aes128-set-decrypt-key.c" />
+    <ClCompile Include="nettle-3.3\aes128-set-encrypt-key.c" />
+    <ClCompile Include="nettle-3.3\aes192-meta.c" />
+    <ClCompile Include="nettle-3.3\aes192-set-decrypt-key.c" />
+    <ClCompile Include="nettle-3.3\aes192-set-encrypt-key.c" />
+    <ClCompile Include="nettle-3.3\aes256-meta.c" />
+    <ClCompile Include="nettle-3.3\aes256-set-decrypt-key.c" />
+    <ClCompile Include="nettle-3.3\aes256-set-encrypt-key.c" />
+    <ClCompile Include="nettle-3.3\aesdata.c" />
+    <ClCompile Include="nettle-3.3\arcfour-crypt.c" />
+    <ClCompile Include="nettle-3.3\arcfour.c" />
+    <ClCompile Include="nettle-3.3\arctwo-meta.c" />
+    <ClCompile Include="nettle-3.3\arctwo.c" />
+    <ClCompile Include="nettle-3.3\base16-decode.c" />
+    <ClCompile Include="nettle-3.3\base16-encode.c" />
+    <ClCompile Include="nettle-3.3\base16-meta.c" />
+    <ClCompile Include="nettle-3.3\base64-decode.c" />
+    <ClCompile Include="nettle-3.3\base64-encode.c" />
+    <ClCompile Include="nettle-3.3\base64-meta.c" />
+    <ClCompile Include="nettle-3.3\base64url-decode.c" />
+    <ClCompile Include="nettle-3.3\base64url-encode.c" />
+    <ClCompile Include="nettle-3.3\base64url-meta.c" />
+    <ClCompile Include="nettle-3.3\bignum-random-prime.c" />
+    <ClCompile Include="nettle-3.3\bignum-random.c" />
+    <ClCompile Include="nettle-3.3\bignum.c" />
+    <ClCompile Include="nettle-3.3\blowfish.c" />
+    <ClCompile Include="nettle-3.3\buffer-init.c" />
+    <ClCompile Include="nettle-3.3\buffer.c" />
+    <ClCompile Include="nettle-3.3\camellia-absorb.c" />
+    <ClCompile Include="nettle-3.3\camellia-crypt-internal.c" />
+    <ClCompile Include="nettle-3.3\camellia-invert-key.c" />
+    <ClCompile Include="nettle-3.3\camellia-table.c" />
+    <ClCompile Include="nettle-3.3\camellia128-crypt.c" />
+    <ClCompile Include="nettle-3.3\camellia128-meta.c" />
+    <ClCompile Include="nettle-3.3\camellia128-set-decrypt-key.c" />
+    <ClCompile Include="nettle-3.3\camellia128-set-encrypt-key.c" />
+    <ClCompile Include="nettle-3.3\camellia192-meta.c" />
+    <ClCompile Include="nettle-3.3\camellia256-crypt.c" />
+    <ClCompile Include="nettle-3.3\camellia256-meta.c" />
+    <ClCompile Include="nettle-3.3\camellia256-set-decrypt-key.c" />
+    <ClCompile Include="nettle-3.3\camellia256-set-encrypt-key.c" />
+    <ClCompile Include="nettle-3.3\cast128-meta.c" />
+    <ClCompile Include="nettle-3.3\cast128.c" />
+    <ClCompile Include="nettle-3.3\cbc.c" />
+    <ClCompile Include="nettle-3.3\ccm-aes128.c" />
+    <ClCompile Include="nettle-3.3\ccm-aes192.c" />
+    <ClCompile Include="nettle-3.3\ccm-aes256.c" />
+    <ClCompile Include="nettle-3.3\ccm.c" />
+    <ClCompile Include="nettle-3.3\chacha-core-internal.c" />
+    <ClCompile Include="nettle-3.3\chacha-crypt.c" />
+    <ClCompile Include="nettle-3.3\chacha-poly1305-meta.c" />
+    <ClCompile Include="nettle-3.3\chacha-poly1305.c" />
+    <ClCompile Include="nettle-3.3\chacha-set-key.c" />
+    <ClCompile Include="nettle-3.3\chacha-set-nonce.c" />
+    <ClCompile Include="nettle-3.3\cnd-copy.c" />
+    <ClCompile Include="nettle-3.3\ctr.c" />
+    <ClCompile Include="nettle-3.3\curve25519-eh-to-x.c" />
+    <ClCompile Include="nettle-3.3\curve25519-mul-g.c" />
+    <ClCompile Include="nettle-3.3\curve25519-mul.c" />
+    <ClCompile Include="nettle-3.3\der-iterator.c" />
+    <ClCompile Include="nettle-3.3\der2dsa.c" />
+    <ClCompile Include="nettle-3.3\der2rsa.c" />
+    <ClCompile Include="nettle-3.3\des-compat.c" />
+    <ClCompile Include="nettle-3.3\des.c" />
+    <ClCompile Include="nettle-3.3\des3.c" />
+    <ClCompile Include="nettle-3.3\desdata.c" />
+    <ClCompile Include="nettle-3.3\dsa-compat-keygen.c" />
+    <ClCompile Include="nettle-3.3\dsa-compat.c" />
+    <ClCompile Include="nettle-3.3\dsa-gen-params.c" />
+    <ClCompile Include="nettle-3.3\dsa-hash.c" />
+    <ClCompile Include="nettle-3.3\dsa-keygen.c" />
+    <ClCompile Include="nettle-3.3\dsa-sha1-sign.c" />
+    <ClCompile Include="nettle-3.3\dsa-sha1-verify.c" />
+    <ClCompile Include="nettle-3.3\dsa-sha256-sign.c" />
+    <ClCompile Include="nettle-3.3\dsa-sha256-verify.c" />
+    <ClCompile Include="nettle-3.3\dsa-sign.c" />
+    <ClCompile Include="nettle-3.3\dsa-verify.c" />
+    <ClCompile Include="nettle-3.3\dsa.c" />
+    <ClCompile Include="nettle-3.3\dsa2sexp.c" />
+    <ClCompile Include="nettle-3.3\eax-aes128-meta.c" />
+    <ClCompile Include="nettle-3.3\eax-aes128.c" />
+    <ClCompile Include="nettle-3.3\eax.c" />
+    <ClCompile Include="nettle-3.3\ecc-192.c" />
+    <ClCompile Include="nettle-3.3\ecc-224.c" />
+    <ClCompile Include="nettle-3.3\ecc-25519.c" />
+    <ClCompile Include="nettle-3.3\ecc-256.c" />
+    <ClCompile Include="nettle-3.3\ecc-384.c" />
+    <ClCompile Include="nettle-3.3\ecc-521.c" />
+    <ClCompile Include="nettle-3.3\ecc-a-to-j.c" />
+    <ClCompile Include="nettle-3.3\ecc-add-eh.c" />
+    <ClCompile Include="nettle-3.3\ecc-add-ehh.c" />
+    <ClCompile Include="nettle-3.3\ecc-add-jja.c" />
+    <ClCompile Include="nettle-3.3\ecc-add-jjj.c" />
+    <ClCompile Include="nettle-3.3\ecc-dup-eh.c" />
+    <ClCompile Include="nettle-3.3\ecc-dup-jj.c" />
+    <ClCompile Include="nettle-3.3\ecc-ecdsa-sign.c" />
+    <ClCompile Include="nettle-3.3\ecc-ecdsa-verify.c" />
+    <ClCompile Include="nettle-3.3\ecc-eh-to-a.c" />
+    <ClCompile Include="nettle-3.3\ecc-hash.c" />
+    <ClCompile Include="nettle-3.3\ecc-j-to-a.c" />
+    <ClCompile Include="nettle-3.3\ecc-mod-arith.c" />
+    <ClCompile Include="nettle-3.3\ecc-mod-inv.c" />
+    <ClCompile Include="nettle-3.3\ecc-mod.c" />
+    <ClCompile Include="nettle-3.3\ecc-mul-a-eh.c" />
+    <ClCompile Include="nettle-3.3\ecc-mul-a.c" />
+    <ClCompile Include="nettle-3.3\ecc-mul-g-eh.c" />
+    <ClCompile Include="nettle-3.3\ecc-mul-g.c" />
+    <ClCompile Include="nettle-3.3\ecc-pm1-redc.c" />
+    <ClCompile Include="nettle-3.3\ecc-point-mul-g.c" />
+    <ClCompile Include="nettle-3.3\ecc-point-mul.c" />
+    <ClCompile Include="nettle-3.3\ecc-point.c" />
+    <ClCompile Include="nettle-3.3\ecc-pp1-redc.c" />
+    <ClCompile Include="nettle-3.3\ecc-random.c" />
+    <ClCompile Include="nettle-3.3\ecc-scalar.c" />
+    <ClCompile Include="nettle-3.3\ecc-size.c" />
+    <ClCompile Include="nettle-3.3\eccdata.c" />
+    <ClCompile Include="nettle-3.3\ecdsa-keygen.c" />
+    <ClCompile Include="nettle-3.3\ecdsa-sign.c" />
+    <ClCompile Include="nettle-3.3\ecdsa-verify.c" />
+    <ClCompile Include="nettle-3.3\ed25519-sha512-pubkey.c" />
+    <ClCompile Include="nettle-3.3\ed25519-sha512-sign.c" />
+    <ClCompile Include="nettle-3.3\ed25519-sha512-verify.c" />
+    <ClCompile Include="nettle-3.3\eddsa-compress.c" />
+    <ClCompile Include="nettle-3.3\eddsa-decompress.c" />
+    <ClCompile Include="nettle-3.3\eddsa-expand.c" />
+    <ClCompile Include="nettle-3.3\eddsa-hash.c" />
+    <ClCompile Include="nettle-3.3\eddsa-pubkey.c" />
+    <ClCompile Include="nettle-3.3\eddsa-sign.c" />
+    <ClCompile Include="nettle-3.3\eddsa-verify.c" />
+    <ClCompile Include="nettle-3.3\fat-arm.c" />
+    <ClCompile Include="nettle-3.3\fat-x86_64.c" />
+    <ClCompile Include="nettle-3.3\gcm-aes.c" />
+    <ClCompile Include="nettle-3.3\gcm-aes128-meta.c" />
+    <ClCompile Include="nettle-3.3\gcm-aes128.c" />
+    <ClCompile Include="nettle-3.3\gcm-aes192-meta.c" />
+    <ClCompile Include="nettle-3.3\gcm-aes192.c" />
+    <ClCompile Include="nettle-3.3\gcm-aes256-meta.c" />
+    <ClCompile Include="nettle-3.3\gcm-aes256.c" />
+    <ClCompile Include="nettle-3.3\gcm-camellia128-meta.c" />
+    <ClCompile Include="nettle-3.3\gcm-camellia128.c" />
+    <ClCompile Include="nettle-3.3\gcm-camellia256-meta.c" />
+    <ClCompile Include="nettle-3.3\gcm-camellia256.c" />
+    <ClCompile Include="nettle-3.3\gcm.c" />
+    <ClCompile Include="nettle-3.3\gcmdata.c" />
+    <ClCompile Include="nettle-3.3\getopt.c" />
+    <ClCompile Include="nettle-3.3\getopt1.c" />
+    <ClCompile Include="nettle-3.3\gmp-glue.c" />
+    <ClCompile Include="nettle-3.3\gosthash94-meta.c" />
+    <ClCompile Include="nettle-3.3\gosthash94.c" />
+    <ClCompile Include="nettle-3.3\hmac-md5.c" />
+    <ClCompile Include="nettle-3.3\hmac-ripemd160.c" />
+    <ClCompile Include="nettle-3.3\hmac-sha1.c" />
+    <ClCompile Include="nettle-3.3\hmac-sha224.c" />
+    <ClCompile Include="nettle-3.3\hmac-sha256.c" />
+    <ClCompile Include="nettle-3.3\hmac-sha384.c" />
+    <ClCompile Include="nettle-3.3\hmac-sha512.c" />
+    <ClCompile Include="nettle-3.3\hmac.c" />
+    <ClCompile Include="nettle-3.3\knuth-lfib.c" />
+    <ClCompile Include="nettle-3.3\md2-meta.c" />
+    <ClCompile Include="nettle-3.3\md2.c" />
+    <ClCompile Include="nettle-3.3\md4-meta.c" />
+    <ClCompile Include="nettle-3.3\md4.c" />
+    <ClCompile Include="nettle-3.3\md5-compat.c" />
+    <ClCompile Include="nettle-3.3\md5-compress.c" />
+    <ClCompile Include="nettle-3.3\md5-meta.c" />
+    <ClCompile Include="nettle-3.3\md5.c" />
+    <ClCompile Include="nettle-3.3\memeql-sec.c" />
+    <ClCompile Include="nettle-3.3\memxor.c" />
+    <ClCompile Include="nettle-3.3\memxor3.c" />
+    <ClCompile Include="nettle-3.3\mini-gmp.c" />
+    <ClCompile Include="nettle-3.3\nettle-internal.c" />
+    <ClCompile Include="nettle-3.3\nettle-meta-aeads.c" />
+    <ClCompile Include="nettle-3.3\nettle-meta-armors.c" />
+    <ClCompile Include="nettle-3.3\nettle-meta-ciphers.c" />
+    <ClCompile Include="nettle-3.3\nettle-meta-hashes.c" />
+    <ClCompile Include="nettle-3.3\pbkdf2-hmac-sha1.c" />
+    <ClCompile Include="nettle-3.3\pbkdf2-hmac-sha256.c" />
+    <ClCompile Include="nettle-3.3\pbkdf2.c" />
+    <ClCompile Include="nettle-3.3\pgp-encode.c" />
+    <ClCompile Include="nettle-3.3\pkcs1-decrypt.c" />
+    <ClCompile Include="nettle-3.3\pkcs1-encrypt.c" />
+    <ClCompile Include="nettle-3.3\pkcs1-rsa-digest.c" />
+    <ClCompile Include="nettle-3.3\pkcs1-rsa-md5.c" />
+    <ClCompile Include="nettle-3.3\pkcs1-rsa-sha1.c" />
+    <ClCompile Include="nettle-3.3\pkcs1-rsa-sha256.c" />
+    <ClCompile Include="nettle-3.3\pkcs1-rsa-sha512.c" />
+    <ClCompile Include="nettle-3.3\pkcs1.c" />
+    <ClCompile Include="nettle-3.3\poly1305-aes.c" />
+    <ClCompile Include="nettle-3.3\poly1305-internal.c" />
+    <ClCompile Include="nettle-3.3\realloc.c" />
+    <ClCompile Include="nettle-3.3\ripemd160-compress.c" />
+    <ClCompile Include="nettle-3.3\ripemd160-meta.c" />
+    <ClCompile Include="nettle-3.3\ripemd160.c" />
+    <ClCompile Include="nettle-3.3\rsa-blind.c" />
+    <ClCompile Include="nettle-3.3\rsa-decrypt-tr.c" />
+    <ClCompile Include="nettle-3.3\rsa-decrypt.c" />
+    <ClCompile Include="nettle-3.3\rsa-encrypt.c" />
+    <ClCompile Include="nettle-3.3\rsa-keygen.c" />
+    <ClCompile Include="nettle-3.3\rsa-md5-sign-tr.c" />
+    <ClCompile Include="nettle-3.3\rsa-md5-sign.c" />
+    <ClCompile Include="nettle-3.3\rsa-md5-verify.c" />
+    <ClCompile Include="nettle-3.3\rsa-pkcs1-sign-tr.c" />
+    <ClCompile Include="nettle-3.3\rsa-pkcs1-sign.c" />
+    <ClCompile Include="nettle-3.3\rsa-pkcs1-verify.c" />
+    <ClCompile Include="nettle-3.3\rsa-sha1-sign-tr.c" />
+    <ClCompile Include="nettle-3.3\rsa-sha1-sign.c" />
+    <ClCompile Include="nettle-3.3\rsa-sha1-verify.c" />
+    <ClCompile Include="nettle-3.3\rsa-sha256-sign-tr.c" />
+    <ClCompile Include="nettle-3.3\rsa-sha256-sign.c" />
+    <ClCompile Include="nettle-3.3\rsa-sha256-verify.c" />
+    <ClCompile Include="nettle-3.3\rsa-sha512-sign-tr.c" />
+    <ClCompile Include="nettle-3.3\rsa-sha512-sign.c" />
+    <ClCompile Include="nettle-3.3\rsa-sha512-verify.c" />
+    <ClCompile Include="nettle-3.3\rsa-sign-tr.c" />
+    <ClCompile Include="nettle-3.3\rsa-sign.c" />
+    <ClCompile Include="nettle-3.3\rsa-verify.c" />
+    <ClCompile Include="nettle-3.3\rsa.c" />
+    <ClCompile Include="nettle-3.3\rsa2openpgp.c" />
+    <ClCompile Include="nettle-3.3\rsa2sexp.c" />
+    <ClCompile Include="nettle-3.3\salsa20-128-set-key.c" />
+    <ClCompile Include="nettle-3.3\salsa20-256-set-key.c" />
+    <ClCompile Include="nettle-3.3\salsa20-core-internal.c" />
+    <ClCompile Include="nettle-3.3\salsa20-crypt.c" />
+    <ClCompile Include="nettle-3.3\salsa20-set-key.c" />
+    <ClCompile Include="nettle-3.3\salsa20-set-nonce.c" />
+    <ClCompile Include="nettle-3.3\salsa20r12-crypt.c" />
+    <ClCompile Include="nettle-3.3\sec-add-1.c" />
+    <ClCompile Include="nettle-3.3\sec-sub-1.c" />
+    <ClCompile Include="nettle-3.3\sec-tabselect.c" />
+    <ClCompile Include="nettle-3.3\serpent-decrypt.c" />
+    <ClCompile Include="nettle-3.3\serpent-encrypt.c" />
+    <ClCompile Include="nettle-3.3\serpent-meta.c" />
+    <ClCompile Include="nettle-3.3\serpent-set-key.c" />
+    <ClCompile Include="nettle-3.3\sexp-format.c" />
+    <ClCompile Include="nettle-3.3\sexp-transport-format.c" />
+    <ClCompile Include="nettle-3.3\sexp-transport.c" />
+    <ClCompile Include="nettle-3.3\sexp.c" />
+    <ClCompile Include="nettle-3.3\sexp2bignum.c" />
+    <ClCompile Include="nettle-3.3\sexp2dsa.c" />
+    <ClCompile Include="nettle-3.3\sexp2rsa.c" />
+    <ClCompile Include="nettle-3.3\sha-example.c" />
+    <ClCompile Include="nettle-3.3\sha1-compress.c" />
+    <ClCompile Include="nettle-3.3\sha1-meta.c" />
+    <ClCompile Include="nettle-3.3\sha1.c" />
+    <ClCompile Include="nettle-3.3\sha224-meta.c" />
+    <ClCompile Include="nettle-3.3\sha256-compress.c" />
+    <ClCompile Include="nettle-3.3\sha256-meta.c" />
+    <ClCompile Include="nettle-3.3\sha256.c" />
+    <ClCompile Include="nettle-3.3\sha3-224-meta.c" />
+    <ClCompile Include="nettle-3.3\sha3-224.c" />
+    <ClCompile Include="nettle-3.3\sha3-256-meta.c" />
+    <ClCompile Include="nettle-3.3\sha3-256.c" />
+    <ClCompile Include="nettle-3.3\sha3-384-meta.c" />
+    <ClCompile Include="nettle-3.3\sha3-384.c" />
+    <ClCompile Include="nettle-3.3\sha3-512-meta.c" />
+    <ClCompile Include="nettle-3.3\sha3-512.c" />
+    <ClCompile Include="nettle-3.3\sha3-permute.c" />
+    <ClCompile Include="nettle-3.3\sha3.c" />
+    <ClCompile Include="nettle-3.3\sha384-meta.c" />
+    <ClCompile Include="nettle-3.3\sha512-224-meta.c" />
+    <ClCompile Include="nettle-3.3\sha512-256-meta.c" />
+    <ClCompile Include="nettle-3.3\sha512-compress.c" />
+    <ClCompile Include="nettle-3.3\sha512-meta.c" />
+    <ClCompile Include="nettle-3.3\sha512.c" />
+    <ClCompile Include="nettle-3.3\shadata.c" />
+    <ClCompile Include="nettle-3.3\twofish-meta.c" />
+    <ClCompile Include="nettle-3.3\twofish.c" />
+    <ClCompile Include="nettle-3.3\twofishdata.c" />
+    <ClCompile Include="nettle-3.3\umac-l2.c" />
+    <ClCompile Include="nettle-3.3\umac-l3.c" />
+    <ClCompile Include="nettle-3.3\umac-nh-n.c" />
+    <ClCompile Include="nettle-3.3\umac-nh.c" />
+    <ClCompile Include="nettle-3.3\umac-poly128.c" />
+    <ClCompile Include="nettle-3.3\umac-poly64.c" />
+    <ClCompile Include="nettle-3.3\umac-set-key.c" />
+    <ClCompile Include="nettle-3.3\umac128.c" />
+    <ClCompile Include="nettle-3.3\umac32.c" />
+    <ClCompile Include="nettle-3.3\umac64.c" />
+    <ClCompile Include="nettle-3.3\umac96.c" />
+    <ClCompile Include="nettle-3.3\version.c" />
+    <ClCompile Include="nettle-3.3\write-be32.c" />
+    <ClCompile Include="nettle-3.3\write-le32.c" />
+    <ClCompile Include="nettle-3.3\write-le64.c" />
+    <ClCompile Include="nettle-3.3\yarrow256.c" />
+    <ClCompile Include="nettle-3.3\yarrow_key_event.c" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

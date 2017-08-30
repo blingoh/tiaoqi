@@ -1,0 +1,29 @@
+﻿<controls:MetroWindow x:Class="frontend.cc.gtscloud.oilpainter.views.SpeedInputWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:frontend.cc.gtscloud.oilpainter.views"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="流速输入" Height="200" Width="300" WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1.5*" />
+            <RowDefinition Height="48"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="100" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="请在充分搅拌后输入搅拌后的油漆黏度(流速)" TextWrapping="Wrap" VerticalAlignment="Bottom" FontSize="17" />
+        <controls:NumericUpDown x:Name="numSpeed" Grid.Row="1" Grid.Column="0" VerticalAlignment="Top" MinHeight="48" Margin="8,8,8,0" FontSize="18" Minimum="{Binding SpeedLow}" Value="{Binding OilSpeed,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Maximum="{Binding SpeedUp}" />
+        <Border Grid.Row="0" Grid.Column="1" Grid.RowSpan="3" Height="90" Width="90" CornerRadius="45" Background="#F44336" />
+        <StackPanel Grid.Row="0" Grid.Column="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+            <TextBlock Name="lblTimeout"  Foreground="#fff" Text="{Binding Timeout, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"  FontSize="22" />
+            <TextBlock  Foreground="#fff" Text="s"  FontSize="22" Margin="4,0,0,0" />
+        </StackPanel>
+        <Button Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" MinWidth="100" MinHeight="36" FontSize="18" Margin="0,0,16,0" Content="确定" Click="OnEnsureSpeedButtonClicked" />
+    </Grid>
+</controls:MetroWindow>

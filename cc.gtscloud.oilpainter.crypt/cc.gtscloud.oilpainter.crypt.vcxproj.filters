@@ -1,0 +1,1146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cc.gtscloud.oilpainter.crypt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\aes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\aes-internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\arcfour.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\arctwo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\asn1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\base16.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\base64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\bignum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\blowfish.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\camellia.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\camellia-internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\cast128.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\cast128_sboxes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\cbc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\ccm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\chacha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\chacha-poly1305.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\ctr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\curve25519.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\des.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\desCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\des-compat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\desinfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\dsa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\dsa-compat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\eax.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\ecc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\ecc-curve.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\ecc-internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\ecdsa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\eddsa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\fat-setup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\gcm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\getopt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\getopt_int.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\gmp-glue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\gosthash94.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\hmac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\keymap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\knuth-lfib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\md2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\md4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\md5-compat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\memops.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\memxor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\memxor-internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\mini-gmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\nettle-internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\nettle-meta.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\nettle-types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\nettle-write.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\pbkdf2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\pgp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\pkcs1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\poly1305.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\realloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\ripemd160.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\rotors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\rsa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\salsa20.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\serpent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\serpent-internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\sexp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\sha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\sha1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\sha2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\sha3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\twofish.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\umac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nettle-3.3\yarrow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cc.gtscloud.oilpainter.crypt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes128-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes128-set-decrypt-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes128-set-encrypt-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes192-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes192-set-decrypt-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes192-set-encrypt-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes256-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes256-set-decrypt-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes256-set-encrypt-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aesdata.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes-decrypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes-decrypt-internal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes-encrypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes-encrypt-internal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes-encrypt-table.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes-invert-internal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes-set-decrypt-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes-set-encrypt-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\aes-set-key-internal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\arcfour.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\arcfour-crypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\arctwo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\arctwo-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\base16-decode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\base16-encode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\base16-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\base64-decode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\base64-encode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\base64-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\base64url-decode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\base64url-encode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\base64url-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\bignum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\bignum-random.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\bignum-random-prime.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\blowfish.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\buffer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\buffer-init.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\camellia128-crypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\camellia128-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\camellia128-set-decrypt-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\camellia128-set-encrypt-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\camellia192-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\camellia256-crypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\camellia256-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\camellia256-set-decrypt-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\camellia256-set-encrypt-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\camellia-absorb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\camellia-crypt-internal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\camellia-invert-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\camellia-table.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\cast128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\cast128-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\cbc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ccm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ccm-aes128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ccm-aes192.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ccm-aes256.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\chacha-core-internal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\chacha-crypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\chacha-poly1305.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\chacha-poly1305-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\chacha-set-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\chacha-set-nonce.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\cnd-copy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ctr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\curve25519-eh-to-x.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\curve25519-mul.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\curve25519-mul-g.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\der2dsa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\der2rsa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\der-iterator.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\des.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\des3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\des-compat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\desdata.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\dsa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\dsa2sexp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\dsa-compat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\dsa-compat-keygen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\dsa-gen-params.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\dsa-hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\dsa-keygen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\dsa-sha1-sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\dsa-sha1-verify.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\dsa-sha256-sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\dsa-sha256-verify.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\dsa-sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\dsa-verify.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\eax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\eax-aes128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\eax-aes128-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-192.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-224.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-256.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-384.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-521.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-25519.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-add-eh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-add-ehh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-add-jja.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-add-jjj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-a-to-j.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\eccdata.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-dup-eh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-dup-jj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-ecdsa-sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-ecdsa-verify.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-eh-to-a.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-j-to-a.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-mod.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-mod-arith.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-mod-inv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-mul-a.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-mul-a-eh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-mul-g.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-mul-g-eh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-pm1-redc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-point.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-point-mul.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-point-mul-g.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-pp1-redc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-random.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-scalar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecc-size.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecdsa-keygen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecdsa-sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ecdsa-verify.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ed25519-sha512-pubkey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ed25519-sha512-sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ed25519-sha512-verify.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\eddsa-compress.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\eddsa-decompress.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\eddsa-expand.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\eddsa-hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\eddsa-pubkey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\eddsa-sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\eddsa-verify.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\fat-arm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\fat-x86_64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\gcm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\gcm-aes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\gcm-aes128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\gcm-aes128-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\gcm-aes192.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\gcm-aes192-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\gcm-aes256.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\gcm-aes256-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\gcm-camellia128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\gcm-camellia128-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\gcm-camellia256.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\gcm-camellia256-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\gcmdata.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\getopt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\getopt1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\gmp-glue.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\gosthash94.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\gosthash94-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\hmac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\hmac-md5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\hmac-ripemd160.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\hmac-sha1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\hmac-sha224.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\hmac-sha256.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\hmac-sha384.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\hmac-sha512.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\knuth-lfib.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\md2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\md2-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\md4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\md4-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\md5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\md5-compat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\md5-compress.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\md5-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\memeql-sec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\memxor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\memxor3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\mini-gmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\nettle-internal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\nettle-meta-aeads.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\nettle-meta-armors.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\nettle-meta-ciphers.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\nettle-meta-hashes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\pbkdf2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\pbkdf2-hmac-sha1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\pbkdf2-hmac-sha256.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\pgp-encode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\pkcs1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\pkcs1-decrypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\pkcs1-encrypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\pkcs1-rsa-digest.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\pkcs1-rsa-md5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\pkcs1-rsa-sha1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\pkcs1-rsa-sha256.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\pkcs1-rsa-sha512.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\poly1305-aes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\poly1305-internal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\realloc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ripemd160.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ripemd160-compress.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\ripemd160-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa2openpgp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa2sexp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-blind.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-decrypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-decrypt-tr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-encrypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-keygen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-md5-sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-md5-sign-tr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-md5-verify.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-pkcs1-sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-pkcs1-sign-tr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-pkcs1-verify.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-sha1-sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-sha1-sign-tr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-sha1-verify.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-sha256-sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-sha256-sign-tr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-sha256-verify.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-sha512-sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-sha512-sign-tr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-sha512-verify.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-sign-tr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\rsa-verify.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\salsa20-128-set-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\salsa20-256-set-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\salsa20-core-internal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\salsa20-crypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\salsa20r12-crypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\salsa20-set-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\salsa20-set-nonce.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sec-add-1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sec-sub-1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sec-tabselect.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\serpent-decrypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\serpent-encrypt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\serpent-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\serpent-set-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sexp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sexp2bignum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sexp2dsa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sexp2rsa.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sexp-format.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sexp-transport.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sexp-transport-format.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha1-compress.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha1-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha3-224.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha3-224-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha3-256.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha3-256-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha3-384.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha3-384-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha3-512.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha3-512-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha3-permute.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha224-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha256.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha256-compress.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha256-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha384-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha512.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha512-224-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha512-256-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha512-compress.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha512-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\shadata.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\sha-example.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\twofish.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\twofishdata.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\twofish-meta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\umac32.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\umac64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\umac96.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\umac128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\umac-l2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\umac-l3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\umac-nh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\umac-nh-n.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\umac-poly64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\umac-poly128.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\umac-set-key.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\version.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\write-be32.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\write-le32.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\write-le64.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\yarrow_key_event.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nettle-3.3\yarrow256.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,172 @@
+﻿<controls:MetroWindow x:Class="frontend.cc.gtscloud.oilpainter.views.MaterialAddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:frontend.cc.gtscloud.oilpainter.views"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="添加物料" Height="400" Width="500" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0">
+                <Border BorderBrush="{x:Null}" Height="40">
+                    <TextBlock TextWrapping="Wrap" Text="客户：" VerticalAlignment="Center" FontSize="15" HorizontalAlignment="Right"/>
+                </Border>
+                <Border BorderBrush="{x:Null}" Height="40">
+                    <TextBlock TextWrapping="Wrap" Text="机种/品名：" VerticalAlignment="Center" FontSize="15" HorizontalAlignment="Right"/>
+                </Border>
+                <Border BorderBrush="{x:Null}" Height="40">
+                    <TextBlock TextWrapping="Wrap" Text="厂商：" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Right"/>
+                </Border>
+                <Border BorderBrush="{x:Null}" Height="40">
+                    <TextBlock TextWrapping="Wrap" Text="喷漆类型：" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Right"/>
+                </Border>
+                <Border BorderBrush="{x:Null}" Height="40">
+                    <TextBlock TextWrapping="Wrap" Text="油漆黏度(上限)：" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Right"/>
+                </Border>
+                <Border BorderBrush="{x:Null}" Height="40">
+                    <TextBlock TextWrapping="Wrap" Text="油漆黏度(下限)：" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Right"/>
+                </Border>
+                <Border BorderBrush="{x:Null}" Height="40">
+                    <TextBlock TextWrapping="Wrap" Text="固化剂比例：" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Right"/>
+                </Border>
+                <Border BorderBrush="{x:Null}" Height="40">
+                    <TextBlock TextWrapping="Wrap" Text="网布目数：" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Right"/>
+                </Border>
+                <Border BorderBrush="{x:Null}" Height="40">
+                    <TextBlock TextWrapping="Wrap" Text="稀释剂比例(上限)：" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Right"/>
+                </Border>
+            </StackPanel>
+            <StackPanel Grid.Column="1">
+                <Border BorderBrush="{x:Null}" Height="40">
+                    <ComboBox VerticalAlignment="Center" Margin="4,0,4,0" ItemsSource="{Binding Customers, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" SelectedIndex="0" DisplayMemberPath="CustomerName" Text="{Binding NewBomInfo.BomBasic.CustomerName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                </Border>
+                <Border BorderBrush="{x:Null}" Height="40">
+                    <TextBox  VerticalAlignment="Center" Margin="4,0,4,0" Text="{Binding NewBomInfo.BomBasic.ProductName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                </Border>
+                <Border BorderBrush="{x:Null}" Height="40">
+                    <TextBox  VerticalAlignment="Center" Margin="4,0,4,0" Text="{Binding NewBomInfo.BomBasic.Supplier, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                </Border>
+                <Border BorderBrush="{x:Null}" Height="40">
+                    <ComboBox VerticalAlignment="Center" Margin="4,0,4,0" ItemsSource="{Binding OilTypes, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" SelectedIndex="0" DisplayMemberPath="OilPaintType" Text="{Binding NewBomInfo.BomBasic.OilPlaintType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                </Border>
+                <Border BorderBrush="{x:Null}" Height="40">
+                    <controls:NumericUpDown Margin="4,0,4,0" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Minimum="0" Value="{Binding NewBomInfo.BomBasic.OilSpeedU, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                </Border>
+                <Border BorderBrush="{x:Null}" Height="40">
+                    <controls:NumericUpDown Margin="4,0,4,0" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Minimum="0" Value="{Binding NewBomInfo.BomBasic.OilSpeedL, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                </Border>
+                <Border BorderBrush="{x:Null}" Height="40">
+                    <controls:NumericUpDown Margin="4,0,4,0" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Minimum="0" Value="{Binding NewBomInfo.BomBasic.GuHuaPercent, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                </Border>
+                <Border BorderBrush="{x:Null}" Height="40">
+                    <controls:NumericUpDown Margin="4,0,4,0" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Minimum="0" Value="{Binding NewBomInfo.BomBasic.WBMS, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                </Border>
+                <Border BorderBrush="{x:Null}" Height="40">
+                    <controls:NumericUpDown Margin="4,0,4,0" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Minimum="0" Value="{Binding NewBomInfo.BomBasic.XiShiUpPercent, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                </Border>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition Height="48" />
+            </Grid.RowDefinitions>
+            <ScrollViewer Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="2*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="稀释剂比例(下限)：" VerticalAlignment="Center" FontSize="15" HorizontalAlignment="Right"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Text="有效时间(小时)：" VerticalAlignment="Center" FontSize="15" HorizontalAlignment="Right"/>
+                    <controls:NumericUpDown Grid.Row="0" Grid.Column="1" Margin="8,0,4,0" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Minimum="0" Value="{Binding NewBomInfo.BomBasic.XiShiLowPercent, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    <controls:NumericUpDown Grid.Row="1" Grid.Column="1" Margin="8,0,4,0" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Minimum="0" Value="{Binding NewBomInfo.BomBasic.ValidHours, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                </Grid>
+
+            </ScrollViewer>
+
+            <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="2*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="主剂料号：" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Right"/>
+                <ComboBox x:Name="cmbMainMaterial" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Margin="8,0,16,0" IsEditable="True" DataContext="{Binding NewBomInfo.MainPart, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" DisplayMemberPath="PartNumber" ItemsSource="{Binding}" SelectedIndex="0" />
+                <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Right" Margin="0,0,16,0">
+                    <Button Content="删除" MinWidth="64" MaxHeight="28" HorizontalAlignment="Right" Margin="0,0,16,0" Click="OnDeleteMainButtonClicked" />
+                    <Button Content="确定添加" MinWidth="84" MaxHeight="28" HorizontalAlignment="Right" Click="OnAddMainButtonClicked" />
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="2*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="固化剂料号：" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Right"/>
+                <ComboBox x:Name="cmbGuhua" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Margin="8,0,16,0" IsEditable="True" DataContext="{Binding NewBomInfo.GuHua, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" DisplayMemberPath="PartNumber" ItemsSource="{Binding}" SelectedIndex="0" />
+                <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Right" Margin="0,0,16,0">
+                    <Button Content="删除" MinWidth="64" MaxHeight="28" HorizontalAlignment="Right" Margin="0,0,16,0" Click="OnDeleteGuhuaButtonClicked" />
+                    <Button Content="确定添加" MinWidth="84" MaxHeight="28" HorizontalAlignment="Right" Click="OnAddGuhuaButtonClicked" />
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="2*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="稀释剂料号：" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Right"/>
+                <ComboBox x:Name="cmbXishi" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Margin="8,0,16,0" IsEditable="True" DataContext="{Binding NewBomInfo.XiShi, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" DisplayMemberPath="PartNumber" ItemsSource="{Binding}" SelectedIndex="0" />
+                <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Right" Margin="0,0,16,0">
+                    <Button Content="删除" MinWidth="64" MaxHeight="28" HorizontalAlignment="Right" Margin="0,0,16,0" Click="OnDeleteXishiButtonClicked" />
+                    <Button Content="确定添加" MinWidth="84" MaxHeight="28" HorizontalAlignment="Right" Click="OnAddXishiButtonClicked" />
+                </StackPanel>
+            </Grid>
+            <Button Grid.Row="4" Grid.ColumnSpan="2" HorizontalAlignment="Right" Margin="0,0,16,0" VerticalAlignment="Center" MinWidth="100" MinHeight="32" Click="OnAddNewItemButtonClicked">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontFamily="{StaticResource IonIcons}" Text="&#xf4a4;" FontSize="16" VerticalAlignment="Center" Foreground="#fff" />
+                    <TextBlock Text="新增" FontSize="16" Margin="8,0,0,0" Foreground="#fff" />
+                </StackPanel>
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="BorderBrush" Value="Transparent" />
+                        <Setter Property="BorderThickness" Value="0" />
+                        <Setter Property="Background" Value="#2196F3" />
+                    </Style>
+                </Button.Style>
+            </Button>
+        </Grid>
+    </Grid>
+</controls:MetroWindow>

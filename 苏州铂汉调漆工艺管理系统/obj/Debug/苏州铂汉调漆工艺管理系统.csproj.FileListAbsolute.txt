@@ -1,0 +1,16 @@
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\苏州铂汉调漆工艺管理系统.exe.config
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\苏州铂汉调漆工艺管理系统.exe.config
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\苏州铂汉调漆工艺管理系统.exe
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\苏州铂汉调漆工艺管理系统.pdb
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\苏州铂汉调漆工艺管理系统.FrmMain.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\苏州铂汉调漆工艺管理系统.Properties.Resources.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\苏州铂汉调漆工艺管理系统.csproj.GenerateResource.Cache
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\苏州铂汉调漆工艺管理系统.exe
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\苏州铂汉调漆工艺管理系统.pdb
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\苏州铂汉调漆工艺管理系统.FrmAbout.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\苏州铂汉调漆工艺管理系统.FrmLogin.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\苏州铂汉调漆工艺管理系统.FrmChangePSW.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\苏州铂汉调漆工艺管理系统.FrmOption.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\苏州铂汉调漆工艺管理系统.FrmProductionLine.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\苏州铂汉调漆工艺管理系统.FrmAppendUser.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\option.ini

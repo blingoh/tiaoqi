@@ -1,0 +1,38 @@
+﻿<metro:MetroWindow x:Class="frontend.cc.gtscloud.oilpainter.views.CustomerAdd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:frontend.cc.gtscloud.oilpainter.views"
+        xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="添加客户" Height="200" Width="300" WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+    <Grid x:Name="gridRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1* "/>
+            <RowDefinition Height="64" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="客户代码：" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="15" />
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="客户名：" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="15" />
+        <TextBox Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" MinHeight="32" Margin="4,0,8,0" FontSize="16" Text="{Binding CustomerCode, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <TextBox Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" MinHeight="32" Margin="4,0,8,0" FontSize="16" Text="{Binding CustomerName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <Button Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" MaxHeight="32" MaxWidth="96" FontSize="16" Click="OnEnsureAddClicked">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontFamily="{StaticResource IonIcons}" Text="&#xf3fd;" FontSize="16" VerticalAlignment="Center" Foreground="#fff" />
+                <TextBlock Text="确定" FontSize="16" Margin="8,0,0,0" Foreground="#fff" />
+            </StackPanel>
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="BorderBrush" Value="Transparent" />
+                    <Setter Property="BorderThickness" Value="0" />
+                    <Setter Property="Background" Value="#2196F3" />
+                </Style>
+            </Button.Style>
+        </Button>
+    </Grid>
+</metro:MetroWindow>

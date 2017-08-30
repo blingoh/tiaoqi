@@ -1,0 +1,48 @@
+﻿<controls:MetroWindow x:Class="frontend.cc.gtscloud.oilpainter.views.UserMaintainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:frontend.cc.gtscloud.oilpainter.views"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:controlsParam="http://metro.mahapps.com/winfx/xaml/shared"
+        mc:Ignorable="d"
+        Title="用户维护" Height="240" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="70" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="用户名：" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="角色：" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="密码：" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBlock>
+            <ComboBox Grid.Row="0" Grid.Column="1" VerticalContentAlignment="Center" VerticalAlignment="Center" Margin="4,0,16,0" x:Name="cmbUserName" SelectedIndex="0" IsEditable="False" ItemsSource="{Binding}" DisplayMemberPath="UserName" />
+            <ComboBox Grid.Row="1" Grid.Column="1" VerticalContentAlignment="Center" VerticalAlignment="Center" Margin="4,0,16,0" x:Name="cmbRoleType" SelectedIndex="0" IsEditable="False" DataContext="{Binding ElementName=cmbUserName, Path=SelectedItem}" SelectedItem="{Binding Right}" IsEnabled="False"/>
+            <TextBox Grid.Row="2" Grid.Column="1" VerticalContentAlignment="Center" VerticalAlignment="Center" Margin="4,0,16,0" x:Name="boxPassword" DataContext="{Binding ElementName=cmbUserName,Path=SelectedItem}" Text="{Binding Password}" IsReadOnly="True" />
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" Grid.Column="0" x:Name="btnAddUser" Content="增加" VerticalContentAlignment="Center" MaxHeight="26" MaxWidth="120" Click="OnButtonAddUserClicked" />
+            <Button Grid.Row="0" Grid.Column="1" x:Name="btnModifyUser" Content="修改" VerticalContentAlignment="Center" MaxHeight="26" MaxWidth="120" Click="OnModifyUserClicked" />
+            <Button Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" x:Name="btnDeleteUser" Content="删除" VerticalContentAlignment="Center" MaxHeight="26" MaxWidth="120" Click="OnButtonDeleteClicked" />
+            
+        </Grid>
+    </Grid>
+</controls:MetroWindow>

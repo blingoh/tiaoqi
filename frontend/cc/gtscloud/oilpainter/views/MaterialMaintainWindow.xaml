@@ -1,0 +1,176 @@
+﻿<controls:MetroWindow x:Class="frontend.cc.gtscloud.oilpainter.views.MaterialMaintainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:frontend.cc.gtscloud.oilpainter.views"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="料号维护" Height="600" Width="860" WindowStartupLocation="CenterOwner">
+    <Window.Resources>
+        <Style x:Key="centerContentCellStyle" TargetType="{x:Type TextBlock}">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+    </Window.Resources>
+    <Grid x:Name="gridParent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <controls:MetroAnimatedTabControl Grid.Row="0">
+            <controls:MetroTabItem Header="主信息" FontSize="12">
+                <Grid>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="120" />
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" DataContext="{Binding ElementName=dtMaterialList, Path=SelectedItem.BomBasic}">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.55*" />
+                                <ColumnDefinition Width="1.5*" />
+                                <ColumnDefinition Width="1.2*" />
+                                <ColumnDefinition Width="1.5*" />
+                                <ColumnDefinition Width="1.4*" />
+                                <ColumnDefinition Width="1.5*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="客户" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0, 0, 4, 0" />
+                            <TextBlock Text="机种品名" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0, 0, 4, 0"/>
+                            <TextBlock Text="厂商" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0, 0, 4, 0" />
+                            <TextBlock Text="喷漆类型" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0, 0, 4, 0"/>
+                            <TextBlock Text="油漆黏度（上限）" Grid.Row="0" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0, 0, 4, 0" />
+                            <TextBlock Text="油漆黏度（下限）" Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0, 0, 4, 0" />
+                            <TextBlock Text="固化剂比例" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0, 0, 4, 0" />
+                            <TextBlock Text="网布目数" Grid.Row="3" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0, 0, 4, 0" />
+                            <TextBlock Text="稀释剂比例（上限）" Grid.Row="0" Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0, 0, 4, 0" />
+                            <TextBlock Text="稀释剂比例（下限）" Grid.Row="1" Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0, 0, 4, 0" />
+                            <TextBlock Text="有效时间" Grid.Row="2" Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0, 0, 4, 0" />
+                            <Grid Grid.Row="0" Grid.Column="1" Margin="4,0,8,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="32" />
+                                </Grid.ColumnDefinitions>
+                                <ComboBox x:Name="cmbCustomer" Grid.Column="0" DataContext="{Binding ElementName=gridParent, Path=DataContext.AllCustomers}" VerticalAlignment="Center" Margin="0,0,2,0" ItemsSource="{Binding}" DisplayMemberPath="CustomerName" IsReadOnly="True" Text="{Binding ElementName=dtMaterialList, Path=SelectedItem.BomBasic.CustomerName}" IsEnabled="False" />
+                                <Button Grid.Column="1" VerticalAlignment="Center" Content="&#xf4a4;" FontFamily="{DynamicResource IonIcons}">
+                                    <Button.Style>
+                                        <Style TargetType="Button">
+                                            <Setter Property="BorderBrush" Value="Transparent" />
+                                            <Setter Property="BorderThickness" Value="0" />
+                                            <Setter Property="Background" Value="#4FC3F7" />
+                                            <Setter Property="Width" Value="{Binding Path=ActualHeight, ElementName=cmbCustomer}" />
+                                            <Setter Property="Height" Value="{Binding Path=ActualHeight, ElementName=cmbCustomer}" />
+                                            <Setter Property="Foreground" Value="#fff" />
+                                            <Setter Property="FontSize" Value="16" />
+                                        </Style>
+                                    </Button.Style>
+                                </Button>
+                            </Grid>
+                            <TextBox Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Margin="4,0,8,0" Text="{Binding ProductName}" IsReadOnly="True" />
+                            <TextBox Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Margin="4,0,8,0" Text="{Binding Supplier}" IsReadOnly="True" />
+                            <TextBox Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Margin="4,0,8,0" Text="{Binding OilPlaintType}" IsReadOnly="True" />
+                            <TextBox Grid.Row="0" Grid.Column="3" VerticalAlignment="Center" Margin="4,0,8,0" Text="{Binding OilSpeedU}" IsReadOnly="True" />
+                            <TextBox Grid.Row="1" Grid.Column="3" VerticalAlignment="Center" Margin="4,0,8,0" Text="{Binding OilSpeedL}" IsReadOnly="True" />
+                            <TextBox Grid.Row="2" Grid.Column="3" VerticalAlignment="Center" Margin="4,0,8,0" Text="{Binding GuHuaPercent}" IsReadOnly="True" />
+                            <TextBox Grid.Row="3" Grid.Column="3" VerticalAlignment="Center" Margin="4,0,8,0" Text="{Binding WBMS}" IsReadOnly="True" />
+                            <TextBox Grid.Row="0" Grid.Column="5" VerticalAlignment="Center" Margin="4,0,8,0" Text="{Binding XiShiUpPercent}" IsReadOnly="True" />
+                            <TextBox Grid.Row="1" Grid.Column="5" VerticalAlignment="Center" Margin="4,0,8,0" Text="{Binding XiShiLowPercent}" IsReadOnly="True" />
+                            <TextBox Grid.Row="2" Grid.Column="5" VerticalAlignment="Center" Margin="4,0,8,0" Text="{Binding ValidHours}" IsReadOnly="True" />
+                        </Grid>
+                        <Grid Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="0.4*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                            </Grid.RowDefinitions>
+                            <Button Grid.Row="0" Content="增加" VerticalAlignment="Center" Margin="4,0,4,0" Click="OnAddBomButtonClicked" />
+                            <Button Grid.Row="1" Content="修改" VerticalAlignment="Center" Margin="4,0,4,0" Click="OnModifyBomButtonClicked" />
+                            <Button Grid.Row="2" Content="删除" VerticalAlignment="Center" Margin="4,0,4,0" Click="OnDeleteBomButtonClicked" />
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </controls:MetroTabItem>
+            <controls:MetroTabItem Header="物料清单" FontSize="12">
+                <Grid Margin="8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="42" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="1*" />
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Grid.Column="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="主剂料号：" VerticalAlignment="Center" Margin="8,0,0,0" />
+                    </Grid>
+                    <TextBox Grid.Row="1" Grid.Column="0" Margin="8,4,8,4" VerticalContentAlignment="Center" Text="{Binding ElementName=listMain, Path=SelectedItem.PartNumber}" IsReadOnly="True" />
+                    <ListBox x:Name="listMain" Grid.Row="2" Grid.Column="0" Margin="8,4,8,4" BorderThickness="1" BorderBrush="#64B5F6" DataContext="{Binding ElementName=dtMaterialList, Path=SelectedItem.MainPart}" ItemsSource="{Binding}" DisplayMemberPath="PartNumber" SelectedIndex="0" />
+                    <Border Grid.Column="0" BorderThickness="1" BorderBrush="#E0E0E0" Grid.RowSpan="3" />
+                    <Grid Grid.Row="0" Grid.Column="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="固化剂料号：" VerticalAlignment="Center" Margin="8,0,0,0" />
+                    </Grid>
+                    <TextBox Grid.Row="1" Grid.Column="1" Margin="8,4,8,4" VerticalContentAlignment="Center" Text="{Binding ElementName=listGuhua, Path=SelectedItem.PartNumber}" IsReadOnly="True" />
+                    <ListBox x:Name="listGuhua" Grid.Row="2" Grid.Column="1" Margin="8,4,8,4" BorderThickness="1" BorderBrush="#64B5F6" DataContext="{Binding ElementName=dtMaterialList, Path=SelectedItem.GuHua}" ItemsSource="{Binding}" DisplayMemberPath="PartNumber" SelectedIndex="0" />
+                    <Border Grid.Column="1" BorderThickness="0,1,1,1" BorderBrush="#E0E0E0" Grid.RowSpan="3" />
+                    <Grid Grid.Row="0" Grid.Column="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="稀释剂料号：" VerticalAlignment="Center" Margin="8,0,0,0" />
+                    </Grid>
+                    <TextBox Grid.Row="1" Grid.Column="2" Margin="8,4,8,4" VerticalContentAlignment="Center" Text="{Binding ElementName=listXishi, Path=SelectedItem.PartNumber}" IsReadOnly="True" />
+                    <ListBox x:Name="listXishi" Grid.Row="2" Grid.Column="2" Margin="8,4,8,4" BorderThickness="1" BorderBrush="#64B5F6" DataContext="{Binding ElementName=dtMaterialList, Path=SelectedItem.XiShi}" ItemsSource="{Binding}" DisplayMemberPath="PartNumber" SelectedIndex="0" />
+                    <Border Grid.Column="2" BorderThickness="0,1,1,1" BorderBrush="#E0E0E0" Grid.RowSpan="3" />
+                </Grid>
+            </controls:MetroTabItem>
+        </controls:MetroAnimatedTabControl>
+        <Grid Grid.Row="1" DataContext="{Binding ElementName=gridParent, Path=DataContext.AllBoms}">
+            <DataGrid x:Name="dtMaterialList" AutoGenerateColumns="False" ItemsSource="{Binding}" CanUserAddRows="False" SelectedIndex="0" GridLinesVisibility="Horizontal" ColumnHeaderHeight="42" EnableColumnVirtualization="False" EnableRowVirtualization="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="客户" Width="100" Binding="{Binding BomBasic.CustomerName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="品名/机种" Width="120" Binding="{Binding BomBasic.ProductName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <!--<DataGridComboBoxColumn Header="主剂料号" Width="120" ItemsSource="{Binding MainPart, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"  DisplayMemberPath="PartNumber" />-->
+                    <DataGridTemplateColumn Header="主剂料号" Width="120" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <ComboBox ItemsSource="{Binding MainPart, Mode=TwoWay, UpdateSourceTrigger=LostFocus}" DisplayMemberPath="PartNumber" SelectedIndex="0" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn Header="厂商" Width="120" Binding="{Binding BomBasic.Supplier, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="油漆类型" Binding="{Binding BomBasic.OilPlaintType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="流速上限" Binding="{Binding BomBasic.OilSpeedU, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="流速下限" Binding="{Binding BomBasic.OilSpeedL, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="网布目数" Binding="{Binding BomBasic.WBMS, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="固化剂比例" Binding="{Binding BomBasic.GuHuaPercent, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="稀释剂比例（上限）" Binding="{Binding BomBasic.XiShiUpPercent, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="稀释剂比例（下限）" Binding="{Binding BomBasic.XiShiLowPercent, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="油漆有效时间" Binding="{Binding BomBasic.ValidHours, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</controls:MetroWindow>

@@ -1,0 +1,20 @@
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\SystemRegister\bin\Release\调漆工艺管理系统注册机.exe.config
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\SystemRegister\bin\Release\调漆工艺管理系统注册机.exe
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\SystemRegister\bin\Release\调漆工艺管理系统注册机.pdb
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\SystemRegister\obj\Release\SystemRegister.FrmMain.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\SystemRegister\obj\Release\SystemRegister.Properties.Resources.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\SystemRegister\obj\Release\SystemRegister.csproj.GenerateResource.Cache
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\SystemRegister\obj\Release\调漆工艺管理系统注册机.exe
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\SystemRegister\obj\Release\调漆工艺管理系统注册机.pdb
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\SystemRegister\obj\Release\SystemRegister.csprojResolveAssemblyReference.cache
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SystemRegister\bin\Release\调漆工艺管理系统注册机.exe.config
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SystemRegister\bin\Release\调漆工艺管理系统注册机.exe
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SystemRegister\bin\Release\调漆工艺管理系统注册机.pdb
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SystemRegister\obj\Release\SystemRegister.csprojResolveAssemblyReference.cache
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SystemRegister\obj\Release\SystemRegister.FrmMain.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SystemRegister\obj\Release\SystemRegister.Properties.Resources.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SystemRegister\obj\Release\SystemRegister.csproj.GenerateResource.Cache
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SystemRegister\obj\Release\调漆工艺管理系统注册机.exe
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SystemRegister\obj\Release\调漆工艺管理系统注册机.pdb
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SystemRegister\bin\Release\log4net.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SystemRegister\bin\Release\log4net.xml

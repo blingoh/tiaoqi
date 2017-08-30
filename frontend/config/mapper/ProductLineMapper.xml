@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="frontend.cc.gtscloud.oilpainter.dao.model.mapper" xmlns="http://ibatis.apache.org/mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <alias>
+    <typeAlias alias="ProductLine" type="frontend.cc.gtscloud.oilpainter.dao.model.ProductLineModel, frontend"/>
+  </alias>
+  <resultMaps>
+    <resultMap id="ProductLineTableMapper" class="ProductLine">
+      <result property="LineCode" column="LineCode"/>
+      <result property="LineName" column="LineName"/>
+    </resultMap>
+  </resultMaps>
+  <statements>
+    <select id="SelectAllProductLines" resultClass="ProductLine" resultMap="ProductLineTableMapper">
+      SELECT
+      *
+      FROM
+      [SprayLacquerManagement].[dbo].[ProductionLine]
+    </select>
+    <insert id="InsertProductLine" parameterClass="ProductLine">
+      INSERT INTO
+      [SprayLacquerManagement].[dbo].[ProductionLine]
+      ([LineCode],[LineName])
+      VALUES
+      (#LineCode#, #LineName#);
+    </insert>
+    <select id="SelectProductLineWithCode" resultClass="ProductLine" resultMap="ProductLineTableMapper">
+      SELECT
+      *
+      FROM
+      [SprayLacquerManagement].[dbo].[ProductionLine]
+      WHERE 
+      [LineCode] = #linecode#;
+    </select>
+    <delete id="DeleteProductLineWithCode">
+      DELETE
+      FROM [SprayLacquerManagement].[dbo].[ProductionLine]
+      WHERE
+      [LineCode] = #linecode#;
+    </delete>
+    <delete id="DeleteAllProductLines">
+      DELETE
+      FROM
+      [SprayLacquerManagement].[dbo].[ProductionLine];
+    </delete>
+    <update id="UpdateLineName" parameterClass="ProductLine">
+      UPDATE
+      [SprayLacquerManagement].[dbo].[ProductionLine]
+      SET [LineName] = #LineName#
+      WHERE [LineCode] = #LineCode#;
+    </update>
+  </statements>
+</sqlMap>

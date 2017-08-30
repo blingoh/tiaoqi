@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="frontend.cc.gtscloud.oilpainter.dao.model.mapper" xmlns="http://ibatis.apache.org/mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <alias>
+    <typeAlias alias="OilTypeModel" type="frontend.cc.gtscloud.oilpainter.dao.model.OilPaintTypeModel" />
+  </alias>
+  <resultMaps>
+    <resultMap class="OilTypeModel" id="OilTypeMapper">
+      <result column="OilPaintType" property="OilPaintType"/>
+      <result column="Description" property="Description"/>
+    </resultMap>
+  </resultMaps>
+  <statements>
+    <select id="SelectAllOilTypes" resultClass="OilTypeModel" resultMap="OilTypeMapper">
+      SELECT *
+      FROM [SprayLacquerManagement].[dbo].[OilPaintTypes]
+      WHERE 1 = 1 
+      ORDER BY [OilPaintType]
+    </select>
+    <select id="SelectOilTypeWithId" resultClass="OilTypeModel" resultMap="OilTypeMapper">
+      SELECT *
+      FROM [SprayLacquerManagement].[dbo].[OilPaintTypes]
+      WHERE
+      1 = 1 AND
+      [OilPaintType] = #type#
+      ORDER BY [OilPaintType]
+    </select>
+    <insert id="InsertOilType" parameterClass="OilTypeModel">
+      INSERT
+      INTO [SprayLacquerManagement].[dbo].[OilPaintTypes]
+      ([OilPaintType], [Description])
+      VALUES
+      (#OilPaintType#, #Description#)
+    </insert>
+    <delete id="DeleteOilType">
+      DELETE
+      FROM [SprayLacquerManagement].[dbo].[OilPaintTypes]
+      WHERE
+      [OilPaintType] = #type#;
+    </delete>
+  </statements>
+</sqlMap>

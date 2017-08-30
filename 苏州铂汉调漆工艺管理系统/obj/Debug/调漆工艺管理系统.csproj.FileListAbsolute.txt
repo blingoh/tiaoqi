@@ -1,0 +1,122 @@
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\option.ini
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\调漆工艺管理系统.exe.config
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\调漆工艺管理系统.exe
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\调漆工艺管理系统.pdb
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\ProgBar.dll
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmAbout.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmAppendUser.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmBOMInfoQuery.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmChangePSW.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmCustomer.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmGuHuaPartInput.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmLogin.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmMain.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmMainPartInput.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmOilPaint.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmOption.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmBOM.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmProductionLine.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmScaleDebug.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmSpeedInput.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmTaskQuery.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmXiShiPartInput.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.Properties.Resources.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.csproj.GenerateResource.Cache
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.exe
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.pdb
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.csproj.ResolveComReference.cache
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\LabelPrintCSharp.dll
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\MyControls.dll
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\Interop.BarTender.dll
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmBOMUpload.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmMainPartInputSecondSolution.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmPrinter.resources
+C:\E437908\8-PP\苏州海岸线\苏州铂汉\苏州铂汉调漆工艺管理系统\Software\CurrentSoftware\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmRegister.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\option.ini
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\调漆工艺管理系统.exe.config
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\调漆工艺管理系统.exe
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\调漆工艺管理系统.pdb
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\BarCodeParser.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\EightPartBarCodeParser.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\LabelPrintCSharp.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\log4net.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\MyControls.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\ProgBar.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\SevenPartBarCodeParser.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\Interop.BarTender.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\BarCodeParser.pdb
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\EightPartBarCodeParser.pdb
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\SevenPartBarCodeParser.pdb
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\log4net.xml
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.csprojResolveAssemblyReference.cache
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.csproj.ResolveComReference.cache
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.BarcodeSettings.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmAbout.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmAppendUser.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmBOMInfoQuery.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmBOMUpload.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmChangePSW.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmCustomer.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmGuHuaPartInput.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmLogin.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmMain.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmMainPartInput.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmMainPartInputSecondSolution.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmOilPaint.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmOption.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmBOM.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmPrinter.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmProductionLine.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmRegister.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmScaleDebug.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmSpeedInput.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmTaskQuery.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmXiShiPartInput.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.Properties.Resources.resources
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.csproj.GenerateResource.Cache
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.exe
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.pdb
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\调漆工艺管理系统.exe.config
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.csproj.ResolveComReference.cache
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.exe
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.pdb
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.csprojResolveAssemblyReference.cache
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.BarcodeSettings.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmAbout.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmAppendUser.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmBOMInfoQuery.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmBOMUpload.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmChangePSW.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmCustomer.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmGuHuaPartInput.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmLogin.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmMain.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmMainPartInput.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmMainPartInputSecondSolution.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmOilPaint.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmOption.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmBOM.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmPrinter.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmProductionLine.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmRegister.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmScaleDebug.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmSpeedInput.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmTaskQuery.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmXiShiPartInput.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.Properties.Resources.resources
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.csproj.GenerateResource.Cache
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\option.ini
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\调漆工艺管理系统.exe
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\调漆工艺管理系统.pdb
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\BarCodeParser.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\EightPartBarCodeParser.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\LabelPrintCSharp.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\log4net.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\MyControls.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\ProgBar.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\SevenPartBarCodeParser.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\Interop.BarTender.dll
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\BarCodeParser.pdb
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\EightPartBarCodeParser.pdb
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\SevenPartBarCodeParser.pdb
+C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\bin\Debug\log4net.xml

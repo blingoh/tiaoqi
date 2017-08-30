@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="frontend.cc.gtscloud.oilpainter.dao.model.mapper" xmlns="http://ibatis.apache.org/mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <alias>
+    <typeAlias alias="BomInfoModel" type="frontend.cc.gtscloud.oilpainter.dao.model.BomInfoModel"/>
+    <typeAlias alias="BomPartInfoModel" type="frontend.cc.gtscloud.oilpainter.dao.model.BomPartInformationModel"/>
+    <typeAlias alias="BomQueryInfoModel" type="frontend.cc.gtscloud.oilpainter.models.BomQueryModel"/>
+  </alias>
+  <resultMaps>
+    <resultMap id="BomInfoModelMap" class="BomInfoModel">
+      <result column="BOMID" property="BomId" type="string"/>
+      <result column="CustomerName" property="CustomerName" type="string"/>
+      <result column="ProductName" property="ProductName" type="string"/>
+      <result column="Supplier" property="Supplier" type="string"/>
+      <result column="OilPlaintType" property="OilPlaintType" type="string"/>
+      <result column="OilSpeedU" property="OilSpeedU"/>
+      <result column="GuHuaPercent" property="GuHuaPercent"/>
+      <result column="XiShiUpPercent" property="XiShiUpPercent"/>
+      <result column="XiShiLowPercent" property="XiShiLowPercent"/>
+      <result column="OilSpeedL" property="OilSpeedL"/>
+      <result column="WBMS" property="WBMS"/>
+      <result column="ValidHours" property="ValidHours"/>
+    </resultMap>
+    <resultMap id="BomPartInfoMapper" class="BomPartInfoModel">
+      <result column="BOMID" property="BomId"/>
+      <result column="PartType" property="PartType"/>
+      <result column="PartNumber" property="PartNumber"/>
+    </resultMap>
+    <resultMap id="QueryBomInfoMapper" class="BomQueryInfoModel">
+      <result column="CustomerName" property="Customer"/>
+      <result column="ProductName" property="MachineType"/>
+      <result column="PartNumber" property="MainMaterial"/>
+      <result column="Supplier" property="Manufacturer"/>
+      <result column="OilPlaintType" property="PaintType"/>
+      <result column="BOMID" property="BomId"/>
+    </resultMap>
+  </resultMaps>
+  <statements>
+    <select id="SelectAllBomInfo" resultMap="BomInfoModelMap" resultClass="BomInfoModel">
+      SELECT *
+      FROM [SprayLacquerManagement].[dbo].[BOMInfo]
+      ORDER BY [CustomerName] ASC;
+    </select>
+    <select id="SelectAllPartsWithBomID" resultMap="BomPartInfoMapper" resultClass="BomPartInfoModel">
+      SELECT *
+      FROM [SprayLacquerManagement].[dbo].[PartsInfo]
+      WHERE BOMID = #bomid# ORDER BY [PartType];
+    </select>
+    <select id="SelectAllPartsInfo">
+      SELECT *
+      FROM [SprayLacquerManagement].[dbo].[PartsInfo]
+      WHERE 1 = 1 ORDER BY [BOMID];
+    </select>
+    <select id="SelectPartInfo" parameterClass="BomPartInfoModel" resultClass="BomPartInfoModel">
+      SELECT *
+      FROM [SprayLacquerManagement].[dbo].[PartsInfo]
+      WHERE 
+        1 = 1 AND 
+        [BOMID] = #BomId# AND
+        [PARTTYPE] = #PartType# AND
+        [PARTNUMBER] = #PartNumber#
+        ORDER BY [BOMID];
+    </select>
+    <select id="SelectBomWithParameter" resultMap="QueryBomInfoMapper" resultClass="BomQueryInfoModel">
+      SELECT
+        [CustomerName],
+        [ProductName],
+        [PartNumber],
+        [Supplier],
+        [OilPlaintType],
+        [BOMInfo].[BOMID] AS BOMID
+      FROM
+        [SprayLacquerManagement].[dbo].[BOMInfo],
+      (
+      SELECT
+      *
+      FROM
+        [SprayLacquerManagement].[dbo].[PartsInfo]
+      WHERE
+        [PartType] = 'MAIN'
+      ) AS T
+      WHERE
+        1 = 1
+        AND T.[BOMID] = [BOMInfo].[BOMID]
+        AND [CustomerName] LIKE '%$Customer$%'
+        AND [ProductName] LIKE '%$MachineType$%'
+        AND [Supplier] LIKE '%$Manufacturer$%'
+        AND [OilPlaintType] LIKE '%$PaintType$%'
+        AND [BOMInfo].[BOMID] LIKE '%$BomId$%'
+      ORDER BY [PartNumber]
+    </select>
+    <insert id="InsertBom" parameterClass="BomInfoModel">
+      INSERT INTO [SprayLacquerManagement].[dbo].[BOMInfo] (
+        [BOMID],
+        [CustomerName],
+        [ProductName],
+        [Supplier],
+        [OilPlaintType],
+        [OilSpeedU],
+        [GuHuaPercent],
+        [XiShiUpPercent],
+        [XiShiLowPercent],
+        [OilSpeedL],
+        [WBMS],
+        [validhours]
+      )
+      VALUES
+      (
+        #BomId#,
+        #CustomerName#,
+        #ProductName#,
+        #Supplier#,
+        #OilPlaintType#,
+        #OilSpeedU#,
+        #GuHuaPercent#,
+        #XiShiUpPercent#,
+        #XiShiLowPercent#,
+        #OilSpeedL#,
+        #WBMS#,
+        #ValidHours#
+      )
+    </insert>
+    <insert id="InsertMainPartInfo" parameterClass="BomPartInfoModel">
+      INSERT INTO [SprayLacquerManagement].[dbo].[PartsInfo] (
+        [BOMID],
+        [PartType],
+        [PartNumber]
+      )
+      VALUES
+      (
+        #BomId#,
+        'MAIN',
+        #PartNumber#
+      )
+    </insert>
+    <insert id="InsertGuhuaPartInfo" parameterClass="BomPartInfoModel">
+      INSERT INTO [SprayLacquerManagement].[dbo].[PartsInfo] (
+      [BOMID],
+      [PartType],
+      [PartNumber]
+      )
+      VALUES
+      (
+      #BomId#,
+      'GUHUA',
+      #PartNumber#
+      )
+    </insert>
+    <insert id="InsertXishiPartInfo" parameterClass="BomPartInfoModel">
+      INSERT INTO [SprayLacquerManagement].[dbo].[PartsInfo] (
+      [BOMID],
+      [PartType],
+      [PartNumber]
+      )
+      VALUES
+      (
+      #BomId#,
+      'XISHI',
+      #PartNumber#
+      )
+    </insert>
+    <delete id="DeleteBom">
+      DELETE FROM [SprayLacquerManagement].[dbo].[BOMInfo]
+      WHERE [BOMID] = #bomid#
+    </delete>
+    <delete id="DeleteMainPart">
+      DELETE FORM [SprayLacquerManagement].[dbo].[PartsInfo]
+      WHERE
+        [BOMID] = #bomid# AND
+        [PartNumber] = #partnumber# AND
+        [PARTTYPE] = 'MAIN'
+    </delete>
+    <delete id="DeleteGuhuaPart">
+      DELETE FORM [SprayLacquerManagement].[dbo].[PartsInfo]
+      WHERE
+        [BOMID] = #bomid# AND
+        [PartNumber] = #partnumber# AND
+        [PARTTYPE] = 'GUHUA'
+    </delete>
+    <delete id="DeleteXishiPart">
+      DELETE FORM [SprayLacquerManagement].[dbo].[PartsInfo]
+      WHERE
+        [BOMID] = #bomid# AND
+        [PartNumber] = #partnumber# AND
+        [PARTTYPE] = 'XISHI'
+    </delete>
+    <update id="UpdateBomInfo" parameterClass="BomInfoModel">
+      UPDATE [SprayLacquerManagement].[dbo].[BOMInfo] 
+        SET 
+          [CustomerName] = #CustomerName#,
+          [ProductName] = #ProductName#,
+          [Supplier] = #Supplier#,
+          [OilPlaintType] = #OilPlaintType#,
+          [OilSpeedU] = #OilSpeedU#,
+          [GuHuaPercent] = #GuHuaPercent#,
+          [XiShiUpPercent] = #XiShiUpPercent#,
+          [XiShiLowPercent] = #XiShiLowPercent#,
+          [OilSpeedL] = #OilSpeedL#,
+          [WBMS] = #WBMS#,
+          [validhours] = #ValidHours#
+      WHERE 
+        [BOMID] = #BomId#
+    </update>
+    <delete id="DeleteBomPart">
+      DELETE
+      FROM
+        [SprayLacquerManagement].[dbo].[PartsInfo]
+      WHERE 
+        [BOMID] = #bomid#
+    </delete>
+    <select id="SelectBomWithID" resultClass="BomInfoModel" resultMap="BomInfoModelMap">
+      SELECT * 
+      FROM 
+        [SprayLacquerManagement].[dbo].[BOMInfo]
+      WHERE [BOMID] = #bomid#
+    </select>
+  </statements>
+</sqlMap>

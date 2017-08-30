@@ -1,0 +1,84 @@
+﻿<controls:MetroWindow x:Class="frontend.cc.gtscloud.oilpainter.views.BomUploadWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:frontend.cc.gtscloud.oilpainter.views"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="BOM上传" Height="500" Width="600" WindowStartupLocation="CenterOwner">
+    <Window.Resources>
+        <Style x:Key="centerContentCellStyle" TargetType="{x:Type TextBlock}">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+    </Window.Resources>
+    <Grid x:Name="gridBomUploadView">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="240" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Bom模板：" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+            <TextBox IsReadOnly="True" Grid.Column="1" VerticalAlignment="Center" Text="{Binding BomFilePath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            <StackPanel Grid.Column="2" Orientation="Horizontal">
+                <Button VerticalAlignment="Center" Margin="12,0,12,0" HorizontalAlignment="Right" MinWidth="100" MaxWidth="180" Click="OnBomLoadButtonClicked">
+                    <StackPanel Orientation="Horizontal">
+                        <Label FontFamily="{DynamicResource IonIcons}" Content="&#xf46a;" FontSize="16" VerticalContentAlignment="Center" Foreground="#fff" />
+                        <Label Content="浏览" VerticalContentAlignment="Center" Foreground="#fff" />
+                    </StackPanel>
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="BorderBrush" Value="Transparent" />
+                            <Setter Property="BorderThickness" Value="0" />
+                            <Setter Property="Background" Value="#2196F3" />
+                        </Style>
+                    </Button.Style>
+                </Button>
+                <Button VerticalAlignment="Center" Margin="12,0,12,0" HorizontalAlignment="Right" MinWidth="100" MaxWidth="180" Click="OnButtonUploadClicked">
+                    <StackPanel Orientation="Horizontal">
+                        <Label FontFamily="{DynamicResource IonIcons}" Content="&#xf4cb;" FontSize="16" VerticalContentAlignment="Center" Foreground="#fff" />
+                        <Label Content="确认上传" VerticalContentAlignment="Center" Foreground="#fff" />
+                    </StackPanel>
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="BorderBrush" Value="Transparent" />
+                            <Setter Property="BorderThickness" Value="0" />
+                            <Setter Property="Background" Value="#2196F3" />
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <DataGrid x:Name="dtBomInfos" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True" DataContext="{Binding Boms, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" ItemsSource="{Binding}">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="客户" Width="100" Binding="{Binding Customer, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="品名/机种" Width="120" Binding="{Binding MachineType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="厂商" Width="120" Binding="{Binding Supplier, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="颜色" Binding="{Binding Color, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="主剂料号1" Binding="{Binding MainMeterialOne, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="主剂料号2" Binding="{Binding MainMeterialTwo, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="主剂料号3" Binding="{Binding MainMeterialThree, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="固化剂1" Binding="{Binding GuhuaOne, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="固化剂2" Binding="{Binding GuhuaTwo, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="固化剂3" Binding="{Binding GuhuaThree, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="固化剂比例" Binding="{Binding GuhuaRate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="稀释剂1" Binding="{Binding XishiOne, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="稀释剂2" Binding="{Binding XishiTwo, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="稀释剂3" Binding="{Binding XishiThree, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="稀释剂上限" Binding="{Binding XishiUp, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="稀释剂下限" Binding="{Binding XishiLow, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="油漆黏度上限" Binding="{Binding OilSpeedUp, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="油漆粘度下限" Binding="{Binding OilSpeedLow, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                    <DataGridTextColumn Header="网布目数" Binding="{Binding WBMS, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" ElementStyle="{StaticResource centerContentCellStyle}" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</controls:MetroWindow>

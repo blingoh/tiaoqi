@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="TestApp" xmlns="http://ibatis.apache.org/mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <resultMaps>
+    <resultMap id="AccountMap" class="ConsoleApplication1.AccountModel, ConsoleApplication1">
+      <result property="Username" column="username"/>
+      <result property="StudentCode" column="studentcode"/>
+      <result property="Password" column="password"/>
+      <result property="Salt" column="salt"/>
+      <result property="NickName" column="nickname"/>
+      <result property="Mobile" column="mobile"/>
+      <result property="Birthday" column="birthday" />
+      <result property="InformationDescription" column="infodescription"/>
+      <result property="Sex" column="sex"/>
+    </resultMap>
+  </resultMaps>
+
+  <statements>
+    <statement id="FindAccountByUsername" parameterClass="System.String" resultClass="ConsoleApplication1.AccountModel" resultMap="AccountMap">
+      SELECT
+      username
+      ,studentcode
+      ,password
+      ,salt
+      ,nickname
+      ,mobile
+      ,birthday
+      ,infodescription
+      ,sex
+      FROM DBSchoolHelper.dbo.Account WHERE USERNAME = #username#
+    </statement>
+  </statements>
+  
+  
+</sqlMap>

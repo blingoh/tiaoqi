@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="TestApp" xmlns="http://ibatis.apache.org/mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+
+  <statements>
+    <statement id="FindPageId" parameterClass="System.String" resultClass="System.Guid" >
+      SELECT Top(1) PageId
+      FROM tpzPages
+      WHERE FriendlyName =  #value#
+    </statement>
+  </statements>
+</sqlMap>

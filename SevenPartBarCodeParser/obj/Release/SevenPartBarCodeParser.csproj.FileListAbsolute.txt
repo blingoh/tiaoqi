@@ -1,0 +1,7 @@
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SevenPartBarCodeParser\bin\Release\SevenPartBarCodeParser.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SevenPartBarCodeParser\bin\Release\SevenPartBarCodeParser.pdb
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SevenPartBarCodeParser\bin\Release\BarCodeParser.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SevenPartBarCodeParser\bin\Release\BarCodeParser.pdb
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SevenPartBarCodeParser\obj\Release\SevenPartBarCodeParser.csprojResolveAssemblyReference.cache
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SevenPartBarCodeParser\obj\Release\SevenPartBarCodeParser.dll
+C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SevenPartBarCodeParser\obj\Release\SevenPartBarCodeParser.pdb

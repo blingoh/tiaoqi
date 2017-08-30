@@ -1,0 +1,43 @@
+﻿<controls:MetroWindow x:Class="frontend.cc.gtscloud.oilpainter.views.PrintDebugWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:frontend.cc.gtscloud.oilpainter.views"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="打印测试" Height="500" Width="400" WindowStartupLocation="CenterOwner" ResizeMode="CanMinimize">
+    <Grid x:Name="gridRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48" />
+            <RowDefinition Height="48" />
+            <RowDefinition Height="48" />
+            <RowDefinition Height="48" />
+            <RowDefinition Height="48" />
+            <RowDefinition Height="48" />
+            <RowDefinition Height="48" />
+            <RowDefinition Height="64" />
+            <RowDefinition Height="64" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Text="线别" Margin="0,0,16,0" />
+        <TextBlock Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Text="机种" Margin="0,0,16,0" />
+        <TextBlock Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Text="原油料号" Margin="0,0,16,0" />
+        <TextBlock Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Text="固化剂料号" Margin="0,0,16,0" />
+        <TextBlock Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Text="稀释剂料号" Margin="0,0,16,0" />
+        <TextBlock Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Text="油漆秒数" Margin="0,0,16,0" />
+        <TextBlock Grid.Row="6" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center" Text="有效时间" Margin="0,0,16,0" />
+        <TextBox Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Margin="4,0,32,0" MaxWidth="300" Text="{Binding LineType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <TextBox Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Margin="4,0,32,0" MaxWidth="300" Text="{Binding MachineType, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <TextBox Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Margin="4,0,32,0" MaxWidth="300" Text="{Binding OilMaterialNum, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <TextBox Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Margin="4,0,32,0" MaxWidth="300" Text="{Binding GuhuaMaterialNu, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <TextBox Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" Margin="4,0,32,0" MaxWidth="300" Text="{Binding XishiMaterialNum, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <controls:NumericUpDown Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" Margin="4,0,32,0" MaxWidth="300" Value="{Binding OilSeconds, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <controls:NumericUpDown Grid.Row="6" Grid.Column="1" VerticalAlignment="Center" Margin="4,0,32,0" MaxWidth="300" Value="{Binding ValidateTime, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <Button Grid.Row="7" Grid.ColumnSpan="2" Content="测试" Margin="32,8,32,8" Click="OnTestButtonClicked" />
+        <Button Grid.Row="8" Grid.ColumnSpan="2" Content="打印最后一次调漆记录" Margin="32,8,32,8" Click="OnPrintLastButtonClicked" />
+    </Grid>
+</controls:MetroWindow>
