@@ -95,7 +95,7 @@ namespace 调漆工艺管理系统
 
             if (biaozhunPercent.Checked == true)
             {
-                AppendSQL(ref sql, "cast([GuHuaRate] as varchar(6))+':'+cast(XiShiWeightSPECU as varchar(6))+':'+CAST([XiShiWeightSPECL] as varchar(6)) as '标准比例(固：稀)',");
+                AppendSQL(ref sql, "cast([GuHuaRate] as varchar(6))+':'+cast(XiShiWeightSPECU as varchar(6))+'-'+CAST([XiShiWeightSPECL] as varchar(6)) as '标准比例(固：稀)',");
             }
 
 
