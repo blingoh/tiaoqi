@@ -8,3 +8,8 @@ C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工�
 C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\BarCodeParser\obj\Debug\BarCodeParser.csprojResolveAssemblyReference.cache
 C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\BarCodeParser\obj\Debug\BarCodeParser.dll
 C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\BarCodeParser\obj\Debug\BarCodeParser.pdb
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\BarCodeParser\bin\Debug\BarCodeParser.dll
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\BarCodeParser\bin\Debug\BarCodeParser.pdb
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\BarCodeParser\obj\Debug\BarCodeParser.csprojResolveAssemblyReference.cache
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\BarCodeParser\obj\Debug\BarCodeParser.dll
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\BarCodeParser\obj\Debug\BarCodeParser.pdb

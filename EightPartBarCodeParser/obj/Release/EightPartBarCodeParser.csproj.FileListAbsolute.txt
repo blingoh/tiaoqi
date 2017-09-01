@@ -5,3 +5,10 @@ C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉�
 C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\EightPartBarCodeParser\obj\Release\EightPartBarCodeParser.csprojResolveAssemblyReference.cache
 C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\EightPartBarCodeParser\obj\Release\EightPartBarCodeParser.dll
 C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\EightPartBarCodeParser\obj\Release\EightPartBarCodeParser.pdb
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\EightPartBarCodeParser\bin\Release\EightPartBarCodeParser.dll
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\EightPartBarCodeParser\bin\Release\EightPartBarCodeParser.pdb
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\EightPartBarCodeParser\bin\Release\BarCodeParser.dll
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\EightPartBarCodeParser\bin\Release\BarCodeParser.pdb
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\EightPartBarCodeParser\obj\Release\EightPartBarCodeParser.dll
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\EightPartBarCodeParser\obj\Release\EightPartBarCodeParser.pdb
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\EightPartBarCodeParser\obj\Release\EightPartBarCodeParser.csprojResolveAssemblyReference.cache

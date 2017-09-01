@@ -3,3 +3,7 @@ C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉�
 C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\cc.gtscloud.oilpainter.serialport\obj\Release\cc.gtscloud.oilpainter.serialport.csprojResolveAssemblyReference.cache
 C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\cc.gtscloud.oilpainter.serialport\obj\Release\cc.gtscloud.oilpainter.serialport.dll
 C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\cc.gtscloud.oilpainter.serialport\obj\Release\cc.gtscloud.oilpainter.serialport.pdb
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\cc.gtscloud.oilpainter.serialport\bin\Release\cc.gtscloud.oilpainter.serialport.dll
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\cc.gtscloud.oilpainter.serialport\bin\Release\cc.gtscloud.oilpainter.serialport.pdb
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\cc.gtscloud.oilpainter.serialport\obj\Release\cc.gtscloud.oilpainter.serialport.dll
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\cc.gtscloud.oilpainter.serialport\obj\Release\cc.gtscloud.oilpainter.serialport.pdb

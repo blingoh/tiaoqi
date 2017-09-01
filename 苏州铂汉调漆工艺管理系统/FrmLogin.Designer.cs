@@ -164,7 +164,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.CancelButton = this.btnCancel;
             this.ClientSize = new System.Drawing.Size(400, 252);
-            this.Controls.Add(this.chkRemember);
+          //  this.Controls.Add(this.chkRemember);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCancel);

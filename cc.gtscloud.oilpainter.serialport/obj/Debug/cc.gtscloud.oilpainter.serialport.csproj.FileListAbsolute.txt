@@ -8,3 +8,8 @@ C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工�
 C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\cc.gtscloud.oilpainter.serialport\obj\Debug\cc.gtscloud.oilpainter.serialport.csprojResolveAssemblyReference.cache
 C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\cc.gtscloud.oilpainter.serialport\obj\Debug\cc.gtscloud.oilpainter.serialport.dll
 C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\cc.gtscloud.oilpainter.serialport\obj\Debug\cc.gtscloud.oilpainter.serialport.pdb
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\cc.gtscloud.oilpainter.serialport\bin\Debug\cc.gtscloud.oilpainter.serialport.dll
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\cc.gtscloud.oilpainter.serialport\bin\Debug\cc.gtscloud.oilpainter.serialport.pdb
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\cc.gtscloud.oilpainter.serialport\obj\Debug\cc.gtscloud.oilpainter.serialport.csprojResolveAssemblyReference.cache
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\cc.gtscloud.oilpainter.serialport\obj\Debug\cc.gtscloud.oilpainter.serialport.dll
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\cc.gtscloud.oilpainter.serialport\obj\Debug\cc.gtscloud.oilpainter.serialport.pdb

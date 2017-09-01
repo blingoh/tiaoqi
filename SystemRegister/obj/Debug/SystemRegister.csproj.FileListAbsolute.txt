@@ -9,3 +9,14 @@ C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉�
 C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SystemRegister\obj\Debug\SystemRegister.csproj.GenerateResource.Cache
 C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SystemRegister\obj\Debug\调漆工艺管理系统注册机.exe
 C:\Users\Frank\Documents\工作\海岸线\调漆工具\Source Code\苏州铂汉调漆工艺管理系统\SystemRegister\obj\Debug\调漆工艺管理系统注册机.pdb
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\bin\Debug\调漆工艺管理系统注册机.exe.config
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\bin\Debug\调漆工艺管理系统注册机.exe
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\bin\Debug\调漆工艺管理系统注册机.pdb
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\bin\Debug\log4net.dll
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\bin\Debug\log4net.xml
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Debug\SystemRegister.csprojResolveAssemblyReference.cache
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Debug\SystemRegister.FrmMain.resources
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Debug\SystemRegister.Properties.Resources.resources
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Debug\SystemRegister.csproj.GenerateResource.Cache
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Debug\调漆工艺管理系统注册机.exe
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Debug\调漆工艺管理系统注册机.pdb
