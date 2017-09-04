@@ -594,9 +594,9 @@ namespace 调漆工艺管理系统
 
                     FrmMain.productiondata.GuHuaWeightSPECL = dRes * 0.95 * 1000 * productiondata.GuHUaTargetRate / 100;
                     FrmMain.productiondata.GuHuaWeightSPECU = dRes * 1.05 * 1000 * productiondata.GuHUaTargetRate / 100;
-                    
-                    FrmMain.productiondata.XiShiWeightSPECL = dRes * 100 / productiondata.XiShiTargetSPECL;
-                    FrmMain.productiondata.XiShiWeightSPECU = dRes * 100 / productiondata.XiShiTargetSPECU;
+
+                    FrmMain.productiondata.XiShiWeightSPECL = dRes * productiondata.XiShiTargetSPECL / 100;
+                    FrmMain.productiondata.XiShiWeightSPECU = dRes * productiondata.XiShiTargetSPECU / 100;
                 }
 
             }));

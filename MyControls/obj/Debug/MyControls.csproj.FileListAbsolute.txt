@@ -11,7 +11,6 @@ G:\苏州铂汉调漆工艺管理系统\tiaoqi\MyControls\bin\Debug\MyControls.d
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\MyControls\bin\Debug\MyControls.pdb
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\MyControls\bin\Debug\log4net.dll
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\MyControls\bin\Debug\log4net.xml
-G:\苏州铂汉调漆工艺管理系统\tiaoqi\MyControls\obj\Debug\MyControls.csprojResolveAssemblyReference.cache
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\MyControls\obj\Debug\MyControls.UserControl1.resources
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\MyControls\obj\Debug\MyControls.csproj.GenerateResource.Cache
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\MyControls\obj\Debug\MyControls.dll

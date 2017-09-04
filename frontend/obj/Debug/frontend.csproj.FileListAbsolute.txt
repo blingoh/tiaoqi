@@ -220,6 +220,9 @@ C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工�
 C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend.g.resources
 C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend.Properties.Resources.resources
 C:\Users\ppz\Desktop\苏州铂汉调漆工艺管理系统\苏州铂汉调漆工艺管理系统\frontend\obj\Debug\frontend.csproj.GenerateResource.Cache
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\frontend.exe.config
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\obj\Debug\Interop.BarTender.dll
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\obj\Debug\frontend.csproj.ResolveComReference.cache
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\cc\gtscloud\oilpainter\dll\Interop.BarTender.dll
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\Interop.BarTender.dll
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\providers.config
@@ -232,7 +235,6 @@ G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\config\mapper\
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\config\mapper\TaskMapper.xml
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\config\dbconfig.config
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\log4Net.config
-G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\frontend.exe.config
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\frontend.exe
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\frontend.pdb
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\BarCodeParser.dll
@@ -242,7 +244,6 @@ G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\Common.Logging
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\IBatisNet.Common.dll
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\IBatisNet.DataMapper.dll
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\ICSharpCode.SharpZipLib.dll
-G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\LabelPrintCSharp.dll
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\log4net.dll
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\MahApps.Metro.dll
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\MyBatis.Common.dll
@@ -251,7 +252,6 @@ G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\NPOI.dll
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\NPOI.OOXML.dll
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\NPOI.OpenXml4Net.dll
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\NPOI.OpenXmlFormats.dll
-G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\ProgBar.dll
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\System.Windows.Interactivity.dll
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\WpfAnimatedGif.dll
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\BarCodeParser.pdb
@@ -273,8 +273,6 @@ G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\NPOI.OOXML.xml
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\NPOI.OpenXml4Net.xml
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\bin\Debug\WpfAnimatedGif.xml
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\obj\Debug\frontend.csprojResolveAssemblyReference.cache
-G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\obj\Debug\Interop.BarTender.dll
-G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\obj\Debug\frontend.csproj.ResolveComReference.cache
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\obj\Debug\cc\gtscloud\oilpainter\views\AboutWindow.g.cs
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\obj\Debug\cc\gtscloud\oilpainter\views\BomModifyWindow.g.cs
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\obj\Debug\cc\gtscloud\oilpainter\views\BomUploadWindow.g.cs
