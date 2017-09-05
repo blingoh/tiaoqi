@@ -32,12 +32,12 @@ namespace 调漆工艺管理系统
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
-            ProgBar.cBlendItems cBlendItems1 = new ProgBar.cBlendItems();
-            ProgBar.cFocalPoints cFocalPoints1 = new ProgBar.cFocalPoints();
-            ProgBar.cBlendItems cBlendItems2 = new ProgBar.cBlendItems();
-            ProgBar.cFocalPoints cFocalPoints2 = new ProgBar.cFocalPoints();
-            ProgBar.cBlendItems cBlendItems3 = new ProgBar.cBlendItems();
-            ProgBar.cFocalPoints cFocalPoints3 = new ProgBar.cFocalPoints();
+            ProgBar.cBlendItems cBlendItems16 = new ProgBar.cBlendItems();
+            ProgBar.cFocalPoints cFocalPoints16 = new ProgBar.cFocalPoints();
+            ProgBar.cBlendItems cBlendItems17 = new ProgBar.cBlendItems();
+            ProgBar.cFocalPoints cFocalPoints17 = new ProgBar.cFocalPoints();
+            ProgBar.cBlendItems cBlendItems18 = new ProgBar.cBlendItems();
+            ProgBar.cFocalPoints cFocalPoints18 = new ProgBar.cFocalPoints();
             this.tsMain = new System.Windows.Forms.ToolStrip();
             this.tsbChangePSW = new System.Windows.Forms.ToolStripButton();
             this.tsbUserMainten = new System.Windows.Forms.ToolStripButton();
@@ -84,6 +84,7 @@ namespace 调漆工艺管理系统
             this.panel47 = new System.Windows.Forms.Panel();
             this.panel48 = new System.Windows.Forms.Panel();
             this.panel49 = new System.Windows.Forms.Panel();
+            this.btnStopXishi = new System.Windows.Forms.Button();
             this.lblXiShiLot = new System.Windows.Forms.Label();
             this.lblXiSHiPartNumber = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
@@ -118,6 +119,7 @@ namespace 调漆工艺管理系统
             this.panel25 = new System.Windows.Forms.Panel();
             this.panel26 = new System.Windows.Forms.Panel();
             this.panel27 = new System.Windows.Forms.Panel();
+            this.btnStopGuhua = new System.Windows.Forms.Button();
             this.lblGuHuaLotNum = new System.Windows.Forms.Label();
             this.lblGuHuaPartNumber = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -152,6 +154,7 @@ namespace 调漆工艺管理系统
             this.panel17 = new System.Windows.Forms.Panel();
             this.pnMainFoot = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.btnStopMain = new System.Windows.Forms.Button();
             this.lblMainPartsLotNumber = new System.Windows.Forms.Label();
             this.lblMainPartNumber = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -210,9 +213,6 @@ namespace 调漆工艺管理系统
             this.spPortXiShi = new System.IO.Ports.SerialPort(this.components);
             this.lnkLblAccount = new System.Windows.Forms.LinkLabel();
             this.lblWelcome = new System.Windows.Forms.Label();
-            this.btnStopMain = new System.Windows.Forms.Button();
-            this.btnStopGuhua = new System.Windows.Forms.Button();
-            this.btnStopXishi = new System.Windows.Forms.Button();
             this.tsMain.SuspendLayout();
             this.msMain.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -680,13 +680,13 @@ namespace 调漆工艺管理系统
             // 
             // pbXiShiParts
             // 
-            cBlendItems1.iColor = new System.Drawing.Color[] {
+            cBlendItems16.iColor = new System.Drawing.Color[] {
         System.Drawing.Color.White,
         System.Drawing.Color.White};
-            cBlendItems1.iPoint = new float[] {
+            cBlendItems16.iPoint = new float[] {
         0F,
         1F};
-            this.pbXiShiParts.BarColorBlend = cBlendItems1;
+            this.pbXiShiParts.BarColorBlend = cBlendItems16;
             this.pbXiShiParts.BarColorSolid = System.Drawing.Color.Lime;
             this.pbXiShiParts.BarColorSolidB = System.Drawing.Color.White;
             this.pbXiShiParts.BarLengthValue = ((short)(25));
@@ -704,9 +704,9 @@ namespace 调漆工艺管理系统
             this.pbXiShiParts.CylonInterval = ((short)(1));
             this.pbXiShiParts.CylonMove = 5F;
             this.pbXiShiParts.Dock = System.Windows.Forms.DockStyle.Left;
-            cFocalPoints1.CenterPoint = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints1.CenterPoint")));
-            cFocalPoints1.FocusScales = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints1.FocusScales")));
-            this.pbXiShiParts.FocalPoints = cFocalPoints1;
+            cFocalPoints16.CenterPoint = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints16.CenterPoint")));
+            cFocalPoints16.FocusScales = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints16.FocusScales")));
+            this.pbXiShiParts.FocalPoints = cFocalPoints16;
             this.pbXiShiParts.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.pbXiShiParts.ForeColor = System.Drawing.Color.White;
             this.pbXiShiParts.Location = new System.Drawing.Point(86, 0);
@@ -761,6 +761,18 @@ namespace 调漆工艺管理系统
             this.panel49.Name = "panel49";
             this.panel49.Size = new System.Drawing.Size(272, 132);
             this.panel49.TabIndex = 1;
+            // 
+            // btnStopXishi
+            // 
+            this.btnStopXishi.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnStopXishi.ForeColor = System.Drawing.Color.Red;
+            this.btnStopXishi.Location = new System.Drawing.Point(82, 73);
+            this.btnStopXishi.Name = "btnStopXishi";
+            this.btnStopXishi.Size = new System.Drawing.Size(105, 34);
+            this.btnStopXishi.TabIndex = 49;
+            this.btnStopXishi.Text = "终止";
+            this.btnStopXishi.UseVisualStyleBackColor = true;
+            this.btnStopXishi.Click += new System.EventHandler(this.button3_Click);
             // 
             // lblXiShiLot
             // 
@@ -1080,13 +1092,13 @@ namespace 调漆工艺管理系统
             // 
             // pbGuHuaParts
             // 
-            cBlendItems2.iColor = new System.Drawing.Color[] {
+            cBlendItems17.iColor = new System.Drawing.Color[] {
         System.Drawing.Color.White,
         System.Drawing.Color.White};
-            cBlendItems2.iPoint = new float[] {
+            cBlendItems17.iPoint = new float[] {
         0F,
         1F};
-            this.pbGuHuaParts.BarColorBlend = cBlendItems2;
+            this.pbGuHuaParts.BarColorBlend = cBlendItems17;
             this.pbGuHuaParts.BarColorSolid = System.Drawing.Color.Lime;
             this.pbGuHuaParts.BarColorSolidB = System.Drawing.Color.White;
             this.pbGuHuaParts.BarLengthValue = ((short)(25));
@@ -1104,9 +1116,9 @@ namespace 调漆工艺管理系统
             this.pbGuHuaParts.CylonInterval = ((short)(1));
             this.pbGuHuaParts.CylonMove = 5F;
             this.pbGuHuaParts.Dock = System.Windows.Forms.DockStyle.Left;
-            cFocalPoints2.CenterPoint = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints2.CenterPoint")));
-            cFocalPoints2.FocusScales = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints2.FocusScales")));
-            this.pbGuHuaParts.FocalPoints = cFocalPoints2;
+            cFocalPoints17.CenterPoint = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints17.CenterPoint")));
+            cFocalPoints17.FocusScales = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints17.FocusScales")));
+            this.pbGuHuaParts.FocalPoints = cFocalPoints17;
             this.pbGuHuaParts.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.pbGuHuaParts.ForeColor = System.Drawing.Color.White;
             this.pbGuHuaParts.Location = new System.Drawing.Point(86, 0);
@@ -1161,6 +1173,18 @@ namespace 调漆工艺管理系统
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(272, 132);
             this.panel27.TabIndex = 1;
+            // 
+            // btnStopGuhua
+            // 
+            this.btnStopGuhua.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnStopGuhua.ForeColor = System.Drawing.Color.Red;
+            this.btnStopGuhua.Location = new System.Drawing.Point(84, 73);
+            this.btnStopGuhua.Name = "btnStopGuhua";
+            this.btnStopGuhua.Size = new System.Drawing.Size(105, 34);
+            this.btnStopGuhua.TabIndex = 52;
+            this.btnStopGuhua.Text = "终止";
+            this.btnStopGuhua.UseVisualStyleBackColor = true;
+            this.btnStopGuhua.Click += new System.EventHandler(this.button2_Click);
             // 
             // lblGuHuaLotNum
             // 
@@ -1480,13 +1504,13 @@ namespace 调漆工艺管理系统
             // 
             // pbMainParts
             // 
-            cBlendItems3.iColor = new System.Drawing.Color[] {
+            cBlendItems18.iColor = new System.Drawing.Color[] {
         System.Drawing.Color.White,
         System.Drawing.Color.White};
-            cBlendItems3.iPoint = new float[] {
+            cBlendItems18.iPoint = new float[] {
         0F,
         1F};
-            this.pbMainParts.BarColorBlend = cBlendItems3;
+            this.pbMainParts.BarColorBlend = cBlendItems18;
             this.pbMainParts.BarColorSolid = System.Drawing.Color.Lime;
             this.pbMainParts.BarColorSolidB = System.Drawing.Color.White;
             this.pbMainParts.BarLengthValue = ((short)(25));
@@ -1504,9 +1528,9 @@ namespace 调漆工艺管理系统
             this.pbMainParts.CylonInterval = ((short)(1));
             this.pbMainParts.CylonMove = 5F;
             this.pbMainParts.Dock = System.Windows.Forms.DockStyle.Left;
-            cFocalPoints3.CenterPoint = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints3.CenterPoint")));
-            cFocalPoints3.FocusScales = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints3.FocusScales")));
-            this.pbMainParts.FocalPoints = cFocalPoints3;
+            cFocalPoints18.CenterPoint = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints18.CenterPoint")));
+            cFocalPoints18.FocusScales = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints18.FocusScales")));
+            this.pbMainParts.FocalPoints = cFocalPoints18;
             this.pbMainParts.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.pbMainParts.ForeColor = System.Drawing.Color.White;
             this.pbMainParts.Location = new System.Drawing.Point(86, 0);
@@ -1561,6 +1585,18 @@ namespace 调漆工艺管理系统
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(272, 132);
             this.panel14.TabIndex = 1;
+            // 
+            // btnStopMain
+            // 
+            this.btnStopMain.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnStopMain.ForeColor = System.Drawing.Color.Red;
+            this.btnStopMain.Location = new System.Drawing.Point(86, 73);
+            this.btnStopMain.Name = "btnStopMain";
+            this.btnStopMain.Size = new System.Drawing.Size(105, 34);
+            this.btnStopMain.TabIndex = 46;
+            this.btnStopMain.Text = "终止";
+            this.btnStopMain.UseVisualStyleBackColor = true;
+            this.btnStopMain.Click += new System.EventHandler(this.button1_Click);
             // 
             // lblMainPartsLotNumber
             // 
@@ -1947,12 +1983,14 @@ namespace 调漆工艺管理系统
             // 
             // txtMainPartRaiseWeight
             // 
-            this.txtMainPartRaiseWeight.DisableBackColor = System.Drawing.Color.White;
-            this.txtMainPartRaiseWeight.DisableForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtMainPartRaiseWeight.Enabled = false;
+            this.txtMainPartRaiseWeight.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtMainPartRaiseWeight.DisableBackColor = System.Drawing.Color.Gainsboro;
+            this.txtMainPartRaiseWeight.DisableForeColor = System.Drawing.SystemColors.Window;
             this.txtMainPartRaiseWeight.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMainPartRaiseWeight.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtMainPartRaiseWeight.Location = new System.Drawing.Point(102, 93);
             this.txtMainPartRaiseWeight.Name = "txtMainPartRaiseWeight";
+            this.txtMainPartRaiseWeight.ReadOnly = true;
             this.txtMainPartRaiseWeight.Size = new System.Drawing.Size(139, 29);
             this.txtMainPartRaiseWeight.TabIndex = 54;
             // 
@@ -1969,12 +2007,14 @@ namespace 调漆工艺管理系统
             // 
             // txtMainPartActualWeight
             // 
-            this.txtMainPartActualWeight.DisableBackColor = System.Drawing.Color.White;
-            this.txtMainPartActualWeight.DisableForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtMainPartActualWeight.Enabled = false;
+            this.txtMainPartActualWeight.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtMainPartActualWeight.DisableBackColor = System.Drawing.Color.Gainsboro;
+            this.txtMainPartActualWeight.DisableForeColor = System.Drawing.SystemColors.Window;
             this.txtMainPartActualWeight.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMainPartActualWeight.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtMainPartActualWeight.Location = new System.Drawing.Point(102, 56);
             this.txtMainPartActualWeight.Name = "txtMainPartActualWeight";
+            this.txtMainPartActualWeight.ReadOnly = true;
             this.txtMainPartActualWeight.Size = new System.Drawing.Size(139, 29);
             this.txtMainPartActualWeight.TabIndex = 53;
             // 
@@ -2199,42 +2239,6 @@ namespace 调漆工艺管理系统
             this.lblWelcome.Size = new System.Drawing.Size(74, 21);
             this.lblWelcome.TabIndex = 6;
             this.lblWelcome.Text = "欢迎您，";
-            // 
-            // btnStopMain
-            // 
-            this.btnStopMain.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnStopMain.ForeColor = System.Drawing.Color.Red;
-            this.btnStopMain.Location = new System.Drawing.Point(86, 73);
-            this.btnStopMain.Name = "btnStopMain";
-            this.btnStopMain.Size = new System.Drawing.Size(105, 34);
-            this.btnStopMain.TabIndex = 46;
-            this.btnStopMain.Text = "终止";
-            this.btnStopMain.UseVisualStyleBackColor = true;
-            this.btnStopMain.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnStopGuhua
-            // 
-            this.btnStopGuhua.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnStopGuhua.ForeColor = System.Drawing.Color.Red;
-            this.btnStopGuhua.Location = new System.Drawing.Point(84, 73);
-            this.btnStopGuhua.Name = "btnStopGuhua";
-            this.btnStopGuhua.Size = new System.Drawing.Size(105, 34);
-            this.btnStopGuhua.TabIndex = 52;
-            this.btnStopGuhua.Text = "终止";
-            this.btnStopGuhua.UseVisualStyleBackColor = true;
-            this.btnStopGuhua.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // btnStopXishi
-            // 
-            this.btnStopXishi.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnStopXishi.ForeColor = System.Drawing.Color.Red;
-            this.btnStopXishi.Location = new System.Drawing.Point(82, 73);
-            this.btnStopXishi.Name = "btnStopXishi";
-            this.btnStopXishi.Size = new System.Drawing.Size(105, 34);
-            this.btnStopXishi.TabIndex = 49;
-            this.btnStopXishi.Text = "终止";
-            this.btnStopXishi.UseVisualStyleBackColor = true;
-            this.btnStopXishi.Click += new System.EventHandler(this.button3_Click);
             // 
             // FrmMain
             // 

@@ -19,3 +19,4 @@ G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Debug\SystemRe
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Debug\SystemRegister.csproj.GenerateResource.Cache
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Debug\调漆工艺管理系统注册机.exe
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Debug\调漆工艺管理系统注册机.pdb
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Debug\SystemRegister.csprojResolveAssemblyReference.cache

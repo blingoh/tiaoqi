@@ -12,4 +12,3 @@ G:\苏州铂汉调漆工艺管理系统\tiaoqi\cc.gtscloud.oilpainter.serialport
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\cc.gtscloud.oilpainter.serialport\bin\Debug\cc.gtscloud.oilpainter.serialport.pdb
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\cc.gtscloud.oilpainter.serialport\obj\Debug\cc.gtscloud.oilpainter.serialport.dll
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\cc.gtscloud.oilpainter.serialport\obj\Debug\cc.gtscloud.oilpainter.serialport.pdb
-G:\苏州铂汉调漆工艺管理系统\tiaoqi\cc.gtscloud.oilpainter.serialport\obj\Debug\cc.gtscloud.oilpainter.serialport.csprojResolveAssemblyReference.cache

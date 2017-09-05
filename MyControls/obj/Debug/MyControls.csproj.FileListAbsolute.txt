@@ -15,3 +15,4 @@ G:\苏州铂汉调漆工艺管理系统\tiaoqi\MyControls\obj\Debug\MyControls.U
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\MyControls\obj\Debug\MyControls.csproj.GenerateResource.Cache
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\MyControls\obj\Debug\MyControls.dll
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\MyControls\obj\Debug\MyControls.pdb
+G:\苏州铂汉调漆工艺管理系统\tiaoqi\MyControls\obj\Debug\MyControls.csprojResolveAssemblyReference.cache

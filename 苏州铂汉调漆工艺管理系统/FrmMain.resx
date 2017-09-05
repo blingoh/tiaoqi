@@ -5735,42 +5735,54 @@
   <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>200, 17</value>
   </metadata>
-  <data name="cFocalPoints1.CenterPoint" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="btnQuery.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABGdBTUEAALGPC/xhBQAAAWtJREFUOE+d
+        1D0oRlEAxnFSiA0x+SgfA4likNUgJqWMFjEb7RgszG9EDCZlMhCZZDCQrMhXMftMwv9/u/ftdImX4ffW
+        ec45T/fce8jLZDJpNZjGAZ7whnMsoQff7ckLBwWYxDM+Yq94CMbaQjXCvdkiS9bgQp9iFm3Ih/OVGMMZ
+        XHODBnwpmoILrtEeZ98pxTpce4JiRHP+1MMjeKRWw18UYg+WTcRZVDQThx4n3PCTTrjnEtHxDQ/jMJen
+        CR3Dfc2ODR7h0ZIXm6sVWNTn2MB7Yll64W/mYdGgY4OLOKgw+INNuK/bscFqHIwY5KgMfmWVmBn2wiIv
+        WxTmwC/snuUk88eXvAsnvGzek3BT2jDe4XttjLOoSFW4gmX76EAylyjHHCzRELLz4cI6HMEyeU/8xAvY
+        xgvM/SO2ZBTm2XsUKsI4/LeRFCbusYhauHYH5rdoTheFmtCPAXQh/e5acAfLTsOJ/7CMp89sfAJOK6Se
+        DuaF0wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cFocalPoints16.CenterPoint" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="cFocalPoints1.FocusScales" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="cFocalPoints16.FocusScales" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="cFocalPoints2.CenterPoint" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="cFocalPoints17.CenterPoint" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="cFocalPoints2.FocusScales" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="cFocalPoints17.FocusScales" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="cFocalPoints3.CenterPoint" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="cFocalPoints18.CenterPoint" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
-  <data name="cFocalPoints3.FocusScales" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="cFocalPoints18.FocusScales" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
@@ -6053,18 +6065,6 @@
         hBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQggh
         hBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIeFpavr/
         6JEqnRa/dV0AAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="btnQuery.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABGdBTUEAALGPC/xhBQAAAWtJREFUOE+d
-        1D0oRlEAxnFSiA0x+SgfA4likNUgJqWMFjEb7RgszG9EDCZlMhCZZDCQrMhXMftMwv9/u/ftdImX4ffW
-        ec45T/fce8jLZDJpNZjGAZ7whnMsoQff7ckLBwWYxDM+Yq94CMbaQjXCvdkiS9bgQp9iFm3Ih/OVGMMZ
-        XHODBnwpmoILrtEeZ98pxTpce4JiRHP+1MMjeKRWw18UYg+WTcRZVDQThx4n3PCTTrjnEtHxDQ/jMJen
-        CR3Dfc2ODR7h0ZIXm6sVWNTn2MB7Yll64W/mYdGgY4OLOKgw+INNuK/bscFqHIwY5KgMfmWVmBn2wiIv
-        WxTmwC/snuUk88eXvAsnvGzek3BT2jDe4XttjLOoSFW4gmX76EAylyjHHCzRELLz4cI6HMEyeU/8xAvY
-        xgvM/SO2ZBTm2XsUKsI4/LeRFCbusYhauHYH5rdoTheFmtCPAXQh/e5acAfLTsOJ/7CMp89sfAJOK6Se
-        DuaF0wAAAABJRU5ErkJggg==
 </value>
   </data>
   <metadata name="spPortMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

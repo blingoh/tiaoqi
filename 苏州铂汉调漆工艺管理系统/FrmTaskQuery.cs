@@ -111,12 +111,12 @@ namespace 调漆工艺管理系统
 
             if (cbMainPartWeight.Checked == true)
             {
-                AppendSQL(ref sql, "[ActualMainPartWeight] as '主剂重量',");
+                AppendSQL(ref sql, "CAST([ActualMainPartWeight] as varchar(6))+'kg' as '主剂重量(kg)',");
             }
 
             if (cbMainHolderWeight.Checked==true)
             {
-                AppendSQL(ref sql, "[MainHolderWeight] as '主剂容器重量',");
+                AppendSQL(ref sql, "CAST([MainHolderWeight] as varchar(6))+'kg' as '主剂容器重量(kg)',");
             }
 
             if (cbGuHuaVendor.Checked == true)
@@ -136,12 +136,12 @@ namespace 调漆工艺管理系统
 
             if (cbGuHuaWeight.Checked == true)
             {
-                AppendSQL(ref sql, "[GuHuaActualWeight]/1000.0 as '固化剂重量',");
+                AppendSQL(ref sql, "CAST(([GuHuaActualWeight]/1000.0) as varchar(10))+'kg' as '固化剂重量(kg)',");
             }
 
             if (cbGuHuaHolderWeight.Checked == true)
             {
-                AppendSQL(ref sql, "[GuHuaHolderWeight] as '固化剂容器重量',");
+                AppendSQL(ref sql, "CAST([GuHuaHolderWeight] as varchar(6))+'g' as '固化剂容器重量(g)',");
             }
 
             if (cbGuHuaActualRate.Checked == true)
@@ -171,22 +171,22 @@ namespace 调漆工艺管理系统
 
             if (cbXiShiSPECU.Checked == true)
             {
-                AppendSQL(ref sql, "[XiShiWeightSPECU] as '稀释剂下限',");
+                AppendSQL(ref sql, "CAST([XiShiWeightSPECU] as varchar(6))+'kg' as '稀释剂上限(kg)',");
             }
 
             if (cbXiShiSPECL.Checked == true)
             {
-                AppendSQL(ref sql, "[XiShiWeightSPECL] as '稀释剂上限',");
+                AppendSQL(ref sql, "CAST([XiShiWeightSPECL] as varchar(6))+'kg' as '稀释剂下限(kg)',");
             }
 
             if (cbXiShiWeight.Checked == true)
             {
-                AppendSQL(ref sql, "[XiShiActualWeight] as '稀释剂重量',");
+                AppendSQL(ref sql, "CAST([XiShiActualWeight] as varchar(6))+'kg' as '稀释剂重量(kg)',");
             }
             
             if (cbXiShiHolderWeight.Checked == true)
             {
-                AppendSQL(ref sql, "[XiShiHolderWeight] as '稀释剂容器重量',");
+                AppendSQL(ref sql, "CAST([XiShiHolderWeight] as varchar(6))+'kg' as '稀释剂容器重量(kg)',");
             }
 
             if (cbXiShiActualRate.Checked == true)
@@ -196,16 +196,16 @@ namespace 调漆工艺管理系统
 
             if (cbDelayTime.Checked == true)
             { 
-                AppendSQL(ref sql, "[ActualDelaySeconds] as '搅拌时间',");
+                AppendSQL(ref sql, "CAST([ActualDelaySeconds] as varchar(6))+'s' as '搅拌时间(s)',");
             }
 
             if (cbSpeedResult.Checked == true)
             {
-                AppendSQL(ref sql, "[ActualSpeed] as '流速',");
+                AppendSQL(ref sql, "CAST([ActualSpeed] as varchar(6))+'s' as '流速(s)',");
             }
 
             AppendSQL(ref sql, "[Operator] as '操作员',");
-            AppendSQL(ref sql, "[SysDateTime] as '操作时间' ");
+            AppendSQL(ref sql, "[SysDateTime] as '操作时间(s)' ");
             sql = sql + " from   [SprayLacquerManagement].[dbo].[task], [SprayLacquerManagement].[dbo].[BOMINfo] where [SprayLacquerManagement].[dbo].[task].[BOMID]=[SprayLacquerManagement].[dbo].[BOMINFO].[BOMID] ";//status=7 ";
             return sql;
         }

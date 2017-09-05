@@ -1232,10 +1232,10 @@ namespace 调漆工艺管理系统
                 return false;
             }
             //Refresh Data
-            
+
             //lblGuHuaPartVendor.Text = productiondata.VendorCodeGuHua;
-            //lblGuHuaPartNumber.Text = productiondata.PartNumberGuHua;
-            lblGuHuaLotNum.Text = productiondata.LotNumberGuHua;
+            lblGuHuaPartNumber.Text = productiondata.PartNumberGuHua;
+            lblGuHuaLotNum.Text = productiondata.LotNumberGuHua;  
             pbGuHuaParts.Max = 105;
             pbGuHuaParts.Value = 0;
             lblGuHuaPartWeight.Text = "0";

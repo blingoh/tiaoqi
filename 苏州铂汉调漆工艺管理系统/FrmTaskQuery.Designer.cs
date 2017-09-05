@@ -506,9 +506,9 @@
             this.cbXiShiHolderWeight.ForeColor = System.Drawing.Color.Blue;
             this.cbXiShiHolderWeight.Location = new System.Drawing.Point(540, 32);
             this.cbXiShiHolderWeight.Name = "cbXiShiHolderWeight";
-            this.cbXiShiHolderWeight.Size = new System.Drawing.Size(113, 16);
+            this.cbXiShiHolderWeight.Size = new System.Drawing.Size(142, 16);
             this.cbXiShiHolderWeight.TabIndex = 53;
-            this.cbXiShiHolderWeight.Text = "稀释剂容器重量";
+            this.cbXiShiHolderWeight.Text = "稀释剂容器重量(kg)";
             this.cbXiShiHolderWeight.UseVisualStyleBackColor = true;
             // 
             // cbGuHuaHolderWeight
@@ -516,9 +516,9 @@
             this.cbGuHuaHolderWeight.ForeColor = System.Drawing.Color.Blue;
             this.cbGuHuaHolderWeight.Location = new System.Drawing.Point(390, 32);
             this.cbGuHuaHolderWeight.Name = "cbGuHuaHolderWeight";
-            this.cbGuHuaHolderWeight.Size = new System.Drawing.Size(113, 16);
+            this.cbGuHuaHolderWeight.Size = new System.Drawing.Size(144, 16);
             this.cbGuHuaHolderWeight.TabIndex = 52;
-            this.cbGuHuaHolderWeight.Text = "固化剂容器重量";
+            this.cbGuHuaHolderWeight.Text = "固化剂容器重量(g)";
             this.cbGuHuaHolderWeight.UseVisualStyleBackColor = true;
             // 
             // cbMainHolderWeight
@@ -526,9 +526,9 @@
             this.cbMainHolderWeight.ForeColor = System.Drawing.Color.Blue;
             this.cbMainHolderWeight.Location = new System.Drawing.Point(262, 32);
             this.cbMainHolderWeight.Name = "cbMainHolderWeight";
-            this.cbMainHolderWeight.Size = new System.Drawing.Size(102, 16);
+            this.cbMainHolderWeight.Size = new System.Drawing.Size(122, 16);
             this.cbMainHolderWeight.TabIndex = 51;
-            this.cbMainHolderWeight.Text = "主剂容器重量";
+            this.cbMainHolderWeight.Text = "主剂容器重量(kg)";
             this.cbMainHolderWeight.UseVisualStyleBackColor = true;
             // 
             // cbCustomer
@@ -559,7 +559,7 @@
             this.cbSpeedResult.Name = "cbSpeedResult";
             this.cbSpeedResult.Size = new System.Drawing.Size(136, 16);
             this.cbSpeedResult.TabIndex = 47;
-            this.cbSpeedResult.Text = "流速";
+            this.cbSpeedResult.Text = "流速(s)";
             this.cbSpeedResult.UseVisualStyleBackColor = true;
             // 
             // cbDelayTime
@@ -569,7 +569,7 @@
             this.cbDelayTime.Name = "cbDelayTime";
             this.cbDelayTime.Size = new System.Drawing.Size(136, 16);
             this.cbDelayTime.TabIndex = 46;
-            this.cbDelayTime.Text = "搅拌时间";
+            this.cbDelayTime.Text = "搅拌时间(s)";
             this.cbDelayTime.UseVisualStyleBackColor = true;
             // 
             // cbXiShiActualRate
@@ -627,9 +627,9 @@
             this.cbXiShiWeight.ForeColor = System.Drawing.Color.Blue;
             this.cbXiShiWeight.Location = new System.Drawing.Point(688, 11);
             this.cbXiShiWeight.Name = "cbXiShiWeight";
-            this.cbXiShiWeight.Size = new System.Drawing.Size(90, 16);
+            this.cbXiShiWeight.Size = new System.Drawing.Size(136, 16);
             this.cbXiShiWeight.TabIndex = 40;
-            this.cbXiShiWeight.Text = "稀释剂重量";
+            this.cbXiShiWeight.Text = "稀释剂重量(kg)";
             this.cbXiShiWeight.UseVisualStyleBackColor = true;
             // 
             // cbXiShiLot
@@ -707,9 +707,9 @@
             this.cbMainPartWeight.ForeColor = System.Drawing.Color.Blue;
             this.cbMainPartWeight.Location = new System.Drawing.Point(262, 11);
             this.cbMainPartWeight.Name = "cbMainPartWeight";
-            this.cbMainPartWeight.Size = new System.Drawing.Size(90, 16);
+            this.cbMainPartWeight.Size = new System.Drawing.Size(122, 16);
             this.cbMainPartWeight.TabIndex = 32;
-            this.cbMainPartWeight.Text = "主剂重量";
+            this.cbMainPartWeight.Text = "主剂重量(kg)";
             this.cbMainPartWeight.UseVisualStyleBackColor = true;
             // 
             // cbMainPartLot
