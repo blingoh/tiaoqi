@@ -1701,6 +1701,7 @@ namespace 调漆工艺管理系统
                 if(MainPartStart()==true)
                 {
                     btnMainPart.Text = "结束";
+                    btnStopMain.Enabled = true;
                 }
             }
             else

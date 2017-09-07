@@ -354,20 +354,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(22, 24);
+            this.label1.Location = new System.Drawing.Point(25, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 12);
+            this.label1.Size = new System.Drawing.Size(29, 12);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Port Number:";
+            this.label1.Text = "端口";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(22, 156);
+            this.label11.Location = new System.Drawing.Point(22, 154);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(65, 12);
+            this.label11.Size = new System.Drawing.Size(41, 12);
             this.label11.TabIndex = 9;
-            this.label11.Text = "Stop Bits:";
+            this.label11.Text = "停止位";
             // 
             // badrateScaleGuHua
             // 
@@ -441,29 +441,29 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(22, 61);
+            this.label12.Location = new System.Drawing.Point(22, 59);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(65, 12);
+            this.label12.Size = new System.Drawing.Size(41, 12);
             this.label12.TabIndex = 3;
-            this.label12.Text = "Baud Rate:";
+            this.label12.Text = "波特率";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(22, 126);
+            this.label13.Location = new System.Drawing.Point(22, 124);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(65, 12);
+            this.label13.Size = new System.Drawing.Size(41, 12);
             this.label13.TabIndex = 6;
-            this.label13.Text = "Data Bits:";
+            this.label13.Text = "数据位";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(22, 92);
+            this.label14.Location = new System.Drawing.Point(22, 90);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(47, 12);
+            this.label14.Size = new System.Drawing.Size(41, 12);
             this.label14.TabIndex = 4;
-            this.label14.Text = "Parity:";
+            this.label14.Text = "校验位";
             // 
             // parityScaleGuHua
             // 
@@ -513,20 +513,20 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(22, 24);
+            this.label15.Location = new System.Drawing.Point(25, 25);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(77, 12);
+            this.label15.Size = new System.Drawing.Size(29, 12);
             this.label15.TabIndex = 2;
-            this.label15.Text = "Port Number:";
+            this.label15.Text = "端口";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(22, 156);
+            this.label16.Location = new System.Drawing.Point(22, 153);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(65, 12);
+            this.label16.Size = new System.Drawing.Size(41, 12);
             this.label16.TabIndex = 9;
-            this.label16.Text = "Stop Bits:";
+            this.label16.Text = "停止位";
             // 
             // badrateScaleXiShi
             // 
@@ -600,29 +600,29 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(22, 61);
+            this.label17.Location = new System.Drawing.Point(22, 58);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(65, 12);
+            this.label17.Size = new System.Drawing.Size(41, 12);
             this.label17.TabIndex = 3;
-            this.label17.Text = "Baud Rate:";
+            this.label17.Text = "波特率";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(22, 126);
+            this.label18.Location = new System.Drawing.Point(22, 123);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(65, 12);
+            this.label18.Size = new System.Drawing.Size(41, 12);
             this.label18.TabIndex = 6;
-            this.label18.Text = "Data Bits:";
+            this.label18.Text = "数据位";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(22, 92);
+            this.label19.Location = new System.Drawing.Point(22, 91);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(47, 12);
+            this.label19.Size = new System.Drawing.Size(41, 12);
             this.label19.TabIndex = 4;
-            this.label19.Text = "Parity:";
+            this.label19.Text = "校验位";
             // 
             // parityScaleXiShi
             // 
