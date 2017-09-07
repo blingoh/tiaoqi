@@ -581,7 +581,7 @@ namespace 调漆工艺管理系统
 
                     if ((int)x < 97)
                     {
-                        pbMainParts.BarColorSolid = Color.Yellow; ;
+                        pbMainParts.BarColorSolid = Color.Yellow;
                     }
                     else if ((int)x >= 97 && (int)x <= 103)
                     {

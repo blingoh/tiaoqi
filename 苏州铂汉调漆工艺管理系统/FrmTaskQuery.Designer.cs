@@ -471,22 +471,22 @@
             // 
             this.biaozhunPercent.AutoSize = true;
             this.biaozhunPercent.ForeColor = System.Drawing.Color.Blue;
-            this.biaozhunPercent.Location = new System.Drawing.Point(142, 52);
+            this.biaozhunPercent.Location = new System.Drawing.Point(115, 53);
             this.biaozhunPercent.Name = "biaozhunPercent";
-            this.biaozhunPercent.Size = new System.Drawing.Size(120, 16);
+            this.biaozhunPercent.Size = new System.Drawing.Size(144, 16);
             this.biaozhunPercent.TabIndex = 56;
-            this.biaozhunPercent.Text = "标准比例(固：稀)";
+            this.biaozhunPercent.Text = "标准比例(主：固：稀)";
             this.biaozhunPercent.UseVisualStyleBackColor = true;
             // 
             // actualPercent
             // 
             this.actualPercent.AutoSize = true;
             this.actualPercent.ForeColor = System.Drawing.Color.Blue;
-            this.actualPercent.Location = new System.Drawing.Point(142, 31);
+            this.actualPercent.Location = new System.Drawing.Point(115, 31);
             this.actualPercent.Name = "actualPercent";
-            this.actualPercent.Size = new System.Drawing.Size(120, 16);
+            this.actualPercent.Size = new System.Drawing.Size(144, 16);
             this.actualPercent.TabIndex = 55;
-            this.actualPercent.Text = "实际比例(固：稀)";
+            this.actualPercent.Text = "实际比例(主：固：稀)";
             this.actualPercent.UseVisualStyleBackColor = true;
             this.actualPercent.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
@@ -514,7 +514,7 @@
             // cbGuHuaHolderWeight
             // 
             this.cbGuHuaHolderWeight.ForeColor = System.Drawing.Color.Blue;
-            this.cbGuHuaHolderWeight.Location = new System.Drawing.Point(390, 32);
+            this.cbGuHuaHolderWeight.Location = new System.Drawing.Point(387, 32);
             this.cbGuHuaHolderWeight.Name = "cbGuHuaHolderWeight";
             this.cbGuHuaHolderWeight.Size = new System.Drawing.Size(144, 16);
             this.cbGuHuaHolderWeight.TabIndex = 52;
@@ -577,9 +577,9 @@
             this.cbXiShiActualRate.ForeColor = System.Drawing.Color.Blue;
             this.cbXiShiActualRate.Location = new System.Drawing.Point(688, 32);
             this.cbXiShiActualRate.Name = "cbXiShiActualRate";
-            this.cbXiShiActualRate.Size = new System.Drawing.Size(136, 17);
+            this.cbXiShiActualRate.Size = new System.Drawing.Size(150, 17);
             this.cbXiShiActualRate.TabIndex = 45;
-            this.cbXiShiActualRate.Text = "稀释剂实际添加比例";
+            this.cbXiShiActualRate.Text = "稀释剂实际添加比例(%)";
             this.cbXiShiActualRate.UseVisualStyleBackColor = true;
             // 
             // cbXiShiSPECL
@@ -587,9 +587,9 @@
             this.cbXiShiSPECL.ForeColor = System.Drawing.Color.Blue;
             this.cbXiShiSPECL.Location = new System.Drawing.Point(540, 97);
             this.cbXiShiSPECL.Name = "cbXiShiSPECL";
-            this.cbXiShiSPECL.Size = new System.Drawing.Size(136, 16);
+            this.cbXiShiSPECL.Size = new System.Drawing.Size(150, 16);
             this.cbXiShiSPECL.TabIndex = 44;
-            this.cbXiShiSPECL.Text = "稀释剂设定比例下限";
+            this.cbXiShiSPECL.Text = "稀释剂设定比例下限(%)";
             this.cbXiShiSPECL.UseVisualStyleBackColor = true;
             // 
             // cbXiShiSPECU
@@ -597,29 +597,29 @@
             this.cbXiShiSPECU.ForeColor = System.Drawing.Color.Blue;
             this.cbXiShiSPECU.Location = new System.Drawing.Point(540, 76);
             this.cbXiShiSPECU.Name = "cbXiShiSPECU";
-            this.cbXiShiSPECU.Size = new System.Drawing.Size(136, 16);
+            this.cbXiShiSPECU.Size = new System.Drawing.Size(150, 16);
             this.cbXiShiSPECU.TabIndex = 43;
-            this.cbXiShiSPECU.Text = "稀释剂设定比例上限";
+            this.cbXiShiSPECU.Text = "稀释剂设定比例上限(%)";
             this.cbXiShiSPECU.UseVisualStyleBackColor = true;
             // 
             // cbGuHuaActualRate
             // 
             this.cbGuHuaActualRate.ForeColor = System.Drawing.Color.Blue;
-            this.cbGuHuaActualRate.Location = new System.Drawing.Point(390, 75);
+            this.cbGuHuaActualRate.Location = new System.Drawing.Point(387, 75);
             this.cbGuHuaActualRate.Name = "cbGuHuaActualRate";
-            this.cbGuHuaActualRate.Size = new System.Drawing.Size(136, 16);
+            this.cbGuHuaActualRate.Size = new System.Drawing.Size(153, 16);
             this.cbGuHuaActualRate.TabIndex = 42;
-            this.cbGuHuaActualRate.Text = "固化剂实际添加比例";
+            this.cbGuHuaActualRate.Text = "固化剂实际添加比例(%)";
             this.cbGuHuaActualRate.UseVisualStyleBackColor = true;
             // 
             // cbGuHuaDefinePercent
             // 
             this.cbGuHuaDefinePercent.ForeColor = System.Drawing.Color.Blue;
-            this.cbGuHuaDefinePercent.Location = new System.Drawing.Point(390, 54);
+            this.cbGuHuaDefinePercent.Location = new System.Drawing.Point(387, 54);
             this.cbGuHuaDefinePercent.Name = "cbGuHuaDefinePercent";
-            this.cbGuHuaDefinePercent.Size = new System.Drawing.Size(136, 17);
+            this.cbGuHuaDefinePercent.Size = new System.Drawing.Size(153, 17);
             this.cbGuHuaDefinePercent.TabIndex = 41;
-            this.cbGuHuaDefinePercent.Text = "固化剂设定添加比例";
+            this.cbGuHuaDefinePercent.Text = "固化剂设定添加比例(%)";
             this.cbGuHuaDefinePercent.UseVisualStyleBackColor = true;
             // 
             // cbXiShiWeight
@@ -655,7 +655,7 @@
             // cbXiShiVendor
             // 
             this.cbXiShiVendor.ForeColor = System.Drawing.Color.Blue;
-            this.cbXiShiVendor.Location = new System.Drawing.Point(390, 96);
+            this.cbXiShiVendor.Location = new System.Drawing.Point(387, 96);
             this.cbXiShiVendor.Name = "cbXiShiVendor";
             this.cbXiShiVendor.Size = new System.Drawing.Size(113, 17);
             this.cbXiShiVendor.TabIndex = 37;
@@ -665,7 +665,7 @@
             // cbGuHuaWeight
             // 
             this.cbGuHuaWeight.ForeColor = System.Drawing.Color.Blue;
-            this.cbGuHuaWeight.Location = new System.Drawing.Point(390, 11);
+            this.cbGuHuaWeight.Location = new System.Drawing.Point(387, 11);
             this.cbGuHuaWeight.Name = "cbGuHuaWeight";
             this.cbGuHuaWeight.Size = new System.Drawing.Size(136, 16);
             this.cbGuHuaWeight.TabIndex = 40;
@@ -715,7 +715,7 @@
             // cbMainPartLot
             // 
             this.cbMainPartLot.ForeColor = System.Drawing.Color.Blue;
-            this.cbMainPartLot.Location = new System.Drawing.Point(142, 96);
+            this.cbMainPartLot.Location = new System.Drawing.Point(115, 96);
             this.cbMainPartLot.Name = "cbMainPartLot";
             this.cbMainPartLot.Size = new System.Drawing.Size(90, 16);
             this.cbMainPartLot.TabIndex = 31;
@@ -725,7 +725,7 @@
             // cbMainPartNumber
             // 
             this.cbMainPartNumber.ForeColor = System.Drawing.Color.Blue;
-            this.cbMainPartNumber.Location = new System.Drawing.Point(142, 75);
+            this.cbMainPartNumber.Location = new System.Drawing.Point(115, 76);
             this.cbMainPartNumber.Name = "cbMainPartNumber";
             this.cbMainPartNumber.Size = new System.Drawing.Size(90, 16);
             this.cbMainPartNumber.TabIndex = 30;
@@ -735,7 +735,7 @@
             // cbMainVendor
             // 
             this.cbMainVendor.ForeColor = System.Drawing.Color.Blue;
-            this.cbMainVendor.Location = new System.Drawing.Point(142, 12);
+            this.cbMainVendor.Location = new System.Drawing.Point(115, 12);
             this.cbMainVendor.Name = "cbMainVendor";
             this.cbMainVendor.Size = new System.Drawing.Size(102, 17);
             this.cbMainVendor.TabIndex = 29;

@@ -7,3 +7,7 @@ G:\苏州铂汉调漆工艺管理系统\tiaoqi\BarCodeParser\bin\Release\BarCode
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\BarCodeParser\bin\Release\BarCodeParser.pdb
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\BarCodeParser\obj\Release\BarCodeParser.dll
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\BarCodeParser\obj\Release\BarCodeParser.pdb
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\BarCodeParser\bin\Release\BarCodeParser.dll
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\BarCodeParser\bin\Release\BarCodeParser.pdb
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\BarCodeParser\obj\Release\BarCodeParser.dll
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\BarCodeParser\obj\Release\BarCodeParser.pdb

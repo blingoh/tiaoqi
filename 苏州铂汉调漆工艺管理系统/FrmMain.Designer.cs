@@ -32,12 +32,12 @@ namespace 调漆工艺管理系统
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
-            ProgBar.cBlendItems cBlendItems16 = new ProgBar.cBlendItems();
-            ProgBar.cFocalPoints cFocalPoints16 = new ProgBar.cFocalPoints();
-            ProgBar.cBlendItems cBlendItems17 = new ProgBar.cBlendItems();
-            ProgBar.cFocalPoints cFocalPoints17 = new ProgBar.cFocalPoints();
-            ProgBar.cBlendItems cBlendItems18 = new ProgBar.cBlendItems();
-            ProgBar.cFocalPoints cFocalPoints18 = new ProgBar.cFocalPoints();
+            ProgBar.cBlendItems cBlendItems4 = new ProgBar.cBlendItems();
+            ProgBar.cFocalPoints cFocalPoints4 = new ProgBar.cFocalPoints();
+            ProgBar.cBlendItems cBlendItems5 = new ProgBar.cBlendItems();
+            ProgBar.cFocalPoints cFocalPoints5 = new ProgBar.cFocalPoints();
+            ProgBar.cBlendItems cBlendItems6 = new ProgBar.cBlendItems();
+            ProgBar.cFocalPoints cFocalPoints6 = new ProgBar.cFocalPoints();
             this.tsMain = new System.Windows.Forms.ToolStrip();
             this.tsbChangePSW = new System.Windows.Forms.ToolStripButton();
             this.tsbUserMainten = new System.Windows.Forms.ToolStripButton();
@@ -300,7 +300,7 @@ namespace 调漆工艺管理系统
             this.tsbAbout});
             this.tsMain.Location = new System.Drawing.Point(0, 25);
             this.tsMain.Name = "tsMain";
-            this.tsMain.Size = new System.Drawing.Size(1136, 57);
+            this.tsMain.Size = new System.Drawing.Size(1162, 57);
             this.tsMain.TabIndex = 0;
             this.tsMain.Text = "toolStrip1";
             // 
@@ -391,7 +391,7 @@ namespace 调漆工艺管理系统
             this.toolStripMenuItem3});
             this.msMain.Location = new System.Drawing.Point(0, 0);
             this.msMain.Name = "msMain";
-            this.msMain.Size = new System.Drawing.Size(1136, 25);
+            this.msMain.Size = new System.Drawing.Size(1162, 25);
             this.msMain.TabIndex = 1;
             this.msMain.Text = "menuStrip1";
             // 
@@ -543,7 +543,7 @@ namespace 调漆工艺管理系统
             this.tsslUserType});
             this.statusStrip1.Location = new System.Drawing.Point(0, 711);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1136, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(1162, 22);
             this.statusStrip1.TabIndex = 2;
             // 
             // tsslUserInfo
@@ -562,7 +562,7 @@ namespace 调漆工艺管理系统
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 82);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1136, 629);
+            this.panel2.Size = new System.Drawing.Size(1162, 629);
             this.panel2.TabIndex = 4;
             // 
             // panel1
@@ -572,7 +572,7 @@ namespace 调漆工艺管理系统
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1136, 629);
+            this.panel1.Size = new System.Drawing.Size(1162, 629);
             this.panel1.TabIndex = 7;
             // 
             // pnScale
@@ -581,7 +581,7 @@ namespace 调漆工艺管理系统
             this.pnScale.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnScale.Location = new System.Drawing.Point(0, 0);
             this.pnScale.Name = "pnScale";
-            this.pnScale.Size = new System.Drawing.Size(1134, 627);
+            this.pnScale.Size = new System.Drawing.Size(1160, 627);
             this.pnScale.TabIndex = 0;
             // 
             // panel6
@@ -591,7 +591,7 @@ namespace 调漆工艺管理系统
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1134, 627);
+            this.panel6.Size = new System.Drawing.Size(1160, 627);
             this.panel6.TabIndex = 1;
             // 
             // pnFrameRight
@@ -601,7 +601,7 @@ namespace 调漆工艺管理系统
             this.pnFrameRight.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnFrameRight.Location = new System.Drawing.Point(313, 0);
             this.pnFrameRight.Name = "pnFrameRight";
-            this.pnFrameRight.Size = new System.Drawing.Size(821, 627);
+            this.pnFrameRight.Size = new System.Drawing.Size(847, 627);
             this.pnFrameRight.TabIndex = 1;
             // 
             // panel20
@@ -611,7 +611,7 @@ namespace 调漆工艺管理系统
             this.panel20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel20.Location = new System.Drawing.Point(274, 0);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(547, 627);
+            this.panel20.Size = new System.Drawing.Size(573, 627);
             this.panel20.TabIndex = 8;
             // 
             // panel22
@@ -621,7 +621,7 @@ namespace 调漆工艺管理系统
             this.panel22.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel22.Location = new System.Drawing.Point(13, 0);
             this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(534, 627);
+            this.panel22.Size = new System.Drawing.Size(560, 627);
             this.panel22.TabIndex = 1;
             // 
             // panel41
@@ -631,7 +631,7 @@ namespace 调漆工艺管理系统
             this.panel41.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel41.Location = new System.Drawing.Point(274, 0);
             this.panel41.Name = "panel41";
-            this.panel41.Size = new System.Drawing.Size(260, 627);
+            this.panel41.Size = new System.Drawing.Size(286, 627);
             this.panel41.TabIndex = 9;
             // 
             // panel43
@@ -640,7 +640,7 @@ namespace 调漆工艺管理系统
             this.panel43.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel43.Location = new System.Drawing.Point(13, 0);
             this.panel43.Name = "panel43";
-            this.panel43.Size = new System.Drawing.Size(247, 627);
+            this.panel43.Size = new System.Drawing.Size(273, 627);
             this.panel43.TabIndex = 2;
             // 
             // panel44
@@ -680,13 +680,13 @@ namespace 调漆工艺管理系统
             // 
             // pbXiShiParts
             // 
-            cBlendItems16.iColor = new System.Drawing.Color[] {
+            cBlendItems4.iColor = new System.Drawing.Color[] {
         System.Drawing.Color.White,
         System.Drawing.Color.White};
-            cBlendItems16.iPoint = new float[] {
+            cBlendItems4.iPoint = new float[] {
         0F,
         1F};
-            this.pbXiShiParts.BarColorBlend = cBlendItems16;
+            this.pbXiShiParts.BarColorBlend = cBlendItems4;
             this.pbXiShiParts.BarColorSolid = System.Drawing.Color.Lime;
             this.pbXiShiParts.BarColorSolidB = System.Drawing.Color.White;
             this.pbXiShiParts.BarLengthValue = ((short)(25));
@@ -704,9 +704,9 @@ namespace 调漆工艺管理系统
             this.pbXiShiParts.CylonInterval = ((short)(1));
             this.pbXiShiParts.CylonMove = 5F;
             this.pbXiShiParts.Dock = System.Windows.Forms.DockStyle.Left;
-            cFocalPoints16.CenterPoint = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints16.CenterPoint")));
-            cFocalPoints16.FocusScales = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints16.FocusScales")));
-            this.pbXiShiParts.FocalPoints = cFocalPoints16;
+            cFocalPoints4.CenterPoint = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints4.CenterPoint")));
+            cFocalPoints4.FocusScales = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints4.FocusScales")));
+            this.pbXiShiParts.FocalPoints = cFocalPoints4;
             this.pbXiShiParts.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.pbXiShiParts.ForeColor = System.Drawing.Color.White;
             this.pbXiShiParts.Location = new System.Drawing.Point(86, 0);
@@ -1092,13 +1092,13 @@ namespace 调漆工艺管理系统
             // 
             // pbGuHuaParts
             // 
-            cBlendItems17.iColor = new System.Drawing.Color[] {
+            cBlendItems5.iColor = new System.Drawing.Color[] {
         System.Drawing.Color.White,
         System.Drawing.Color.White};
-            cBlendItems17.iPoint = new float[] {
+            cBlendItems5.iPoint = new float[] {
         0F,
         1F};
-            this.pbGuHuaParts.BarColorBlend = cBlendItems17;
+            this.pbGuHuaParts.BarColorBlend = cBlendItems5;
             this.pbGuHuaParts.BarColorSolid = System.Drawing.Color.Lime;
             this.pbGuHuaParts.BarColorSolidB = System.Drawing.Color.White;
             this.pbGuHuaParts.BarLengthValue = ((short)(25));
@@ -1116,9 +1116,9 @@ namespace 调漆工艺管理系统
             this.pbGuHuaParts.CylonInterval = ((short)(1));
             this.pbGuHuaParts.CylonMove = 5F;
             this.pbGuHuaParts.Dock = System.Windows.Forms.DockStyle.Left;
-            cFocalPoints17.CenterPoint = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints17.CenterPoint")));
-            cFocalPoints17.FocusScales = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints17.FocusScales")));
-            this.pbGuHuaParts.FocalPoints = cFocalPoints17;
+            cFocalPoints5.CenterPoint = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints5.CenterPoint")));
+            cFocalPoints5.FocusScales = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints5.FocusScales")));
+            this.pbGuHuaParts.FocalPoints = cFocalPoints5;
             this.pbGuHuaParts.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.pbGuHuaParts.ForeColor = System.Drawing.Color.White;
             this.pbGuHuaParts.Location = new System.Drawing.Point(86, 0);
@@ -1504,13 +1504,13 @@ namespace 调漆工艺管理系统
             // 
             // pbMainParts
             // 
-            cBlendItems18.iColor = new System.Drawing.Color[] {
+            cBlendItems6.iColor = new System.Drawing.Color[] {
         System.Drawing.Color.White,
         System.Drawing.Color.White};
-            cBlendItems18.iPoint = new float[] {
+            cBlendItems6.iPoint = new float[] {
         0F,
         1F};
-            this.pbMainParts.BarColorBlend = cBlendItems18;
+            this.pbMainParts.BarColorBlend = cBlendItems6;
             this.pbMainParts.BarColorSolid = System.Drawing.Color.Lime;
             this.pbMainParts.BarColorSolidB = System.Drawing.Color.White;
             this.pbMainParts.BarLengthValue = ((short)(25));
@@ -1528,9 +1528,9 @@ namespace 调漆工艺管理系统
             this.pbMainParts.CylonInterval = ((short)(1));
             this.pbMainParts.CylonMove = 5F;
             this.pbMainParts.Dock = System.Windows.Forms.DockStyle.Left;
-            cFocalPoints18.CenterPoint = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints18.CenterPoint")));
-            cFocalPoints18.FocusScales = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints18.FocusScales")));
-            this.pbMainParts.FocalPoints = cFocalPoints18;
+            cFocalPoints6.CenterPoint = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints6.CenterPoint")));
+            cFocalPoints6.FocusScales = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints6.FocusScales")));
+            this.pbMainParts.FocalPoints = cFocalPoints6;
             this.pbMainParts.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.pbMainParts.ForeColor = System.Drawing.Color.White;
             this.pbMainParts.Location = new System.Drawing.Point(86, 0);
@@ -1987,7 +1987,7 @@ namespace 调漆工艺管理系统
             this.txtMainPartRaiseWeight.DisableBackColor = System.Drawing.Color.Gainsboro;
             this.txtMainPartRaiseWeight.DisableForeColor = System.Drawing.SystemColors.Window;
             this.txtMainPartRaiseWeight.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMainPartRaiseWeight.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txtMainPartRaiseWeight.ForeColor = System.Drawing.SystemColors.Window;
             this.txtMainPartRaiseWeight.Location = new System.Drawing.Point(102, 93);
             this.txtMainPartRaiseWeight.Name = "txtMainPartRaiseWeight";
             this.txtMainPartRaiseWeight.ReadOnly = true;
@@ -2011,7 +2011,7 @@ namespace 调漆工艺管理系统
             this.txtMainPartActualWeight.DisableBackColor = System.Drawing.Color.Gainsboro;
             this.txtMainPartActualWeight.DisableForeColor = System.Drawing.SystemColors.Window;
             this.txtMainPartActualWeight.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMainPartActualWeight.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txtMainPartActualWeight.ForeColor = System.Drawing.SystemColors.Window;
             this.txtMainPartActualWeight.Location = new System.Drawing.Point(102, 56);
             this.txtMainPartActualWeight.Name = "txtMainPartActualWeight";
             this.txtMainPartActualWeight.ReadOnly = true;
@@ -2245,7 +2245,7 @@ namespace 调漆工艺管理系统
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1136, 733);
+            this.ClientSize = new System.Drawing.Size(1162, 733);
             this.Controls.Add(this.lblWelcome);
             this.Controls.Add(this.lnkLblAccount);
             this.Controls.Add(this.panel2);

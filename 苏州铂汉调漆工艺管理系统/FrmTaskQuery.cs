@@ -90,12 +90,12 @@ namespace 调漆工艺管理系统
 
             if(actualPercent.Checked == true)
             {
-                AppendSQL(ref sql, "cast([GuHuaRate] as varchar(6))+':'+cast([XiShiRate] as varchar(6)) as '实际比例(固：稀)',");
+                AppendSQL(ref sql, "'实际比例(主：固：稀)' =case when [GuHuaRate] is null then '100:0'+':'+cast([XiShiRate] as varchar(10)) else '100:'+cast([GuHuaRate] as varchar(10))+':'+cast([XiShiRate] as varchar(10)) end,");
             }
 
             if (biaozhunPercent.Checked == true)
             {
-                AppendSQL(ref sql, "cast([GuHuaRate] as varchar(6))+':'+cast([XiShiLowPercent] as varchar(6))+'-'+cast([XiShiUpPercent] as varchar(6)) as '标准比例(固：稀)',");
+                AppendSQL(ref sql, "'100:'+cast([GuHuaPercent] as varchar(6))+':'+cast([XiShiLowPercent] as varchar(6))+'-'+cast([XiShiUpPercent] as varchar(6)) as '标准比例(主：固：稀)',");
             }
 
 
@@ -146,12 +146,12 @@ namespace 调漆工艺管理系统
 
             if (cbGuHuaActualRate.Checked == true)
             {
-                AppendSQL(ref sql, "[GuHuaRate] as '固化剂实际比例',");
+                AppendSQL(ref sql, "cast([GuHuaRate] as varchar(6))+'%' as '固化剂实际比例(%)',");
             }
 
             if (cbGuHuaDefinePercent.Checked == true)
             {
-                AppendSQL(ref sql, "[GuHuaPercent] as '固化剂目标比例',");
+                AppendSQL(ref sql, "cast([GuHuaPercent] as varchar(6))+'%' as '固化剂目标比例(%)',");
             }
 
             if (cbXiShiVendor.Checked == true)
@@ -191,7 +191,7 @@ namespace 调漆工艺管理系统
 
             if (cbXiShiActualRate.Checked == true)
             {
-                AppendSQL(ref sql, "[XiShiRate] as '稀释剂比例',");
+                AppendSQL(ref sql, "cast([XiShiRate] as varchar(6))+'%' as '稀释剂比例(%)',");
             }
 
             if (cbDelayTime.Checked == true)

@@ -12,3 +12,10 @@ G:\苏州铂汉调漆工艺管理系统\tiaoqi\SevenPartBarCodeParser\bin\Releas
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\SevenPartBarCodeParser\obj\Release\SevenPartBarCodeParser.csprojResolveAssemblyReference.cache
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\SevenPartBarCodeParser\obj\Release\SevenPartBarCodeParser.dll
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\SevenPartBarCodeParser\obj\Release\SevenPartBarCodeParser.pdb
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\SevenPartBarCodeParser\bin\Release\SevenPartBarCodeParser.dll
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\SevenPartBarCodeParser\bin\Release\SevenPartBarCodeParser.pdb
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\SevenPartBarCodeParser\bin\Release\BarCodeParser.dll
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\SevenPartBarCodeParser\bin\Release\BarCodeParser.pdb
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\SevenPartBarCodeParser\obj\Release\SevenPartBarCodeParser.csprojResolveAssemblyReference.cache
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\SevenPartBarCodeParser\obj\Release\SevenPartBarCodeParser.dll
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\SevenPartBarCodeParser\obj\Release\SevenPartBarCodeParser.pdb

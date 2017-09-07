@@ -28,3 +28,14 @@ G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Release\System
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Release\SystemRegister.csproj.GenerateResource.Cache
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Release\调漆工艺管理系统注册机.exe
 G:\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Release\调漆工艺管理系统注册机.pdb
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\bin\Release\调漆工艺管理系统注册机.exe.config
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\bin\Release\调漆工艺管理系统注册机.exe
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\bin\Release\调漆工艺管理系统注册机.pdb
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\bin\Release\log4net.dll
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\bin\Release\log4net.xml
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Release\SystemRegister.csprojResolveAssemblyReference.cache
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Release\SystemRegister.FrmMain.resources
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Release\SystemRegister.Properties.Resources.resources
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Release\SystemRegister.csproj.GenerateResource.Cache
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Release\调漆工艺管理系统注册机.exe
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\SystemRegister\obj\Release\调漆工艺管理系统注册机.pdb

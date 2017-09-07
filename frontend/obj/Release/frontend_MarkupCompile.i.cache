@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\obj\Release\
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\obj\Release\
 frontend
 none
 false
 TRACE
-G:\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\App.xaml
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\frontend\App.xaml
 232017903789
 10-6388316
 98-133380605
-33-202822316
+33-1904511850
 cc\gtscloud\oilpainter\resources\Fonts.xaml;cc\gtscloud\oilpainter\views\AboutWindow.xaml;cc\gtscloud\oilpainter\views\BomModifyWindow.xaml;cc\gtscloud\oilpainter\views\BomUploadWindow.xaml;cc\gtscloud\oilpainter\views\ChangePasswordWindow.xaml;cc\gtscloud\oilpainter\views\ColumnPage.xaml;cc\gtscloud\oilpainter\views\CustomerAdd.xaml;cc\gtscloud\oilpainter\views\CustomerMaintainWindow.xaml;cc\gtscloud\oilpainter\views\DataAnalyzeWindow.xaml;cc\gtscloud\oilpainter\views\DataQueryWindow.xaml;cc\gtscloud\oilpainter\views\LoginWindow.xaml;cc\gtscloud\oilpainter\views\MaterialAddWindow.xaml;cc\gtscloud\oilpainter\views\MaterialInputWindow.xaml;cc\gtscloud\oilpainter\views\MaterialMaintainWindow.xaml;cc\gtscloud\oilpainter\views\ParameterConfigWindow.xaml;cc\gtscloud\oilpainter\views\PrintDebugWindow.xaml;cc\gtscloud\oilpainter\views\ProductLineMaintainWindow.xaml;cc\gtscloud\oilpainter\views\RegisterProductWindow.xaml;cc\gtscloud\oilpainter\views\SerialPortDebugWindow.xaml;cc\gtscloud\oilpainter\views\SpeedInputWindow.xaml;cc\gtscloud\oilpainter\views\TechnologyTypeWindow.xaml;cc\gtscloud\oilpainter\views\UserMaintainWindow.xaml;MainWindow.xaml;
 
-True
+False
 

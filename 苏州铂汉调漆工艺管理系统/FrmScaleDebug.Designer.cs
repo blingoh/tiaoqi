@@ -64,9 +64,9 @@
             this.groupBox3.Controls.Add(this.label10);
             this.groupBox3.Controls.Add(this.parityScaleMain);
             this.groupBox3.ForeColor = System.Drawing.Color.Blue;
-            this.groupBox3.Location = new System.Drawing.Point(12, 12);
+            this.groupBox3.Location = new System.Drawing.Point(12, 11);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(269, 197);
+            this.groupBox3.Size = new System.Drawing.Size(269, 182);
             this.groupBox3.TabIndex = 13;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "串口设置";
@@ -74,20 +74,20 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(22, 26);
+            this.label6.Location = new System.Drawing.Point(31, 27);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 13);
+            this.label6.Size = new System.Drawing.Size(29, 12);
             this.label6.TabIndex = 2;
-            this.label6.Text = "Port Number:";
+            this.label6.Text = "端口";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(22, 169);
+            this.label7.Location = new System.Drawing.Point(28, 153);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(52, 13);
+            this.label7.Size = new System.Drawing.Size(41, 12);
             this.label7.TabIndex = 9;
-            this.label7.Text = "Stop Bits:";
+            this.label7.Text = "停止位";
             // 
             // badrateScaleMain
             // 
@@ -104,9 +104,9 @@
             "38400",
             "57600",
             "115200"});
-            this.badrateScaleMain.Location = new System.Drawing.Point(104, 57);
+            this.badrateScaleMain.Location = new System.Drawing.Point(104, 53);
             this.badrateScaleMain.Name = "badrateScaleMain";
-            this.badrateScaleMain.Size = new System.Drawing.Size(129, 21);
+            this.badrateScaleMain.Size = new System.Drawing.Size(129, 20);
             this.badrateScaleMain.TabIndex = 0;
             // 
             // stopbitScaleMain
@@ -116,14 +116,14 @@
             this.stopbitScaleMain.Items.AddRange(new object[] {
             "1",
             "2"});
-            this.stopbitScaleMain.Location = new System.Drawing.Point(104, 161);
+            this.stopbitScaleMain.Location = new System.Drawing.Point(104, 149);
             this.stopbitScaleMain.Name = "stopbitScaleMain";
-            this.stopbitScaleMain.Size = new System.Drawing.Size(129, 21);
+            this.stopbitScaleMain.Size = new System.Drawing.Size(129, 20);
             this.stopbitScaleMain.TabIndex = 8;
             // 
             // comScaleMain
             // 
-            this.comScaleMain.Location = new System.Drawing.Point(104, 24);
+            this.comScaleMain.Location = new System.Drawing.Point(104, 22);
             this.comScaleMain.Maximum = new decimal(new int[] {
             64,
             0,
@@ -135,7 +135,7 @@
             0,
             0});
             this.comScaleMain.Name = "comScaleMain";
-            this.comScaleMain.Size = new System.Drawing.Size(129, 20);
+            this.comScaleMain.Size = new System.Drawing.Size(129, 21);
             this.comScaleMain.TabIndex = 1;
             this.comScaleMain.Value = new decimal(new int[] {
             1,
@@ -153,37 +153,37 @@
             "6",
             "7",
             "8"});
-            this.databitScaleMain.Location = new System.Drawing.Point(104, 128);
+            this.databitScaleMain.Location = new System.Drawing.Point(104, 118);
             this.databitScaleMain.Name = "databitScaleMain";
-            this.databitScaleMain.Size = new System.Drawing.Size(129, 21);
+            this.databitScaleMain.Size = new System.Drawing.Size(129, 20);
             this.databitScaleMain.TabIndex = 7;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(22, 66);
+            this.label8.Location = new System.Drawing.Point(28, 57);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(61, 13);
+            this.label8.Size = new System.Drawing.Size(41, 12);
             this.label8.TabIndex = 3;
-            this.label8.Text = "Baud Rate:";
+            this.label8.Text = "波特率";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(22, 136);
+            this.label9.Location = new System.Drawing.Point(29, 124);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(53, 13);
+            this.label9.Size = new System.Drawing.Size(41, 12);
             this.label9.TabIndex = 6;
-            this.label9.Text = "Data Bits:";
+            this.label9.Text = "数据位";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(22, 100);
+            this.label10.Location = new System.Drawing.Point(28, 91);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(36, 13);
+            this.label10.Size = new System.Drawing.Size(41, 12);
             this.label10.TabIndex = 4;
-            this.label10.Text = "Parity:";
+            this.label10.Text = "校验位";
             // 
             // parityScaleMain
             // 
@@ -195,9 +195,9 @@
             "Even",
             "Mark",
             "Space"});
-            this.parityScaleMain.Location = new System.Drawing.Point(104, 92);
+            this.parityScaleMain.Location = new System.Drawing.Point(104, 85);
             this.parityScaleMain.Name = "parityScaleMain";
-            this.parityScaleMain.Size = new System.Drawing.Size(129, 21);
+            this.parityScaleMain.Size = new System.Drawing.Size(129, 20);
             this.parityScaleMain.TabIndex = 5;
             // 
             // btnMainPartStop
@@ -205,9 +205,9 @@
             this.btnMainPartStop.BackColor = System.Drawing.Color.Transparent;
             this.btnMainPartStop.Image = ((System.Drawing.Image)(resources.GetObject("btnMainPartStop.Image")));
             this.btnMainPartStop.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnMainPartStop.Location = new System.Drawing.Point(315, 80);
+            this.btnMainPartStop.Location = new System.Drawing.Point(315, 74);
             this.btnMainPartStop.Name = "btnMainPartStop";
-            this.btnMainPartStop.Size = new System.Drawing.Size(114, 49);
+            this.btnMainPartStop.Size = new System.Drawing.Size(114, 45);
             this.btnMainPartStop.TabIndex = 15;
             this.btnMainPartStop.Text = "结束";
             this.btnMainPartStop.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -219,9 +219,9 @@
             this.btnMainPartStart.BackColor = System.Drawing.Color.Transparent;
             this.btnMainPartStart.Image = ((System.Drawing.Image)(resources.GetObject("btnMainPartStart.Image")));
             this.btnMainPartStart.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnMainPartStart.Location = new System.Drawing.Point(315, 12);
+            this.btnMainPartStart.Location = new System.Drawing.Point(315, 11);
             this.btnMainPartStart.Name = "btnMainPartStart";
-            this.btnMainPartStart.Size = new System.Drawing.Size(114, 49);
+            this.btnMainPartStart.Size = new System.Drawing.Size(114, 45);
             this.btnMainPartStart.TabIndex = 14;
             this.btnMainPartStart.Text = "开始";
             this.btnMainPartStart.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -230,9 +230,9 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(12, 215);
+            this.richTextBox1.Location = new System.Drawing.Point(12, 198);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(485, 230);
+            this.richTextBox1.Size = new System.Drawing.Size(485, 213);
             this.richTextBox1.TabIndex = 16;
             this.richTextBox1.Text = "";
             // 
@@ -241,9 +241,9 @@
             this.lblResult.BackColor = System.Drawing.Color.Black;
             this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResult.ForeColor = System.Drawing.Color.White;
-            this.lblResult.Location = new System.Drawing.Point(287, 148);
+            this.lblResult.Location = new System.Drawing.Point(287, 137);
             this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(131, 60);
+            this.lblResult.Size = new System.Drawing.Size(131, 55);
             this.lblResult.TabIndex = 17;
             this.lblResult.Text = "23000";
             this.lblResult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -253,9 +253,9 @@
             this.lblUnit.BackColor = System.Drawing.Color.Black;
             this.lblUnit.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUnit.ForeColor = System.Drawing.Color.White;
-            this.lblUnit.Location = new System.Drawing.Point(424, 149);
+            this.lblUnit.Location = new System.Drawing.Point(424, 138);
             this.lblUnit.Name = "lblUnit";
-            this.lblUnit.Size = new System.Drawing.Size(74, 60);
+            this.lblUnit.Size = new System.Drawing.Size(74, 55);
             this.lblUnit.TabIndex = 18;
             this.lblUnit.Text = "kg";
             this.lblUnit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -266,10 +266,10 @@
             // 
             // FrmScaleDebug
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(729, 457);
+            this.ClientSize = new System.Drawing.Size(729, 422);
             this.Controls.Add(this.lblUnit);
             this.Controls.Add(this.lblResult);
             this.Controls.Add(this.richTextBox1);
