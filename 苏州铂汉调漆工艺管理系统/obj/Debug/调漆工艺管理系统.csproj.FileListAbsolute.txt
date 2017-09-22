@@ -208,3 +208,4 @@ G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\苏州铂汉调漆工艺�
 G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmXiShiPartInput.resources
 G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.Properties.Resources.resources
 G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.csproj.GenerateResource.Cache
+G:\实习\苏州铂汉调漆工艺管理系统\tiaoqi\苏州铂汉调漆工艺管理系统\obj\Debug\调漆工艺管理系统.FrmBiaoShiKa.resources

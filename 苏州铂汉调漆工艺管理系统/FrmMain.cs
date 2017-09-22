@@ -54,6 +54,8 @@ namespace 调漆工艺管理系统
             public string ShiftName;
             public string LineName;
             public string PartNumber;
+            public string Supplier;
+            public string YouQiType;
 
             public string VendorCodeMain;
             public string PartNumberMain;
@@ -195,6 +197,7 @@ namespace 调漆工艺管理系统
             btnGuHua.Enabled = false;
             btnXiShi.Enabled = false;
             btnStopMain.Enabled = btnStopGuhua.Enabled = btnStopXishi.Enabled = false;
+            btnMainCard.Enabled = btnGuHuaCard.Enabled = btnXiShiCard.Enabled = false;
 
             //lblMainPartVendor.Text = "";
             lblMainPartNumber.Text = "";
@@ -222,7 +225,15 @@ namespace 调漆工艺管理系统
             lblMainHolderWeight.Text = "";
             lblGuHuaHolderWeight.Text = "";
             lblXiShiHolderWeight.Text = "";
-            
+
+            txtMainPartTargetWeight.Enabled = true;
+            cmbShift.Enabled = true;
+            cmbProductionLine.Enabled = true;
+            txtPartNumber.Enabled = true;
+            txtSupplier.Enabled = true;
+            lblPaintType.Enabled = true;
+            btnQuery.Enabled = true;
+
         }
 
         public void InitSystemConfigurationInfo()
@@ -264,6 +275,7 @@ namespace 调漆工艺管理系统
                     FrmMain.productiondata.PartNumber = this.txtPartNumber.Text;
                     FrmMain.productiondata.ShiftName = cmbShift.Text;
                     FrmMain.productiondata.LineName = cmbProductionLine.Text;
+                    FrmMain.productiondata.Supplier = txtSupplier.Text;
 
                     lblMainPartInfo.Text = "原 油(100)";
                     lblGuHuaPartInfo.Text = "固化剂("+((int)productiondata.GuHUaTargetRate).ToString()+")";
@@ -1256,8 +1268,8 @@ namespace 调漆工艺管理系统
         {
             GuHuaPartStart();
         }
-        
-        private bool MainPartStart()
+
+        private bool MainPartCheck()
         {
             string sErrorMessage = "";
             InitMainUi();
@@ -1319,6 +1331,73 @@ namespace 调漆工艺管理系统
                 return false;
             }
 
+            return true;
+        }
+        
+        private bool MainPartStart()
+        {
+            string sErrorMessage = "";
+            //InitMainUi();
+            //ClearProductionData();
+
+            //MainListening = false;
+            //GuHuaListening = false;
+            //XiShiListening = false;
+
+            //if (cmbShift.Text.Length <= 0)
+            //{
+            //    MessageBox.Show("请输入班次信息!", "警告", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            //    return false;
+            //}
+
+            //if (cmbProductionLine.Text.Length <= 0)
+            //{
+            //    MessageBox.Show("请输入产线信息!", "警告", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            //    this.cmbProductionLine.Focus();
+            //    return false;
+            //}
+
+            //if (FrmMain.BOMID.Length <= 0)
+            //{
+            //    MessageBox.Show("请选择需要调配的机种型号!", "警告", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            //    return false;
+            //}
+
+            //if (txtPartNumber.Text.Length <= 0)
+            //{
+            //    MessageBox.Show("请输入计划配漆的主剂重量!", "警告", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            //    btnQuery.Focus();
+            //    return false;
+            //}
+
+            //if (txtMainPartTargetWeight.Text.Length <= 0)
+            //{
+            //    MessageBox.Show("请输入计划配漆的主剂重量!", "警告", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            //    this.txtMainPartTargetWeight.SelectAll();
+            //    this.txtMainPartTargetWeight.SelectionLength = this.txtMainPartTargetWeight.Text.Length;
+            //    this.txtMainPartTargetWeight.Focus();
+            //    return false;
+            //}
+
+            //if (clsApp.IsDouble(this.txtMainPartTargetWeight.Text, ref sErrorMessage) == false)
+            //{
+            //    MessageBox.Show("输入计划配漆的主剂重量格式不正确!", "警告", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            //    this.txtMainPartTargetWeight.SelectAll();
+            //    this.txtMainPartTargetWeight.SelectionLength = this.txtMainPartTargetWeight.Text.Length;
+            //    this.txtMainPartTargetWeight.Focus();
+            //    return false;
+            //}
+
+            //FrmMainPartInputSecondSolution frmmpi = new FrmMainPartInputSecondSolution();
+            //frmmpi.ShowDialog();
+
+            //if (frmmpi.DialogResult != DialogResult.Yes)
+            //{
+            //    return false;
+            //}
+
+            //***********************************************************************//
+
             //Start Serial Port to get the transtion data
             received_count_Main = 0;
             builderMain = new StringBuilder();
@@ -1351,13 +1430,15 @@ namespace 调漆工艺管理系统
                 return false;
             }
 
-            return true;
+              return true;
+
+            //***********************************************************************//
         }
 
-        private void btnMainPartStart_Click(object sender, EventArgs e)
-        {
-            MainPartStart();
-        }
+        //private void btnMainPartStart_Click(object sender, EventArgs e)
+        //{
+        //    MainPartStart();
+        //}
 
         private bool XiShiPartStart()
         {
@@ -1696,39 +1777,59 @@ namespace 调漆工艺管理系统
 
         private void btnMainPart_Click(object sender, EventArgs e)
         {
-            if(btnMainPart.Text=="开始")
+            if (btnMainPart.Text == "开始")
             {
-                if(MainPartStart()==true)
+                if (MainPartCheck() == true)
                 {
-                    btnMainPart.Text = "结束";
+                    btnMainPart.Text = "调漆开始";
+                    btnMainCard.Enabled = true;
                     btnStopMain.Enabled = true;
+
+                    cmbShift.Enabled = false;
+                    cmbProductionLine.Enabled = false;
+                    txtPartNumber.Enabled = false;
+                    txtSupplier.Enabled = false;
+                    lblPaintType.Enabled = false;
+                    btnQuery.Enabled = false;
                 }
             }
             else
             {
-                if(MainPartStop()==true)
+                if (btnMainPart.Text == "调漆开始")
                 {
-                    btnMainPart.Text = "开始";
-                    btnMainPart.Enabled = false;
-                    btnStopMain.Enabled = false;
-
-                    if (productiondata.GuHUaTargetRate!=0)
+                    if(MainPartStart() == true)
                     {
-                        btnGuHua.Enabled = true;
-                        btnStopGuhua.Enabled = true;
+                        btnMainPart.Text = "结束";
+                        btnMainCard.Enabled = false;
                     }
-                    else
+                }
+                else
+                {
+                    if (MainPartStop() == true)
                     {
-                        FrmMain.productiondata.HolderWeightGuHua = 0;
-                        FrmMain.productiondata.ActualWeightGuHua = 0;
-                        lblGuHuaHolderWeight.Text = "0 g";
-                        lblGuHuaPartWeight.Text = "0";
-                        FrmMain.productiondata.GuHuaActualRate = 0;
-                        btnXiShi.Enabled=true;
-                        btnStopXishi.Enabled = true;
+                        btnMainPart.Text = "开始";
+                        btnMainPart.Enabled = false;
+                        btnStopMain.Enabled = false;
+
+                        if (productiondata.GuHUaTargetRate != 0)
+                        {
+                            btnGuHua.Enabled = true;
+                            btnStopGuhua.Enabled = true;
+                        }
+                        else
+                        {
+                            FrmMain.productiondata.HolderWeightGuHua = 0;
+                            FrmMain.productiondata.ActualWeightGuHua = 0;
+                            lblGuHuaHolderWeight.Text = "0 g";
+                            lblGuHuaPartWeight.Text = "0";
+                            FrmMain.productiondata.GuHuaActualRate = 0;
+                            btnXiShi.Enabled = true;
+                            btnStopXishi.Enabled = true;
+                        }
                     }
                 }
             }
+
         }
 
         private void btnGuHua_Click(object sender, EventArgs e)
@@ -1835,7 +1936,6 @@ namespace 调漆工艺管理系统
             }
 
             btnMainPart.Text = "开始";
-            ClearProductionData();
 
             InitMainUi();
         }
@@ -1863,6 +1963,17 @@ namespace 调漆工艺管理系统
             btnXiShi.Text = "开始";
             ClearProductionData();
             InitMainUi();
+        }
+
+        //打印标识卡点击事件
+        private void btnMainCard_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("请将原油放上电子秤称重", "警告", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            btnMainCard.Enabled = false;
+            FrmMain.productiondata.YouQiType = "原油";
+            FrmBiaoShiKa BiaoShiKa = new FrmBiaoShiKa();
+            BiaoShiKa.ShowDialog();
+
         }
     }
 }

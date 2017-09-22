@@ -93,6 +93,12 @@
     <Compile Include="FrmAppendUser.Designer.cs">
       <DependentUpon>FrmAppendUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmBiaoShiKa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBiaoShiKa.Designer.cs">
+      <DependentUpon>FrmBiaoShiKa.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmBOMInfoQuery.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -221,6 +227,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAppendUser.resx">
       <DependentUpon>FrmAppendUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBiaoShiKa.resx">
+      <DependentUpon>FrmBiaoShiKa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmBOMInfoQuery.resx">
       <DependentUpon>FrmBOMInfoQuery.cs</DependentUpon>

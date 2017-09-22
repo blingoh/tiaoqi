@@ -32,12 +32,12 @@ namespace 调漆工艺管理系统
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
-            ProgBar.cBlendItems cBlendItems4 = new ProgBar.cBlendItems();
-            ProgBar.cFocalPoints cFocalPoints4 = new ProgBar.cFocalPoints();
-            ProgBar.cBlendItems cBlendItems5 = new ProgBar.cBlendItems();
-            ProgBar.cFocalPoints cFocalPoints5 = new ProgBar.cFocalPoints();
-            ProgBar.cBlendItems cBlendItems6 = new ProgBar.cBlendItems();
-            ProgBar.cFocalPoints cFocalPoints6 = new ProgBar.cFocalPoints();
+            ProgBar.cBlendItems cBlendItems16 = new ProgBar.cBlendItems();
+            ProgBar.cFocalPoints cFocalPoints16 = new ProgBar.cFocalPoints();
+            ProgBar.cBlendItems cBlendItems17 = new ProgBar.cBlendItems();
+            ProgBar.cFocalPoints cFocalPoints17 = new ProgBar.cFocalPoints();
+            ProgBar.cBlendItems cBlendItems18 = new ProgBar.cBlendItems();
+            ProgBar.cFocalPoints cFocalPoints18 = new ProgBar.cFocalPoints();
             this.tsMain = new System.Windows.Forms.ToolStrip();
             this.tsbChangePSW = new System.Windows.Forms.ToolStripButton();
             this.tsbUserMainten = new System.Windows.Forms.ToolStripButton();
@@ -90,6 +90,7 @@ namespace 调漆工艺管理系统
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.panel50 = new System.Windows.Forms.Panel();
+            this.btnXiShiCard = new System.Windows.Forms.Button();
             this.btnXiShi = new System.Windows.Forms.Button();
             this.panel51 = new System.Windows.Forms.Panel();
             this.panel52 = new System.Windows.Forms.Panel();
@@ -125,6 +126,7 @@ namespace 调漆工艺管理系统
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.panel28 = new System.Windows.Forms.Panel();
+            this.btnGuHuaCard = new System.Windows.Forms.Button();
             this.btnGuHua = new System.Windows.Forms.Button();
             this.panel29 = new System.Windows.Forms.Panel();
             this.panel30 = new System.Windows.Forms.Panel();
@@ -160,6 +162,7 @@ namespace 调漆工艺管理系统
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.btnMainCard = new System.Windows.Forms.Button();
             this.btnMainPart = new System.Windows.Forms.Button();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
@@ -680,13 +683,13 @@ namespace 调漆工艺管理系统
             // 
             // pbXiShiParts
             // 
-            cBlendItems4.iColor = new System.Drawing.Color[] {
+            cBlendItems16.iColor = new System.Drawing.Color[] {
         System.Drawing.Color.White,
         System.Drawing.Color.White};
-            cBlendItems4.iPoint = new float[] {
+            cBlendItems16.iPoint = new float[] {
         0F,
         1F};
-            this.pbXiShiParts.BarColorBlend = cBlendItems4;
+            this.pbXiShiParts.BarColorBlend = cBlendItems16;
             this.pbXiShiParts.BarColorSolid = System.Drawing.Color.Lime;
             this.pbXiShiParts.BarColorSolidB = System.Drawing.Color.White;
             this.pbXiShiParts.BarLengthValue = ((short)(25));
@@ -704,9 +707,9 @@ namespace 调漆工艺管理系统
             this.pbXiShiParts.CylonInterval = ((short)(1));
             this.pbXiShiParts.CylonMove = 5F;
             this.pbXiShiParts.Dock = System.Windows.Forms.DockStyle.Left;
-            cFocalPoints4.CenterPoint = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints4.CenterPoint")));
-            cFocalPoints4.FocusScales = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints4.FocusScales")));
-            this.pbXiShiParts.FocalPoints = cFocalPoints4;
+            cFocalPoints16.CenterPoint = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints16.CenterPoint")));
+            cFocalPoints16.FocusScales = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints16.FocusScales")));
+            this.pbXiShiParts.FocalPoints = cFocalPoints16;
             this.pbXiShiParts.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.pbXiShiParts.ForeColor = System.Drawing.Color.White;
             this.pbXiShiParts.Location = new System.Drawing.Point(86, 0);
@@ -820,6 +823,7 @@ namespace 调漆工艺管理系统
             // 
             // panel50
             // 
+            this.panel50.Controls.Add(this.btnXiShiCard);
             this.panel50.Controls.Add(this.btnXiShi);
             this.panel50.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel50.Location = new System.Drawing.Point(0, 0);
@@ -827,14 +831,24 @@ namespace 调漆工艺管理系统
             this.panel50.Size = new System.Drawing.Size(272, 52);
             this.panel50.TabIndex = 0;
             // 
+            // btnXiShiCard
+            // 
+            this.btnXiShiCard.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnXiShiCard.Location = new System.Drawing.Point(139, 3);
+            this.btnXiShiCard.Name = "btnXiShiCard";
+            this.btnXiShiCard.Size = new System.Drawing.Size(126, 45);
+            this.btnXiShiCard.TabIndex = 3;
+            this.btnXiShiCard.Text = "打印标示卡";
+            this.btnXiShiCard.UseVisualStyleBackColor = true;
+            // 
             // btnXiShi
             // 
             this.btnXiShi.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXiShi.Location = new System.Drawing.Point(61, 4);
+            this.btnXiShi.Location = new System.Drawing.Point(5, 3);
             this.btnXiShi.Name = "btnXiShi";
-            this.btnXiShi.Size = new System.Drawing.Size(151, 45);
+            this.btnXiShi.Size = new System.Drawing.Size(128, 45);
             this.btnXiShi.TabIndex = 2;
-            this.btnXiShi.Text = "开始";
+            this.btnXiShi.Text = "调漆开始";
             this.btnXiShi.UseVisualStyleBackColor = true;
             this.btnXiShi.Click += new System.EventHandler(this.btnXiShi_Click);
             // 
@@ -1092,13 +1106,13 @@ namespace 调漆工艺管理系统
             // 
             // pbGuHuaParts
             // 
-            cBlendItems5.iColor = new System.Drawing.Color[] {
+            cBlendItems17.iColor = new System.Drawing.Color[] {
         System.Drawing.Color.White,
         System.Drawing.Color.White};
-            cBlendItems5.iPoint = new float[] {
+            cBlendItems17.iPoint = new float[] {
         0F,
         1F};
-            this.pbGuHuaParts.BarColorBlend = cBlendItems5;
+            this.pbGuHuaParts.BarColorBlend = cBlendItems17;
             this.pbGuHuaParts.BarColorSolid = System.Drawing.Color.Lime;
             this.pbGuHuaParts.BarColorSolidB = System.Drawing.Color.White;
             this.pbGuHuaParts.BarLengthValue = ((short)(25));
@@ -1116,9 +1130,9 @@ namespace 调漆工艺管理系统
             this.pbGuHuaParts.CylonInterval = ((short)(1));
             this.pbGuHuaParts.CylonMove = 5F;
             this.pbGuHuaParts.Dock = System.Windows.Forms.DockStyle.Left;
-            cFocalPoints5.CenterPoint = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints5.CenterPoint")));
-            cFocalPoints5.FocusScales = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints5.FocusScales")));
-            this.pbGuHuaParts.FocalPoints = cFocalPoints5;
+            cFocalPoints17.CenterPoint = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints17.CenterPoint")));
+            cFocalPoints17.FocusScales = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints17.FocusScales")));
+            this.pbGuHuaParts.FocalPoints = cFocalPoints17;
             this.pbGuHuaParts.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.pbGuHuaParts.ForeColor = System.Drawing.Color.White;
             this.pbGuHuaParts.Location = new System.Drawing.Point(86, 0);
@@ -1232,6 +1246,7 @@ namespace 调漆工艺管理系统
             // 
             // panel28
             // 
+            this.panel28.Controls.Add(this.btnGuHuaCard);
             this.panel28.Controls.Add(this.btnGuHua);
             this.panel28.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel28.Location = new System.Drawing.Point(0, 0);
@@ -1239,12 +1254,22 @@ namespace 调漆工艺管理系统
             this.panel28.Size = new System.Drawing.Size(272, 52);
             this.panel28.TabIndex = 0;
             // 
+            // btnGuHuaCard
+            // 
+            this.btnGuHuaCard.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnGuHuaCard.Location = new System.Drawing.Point(141, 3);
+            this.btnGuHuaCard.Name = "btnGuHuaCard";
+            this.btnGuHuaCard.Size = new System.Drawing.Size(126, 45);
+            this.btnGuHuaCard.TabIndex = 2;
+            this.btnGuHuaCard.Text = "打印标示卡";
+            this.btnGuHuaCard.UseVisualStyleBackColor = true;
+            // 
             // btnGuHua
             // 
             this.btnGuHua.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuHua.Location = new System.Drawing.Point(61, 2);
+            this.btnGuHua.Location = new System.Drawing.Point(5, 2);
             this.btnGuHua.Name = "btnGuHua";
-            this.btnGuHua.Size = new System.Drawing.Size(151, 45);
+            this.btnGuHua.Size = new System.Drawing.Size(130, 45);
             this.btnGuHua.TabIndex = 1;
             this.btnGuHua.Text = "开始";
             this.btnGuHua.UseVisualStyleBackColor = true;
@@ -1504,13 +1529,13 @@ namespace 调漆工艺管理系统
             // 
             // pbMainParts
             // 
-            cBlendItems6.iColor = new System.Drawing.Color[] {
+            cBlendItems18.iColor = new System.Drawing.Color[] {
         System.Drawing.Color.White,
         System.Drawing.Color.White};
-            cBlendItems6.iPoint = new float[] {
+            cBlendItems18.iPoint = new float[] {
         0F,
         1F};
-            this.pbMainParts.BarColorBlend = cBlendItems6;
+            this.pbMainParts.BarColorBlend = cBlendItems18;
             this.pbMainParts.BarColorSolid = System.Drawing.Color.Lime;
             this.pbMainParts.BarColorSolidB = System.Drawing.Color.White;
             this.pbMainParts.BarLengthValue = ((short)(25));
@@ -1528,9 +1553,9 @@ namespace 调漆工艺管理系统
             this.pbMainParts.CylonInterval = ((short)(1));
             this.pbMainParts.CylonMove = 5F;
             this.pbMainParts.Dock = System.Windows.Forms.DockStyle.Left;
-            cFocalPoints6.CenterPoint = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints6.CenterPoint")));
-            cFocalPoints6.FocusScales = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints6.FocusScales")));
-            this.pbMainParts.FocalPoints = cFocalPoints6;
+            cFocalPoints18.CenterPoint = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints18.CenterPoint")));
+            cFocalPoints18.FocusScales = ((System.Drawing.PointF)(resources.GetObject("cFocalPoints18.FocusScales")));
+            this.pbMainParts.FocalPoints = cFocalPoints18;
             this.pbMainParts.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.pbMainParts.ForeColor = System.Drawing.Color.White;
             this.pbMainParts.Location = new System.Drawing.Point(86, 0);
@@ -1644,6 +1669,7 @@ namespace 调漆工艺管理系统
             // 
             // panel13
             // 
+            this.panel13.Controls.Add(this.btnMainCard);
             this.panel13.Controls.Add(this.btnMainPart);
             this.panel13.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel13.Location = new System.Drawing.Point(0, 0);
@@ -1651,12 +1677,23 @@ namespace 调漆工艺管理系统
             this.panel13.Size = new System.Drawing.Size(272, 52);
             this.panel13.TabIndex = 0;
             // 
+            // btnMainCard
+            // 
+            this.btnMainCard.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnMainCard.Location = new System.Drawing.Point(139, 2);
+            this.btnMainCard.Name = "btnMainCard";
+            this.btnMainCard.Size = new System.Drawing.Size(126, 45);
+            this.btnMainCard.TabIndex = 1;
+            this.btnMainCard.Text = "打印标示卡";
+            this.btnMainCard.UseVisualStyleBackColor = true;
+            this.btnMainCard.Click += new System.EventHandler(this.btnMainCard_Click);
+            // 
             // btnMainPart
             // 
             this.btnMainPart.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMainPart.Location = new System.Drawing.Point(61, 3);
+            this.btnMainPart.Location = new System.Drawing.Point(5, 2);
             this.btnMainPart.Name = "btnMainPart";
-            this.btnMainPart.Size = new System.Drawing.Size(151, 45);
+            this.btnMainPart.Size = new System.Drawing.Size(126, 45);
             this.btnMainPart.TabIndex = 0;
             this.btnMainPart.Text = "开始";
             this.btnMainPart.UseVisualStyleBackColor = true;
@@ -2523,6 +2560,9 @@ namespace 调漆工艺管理系统
         private Button btnStopXishi;
         private Button btnStopGuhua;
         private Button btnStopMain;
+        private Button btnXiShiCard;
+        private Button btnGuHuaCard;
+        private Button btnMainCard;
     }
 }
 
